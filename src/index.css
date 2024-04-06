@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Sans_Medium";
+  src: url("./assets/IBMPlexSans-Medium.ttf");
+}
