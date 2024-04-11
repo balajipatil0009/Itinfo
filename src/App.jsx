@@ -31,7 +31,7 @@ const App = () => {
               typeSpeed={40}
             />
           </div>
-          <div className="w-[50%] h-full bg-[url(./assets/main1.jpg)] bg-cover Intro"></div>
+          <div className="w-[50%] h-full bg-[url(/main1.jpg)] bg-cover Intro"></div>
         </div>
       </div>{" "}
       <div className="bg-sky-400 h-[20vh] items-center flex justify-center">
