@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-  DotGroup,
-  Dot,
-} from "pure-react-carousel";
+import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import courses from "../assets/topCourses.json";
 const TopCourses = () => {
@@ -26,7 +18,7 @@ const TopCourses = () => {
           {courses.map((item, index) => (
             <Slide index={index}>
               <div className=" bg-gray-100 w-[250px] rounded-xl border mt-[4px] py-4 mx-2">
-                <img src="src/assets/main1.jpg" alt="alt" className="p-2" />
+                <img src={item.img} alt="alt" className="p-2" />
                 <h1 className="font-semibold text-lg text-center">
                   {item.courseNm}
                 </h1>
