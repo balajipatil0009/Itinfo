@@ -26,14 +26,11 @@ const TopCourses = () => {
           {courses.map((item, index) => (
             <Slide index={index}>
               <div className=" bg-gray-100 w-[250px] rounded-xl border mt-[4px] py-4 mx-2">
-                <img src="src\assets\main1.jpg" alt="alt" className="p-2" />
+                <img src="src/assets/main1.jpg" alt="alt" className="p-2" />
                 <h1 className="font-semibold text-lg text-center">
-                  data science
+                  {item.courseNm}
                 </h1>
-                <h3 className="text-sm">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Recusandae epellendus alias atque recusandae nulla.
-                </h3>
+                <h3 className="text-sm">{item.discription}</h3>
               </div>
             </Slide>
           ))}

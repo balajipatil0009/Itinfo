@@ -10,7 +10,6 @@ const App = () => {
     <div className=" max-w-[100vw] overflow-hidden">
       <div className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-gray-100 pt-1">
         <Navbar />
-
         <div
           id="tagLine"
           className=" w-[100vw] flex justify-center h-[80vh] items-center"
