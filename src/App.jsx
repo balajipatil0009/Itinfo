@@ -4,6 +4,8 @@ import { ReactTyped } from "react-typed";
 import "./App.css";
 import TopCourses from "./componunts/TopCourses";
 import Footer from "./componunts/Footer";
+import Highlights from "./componunts/Highlights";
+import Goals from "./componunts/Goals";
 
 const App = () => {
   return (
@@ -33,7 +35,7 @@ const App = () => {
           </div>
           <div className="w-[50%] h-full bg-[url(/main1.jpg)] bg-cover Intro"></div>
         </div>
-      </div>{" "}
+      </div>
       <div className="bg-sky-400 h-[20vh] items-center flex justify-center">
         <h1 className="text-3xl text-white font-sansMedium font-semibold">
           With ITINFO Learn & become the Top 1% software developer
@@ -41,7 +43,8 @@ const App = () => {
       </div>
       <TopCourses />
       <TopCourses />
-      <TopCourses />
+      <Goals />
+      <Highlights />
       <Footer />
     </div>
   );
