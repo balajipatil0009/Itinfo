@@ -8,15 +8,14 @@ const TopCourses = () => {
       <div className="h-[10vh] bg-blue-500"></div>
       <CarouselProvider
         naturalSlideWidth={90}
-        naturalSlideHeight={85}
         totalSlides={courses.length + 1}
         infinite
         isPlaying
         visibleSlides={4}
       >
-        <Slider className=" h-min">
+        <Slider className=" h-[50vh]">
           {courses.map((item, index) => (
-            <Slide index={index}>
+            <Slide index={index} className=" h-[40vh]">
               <div className=" bg-gray-100 w-[250px] rounded-xl border mt-[4px] py-4 mx-2">
                 <img src={item.img} alt="alt" className="p-2" />
                 <h1 className="font-semibold text-lg text-center">
