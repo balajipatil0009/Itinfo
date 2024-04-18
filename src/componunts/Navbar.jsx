@@ -7,7 +7,9 @@ const Navbar = () => {
         <div>Home</div>
         <div className="flex justify-around w-[50%]">
           <h1>About us</h1>
-          <h1>Courses</h1>
+          <a href="/courses">
+            <h1>Courses</h1>
+          </a>
           <h1>Media</h1>
           <h1>Gallery</h1>
           <h1>Franchise</h1>
