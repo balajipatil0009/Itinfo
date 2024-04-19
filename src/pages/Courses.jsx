@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../componunts/Navbar";
 import JobRoles from "../assets/JobCourses.json";
+import Footer from "../componunts/Footer";
 const Courses = () => {
   return (
     <>
@@ -19,12 +20,14 @@ const Courses = () => {
         <div className="w-[99vw] flex justify-center static border border-x-0 border-t-0 border-gray-700 pt-4 pb-8">
           <div className="mt-6 grid grid-cols-4 gap-5 pb-3">
             {JobRoles.map((item, index) => (
-              <div
-                key={index}
-                className="border text-center border-gray-600 p-2 rounded-md"
-              >
-                <h1>{item.name}</h1>
-              </div>
+              <a href={item.path}>
+                <div
+                  key={index}
+                  className="border text-center border-gray-600 p-2 rounded-md"
+                >
+                  <h1>{item.name}</h1>
+                </div>
+              </a>
             ))}
           </div>
           <h1 className="w-fit h-fit absolute bottom-0 border border-gray-500 px-3 py-1 rounded-md bg-white">
@@ -63,6 +66,7 @@ const Courses = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

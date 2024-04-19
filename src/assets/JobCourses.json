@@ -1,45 +1,66 @@
 [
   {
-    "name": "Data Science"
+    "name": "Data Science",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Full Stack Java"
+    "name": "Full Stack Java",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Full Stack Web Development"
+    "name": "Full Stack Web Development",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Android Development"
+    "name": "Android Development",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Cyber Security"
+    "name": "Cyber Security",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Ethicil Hacking"
+    "name": "Ethicil Hacking",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Hardware and Networking"
-  },
-
-  {
-    "name": "Data Science"
+    "name": "Software Testing",
+    "path": "/courses/SoftwareTesting"
   },
   {
-    "name": "Full Stack Java"
+    "name": "Hardware and Networking",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Full Stack Web Development"
+    "name": "Data Science",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Android Development"
+    "name": "Full Stack Java",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Cyber Security"
+    "name": "Full Stack Web Development",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Ethicil Hacking"
+    "name": "Android Development",
+    "path": "/courses/dataSci"
   },
   {
-    "name": "Hardware and Networking"
+    "name": "Cyber Security",
+    "path": "/courses/dataSci"
+  },
+  {
+    "name": "Ethicil Hacking",
+    "path": "/courses/dataSci"
+  },
+  {
+    "name": "Hardware and Networking",
+    "path": "/courses/dataSci"
+  },
+  {
+    "name": "CPP",
+    "path": "/courses/dataSci"
   }
 ]
