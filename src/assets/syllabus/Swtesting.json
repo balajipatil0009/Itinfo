@@ -1,0 +1,166 @@
+[
+  {
+    "title": " Introduction to Software Testing",
+    "points": [
+      "Exploring the Essentials of Software Testing",
+      "Difference between Static and Dynamic testing"
+    ]
+  },
+  {
+    "title": "Types of Testing",
+    "points": [
+      "Black box testing and its types",
+      "White box testing and its types",
+      "System Integration Testing vs User Acceptance Testing",
+      "Integration testing- Big Bang, Incremental approach(Top-down, bottom-up)"
+    ]
+  },
+  {
+    "title": "Software Development Life Cycle(SDLC)",
+    "points": []
+  },
+  {
+    "title": "STLC –Software Testing Life Cycle",
+    "points": [
+      "Difference between Error, bug, defect, and failure",
+      "Test Case Design, TechniqueBoundary Value, Analysis Equivalence, Partitioning Decision Table"
+    ]
+  },
+  {
+    "title": "Flow graph notations",
+    "points": [
+      "Statement coverage Branch Coverage path coverage",
+      "Cyclometric Complexity",
+      "Requirement traceability matrix"
+    ]
+  },
+  {
+    "title": "Test Environment and Test data preparation",
+    "points": ["Exploring Various Testing Levels and Testing Techniques"]
+  },
+  {
+    "title": "Describing Testing Tools",
+    "points": [
+      "Unified Functional Testing (UFT) 14.50 Describing LoadRunner",
+      "Describing Automation Testing Agile Software Testing",
+      "Testing Mobile Applications Testing Internet Applications Testing Desktop Applications",
+      "Security Testing Software Defect Management",
+      "Software Quality Assurance (SQA) Software Quality Metrics Improving Software Quality"
+    ]
+  },
+  {
+    "title": "Core Java",
+    "points": [
+      "Setup Java environment – Download JDK and Setup eclipse",
+      "Keywords and Syntax Conditions, Loops, Access and nonaccess modifiers",
+      "Exception Handling, File and DB handling",
+      "Collections overview, and ArrayList example"
+    ]
+  },
+  {
+    "title": "Input Fundamentals and Datatypes in Java",
+    "points": [
+      "Methods of Keyboard inputs",
+      "Scanner, Buffered Reader",
+      "Java Array",
+      "String vs character array.Accessing Array",
+      "Multi-Dimensional Arrays"
+    ]
+  },
+  {
+    "title": "Object Oriented Programming",
+    "points": [
+      "Procedural Vs Object Oriented Program",
+      "Abstraction, Encapsulation, Inheritance,Polymorphism.",
+      "Java Access Modifiers (and Specifiers)",
+      "Inheritance"
+    ]
+  },
+  {
+    "title": "Inner Class",
+    "points": [
+      "First View of Inner Class",
+      "Outer Class Access",
+      "Types of Inner Class"
+    ]
+  },
+  {
+    "title": "Package",
+    "points": [
+      "Package Import",
+      "Package vs. Header File",
+      "Creating and Using the Sub Package"
+    ]
+  },
+  {
+    "title": "Using Predefined Package & Other Classes",
+    "points": ["Wrapper Classes"]
+  },
+  {
+    "title": "Garbage Collection",
+    "points": [
+      "Garbage Collection Introduction",
+      "Advantages of Garbage Collection",
+      "Garbage Collection Procedure",
+      "Java API"
+    ]
+  },
+  {
+    "title": "Exception Handling",
+    "points": [
+      "Introduction to Exceptions",
+      "Try, catch, finally blocks",
+      "Unchecked Exception",
+      "Throw & throws keyword",
+      "Custom Exception Class"
+    ]
+  },
+  {
+    "title": "Multithreading",
+    "points": [
+      "Creating a Thread by inheriting from Thread class",
+      "Run() and start() method.",
+      "Garbage Collection Procedure",
+      "Runnable Interface Implementation",
+      "Synchronization method, block Class & Object Level Lock, Deadlock & its Prevention",
+      "Inter thread Synchronization Life Cycle of Thread",
+      "Deprecated methods : stop(), suspend(), resume(), etc"
+    ]
+  },
+  {
+    "title": "Input and Output Streams",
+    "points": [
+      "Types of Streams",
+      "Stream Class Hierarchy",
+      "Using File Class, Copy and Paste the content of a file",
+      "Byte Streams vs Character Streams",
+      "Text File vs Binary File",
+      "Character Reading from Keyboard by Input Stream Reader",
+      "Standard I/O Streams Using Data Streams to read/write"
+    ]
+  },
+  {
+    "title": "Serialization",
+    "points": [
+      "Using Object Streams to read/write object",
+      "Transient Keyword",
+      "Serialization Process",
+      "Deserialization Process"
+    ]
+  },
+  {
+    "title": "Collection Framework",
+    "points": [
+      "Generics(Templates)",
+      "What is generic",
+      "The java.util package",
+      "Collection What is Collection Framework",
+      "List, Set & Map interfaces",
+      "Using Vector, Array List, Stack, Linked List, etc",
+      "Using Hashtable, Hash Map, Tree Map",
+      "SortedMap, LinkedHashMap",
+      "Iterator, Enumerator",
+      "Using Date and Formatting Date class"
+    ]
+  }
+]

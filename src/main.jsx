@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
+
 import Courses from "./pages/Courses.jsx";
 import About from "./pages/About.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DataSci from "./pages/DataSci.jsx";
 import SwTesting from "./pages/SwTesting.jsx";
+import SwTesting2 from "./pages/SwTesting2.jsx";
 
 const routes = createBrowserRouter([
   {

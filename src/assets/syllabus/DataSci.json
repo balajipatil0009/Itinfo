@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Introduction to Data Science",
+    "points": ["Basic Foundations"]
+  },
+  {
+    "title": "Python Programming",
+    "points": [
+      "Fundamentals of Python programming language",
+      " Advanced Python concepts (decorators, generators, context managers)",
+      "Python libraries for data science (NumPy, Pandas, Matplotlib, Seaborn)"
+    ]
+  },
+  {
+    "title": "Data Analysis and Visualization",
+    "points": [
+      "Data cleaning and preprocessing techniques",
+      "Exploratory Data Analysis (EDA) with Pandas and visualization libraries",
+      "Statistical analysis and hypothesis testing"
+    ]
+  },
+  {
+    "title": "SQL for Data Science",
+    "points": [
+      "SQL fundamentals (queries, joins, aggregations)",
+      "Working with relational databases (SQLite, MySQL)",
+      "Data manipulation and querying for analysis tasks"
+    ]
+  },
+  {
+    "title": "Machine Learning",
+    "points": [
+      "Supervised learning algorithms (linear regression, logistic regression, decision trees, SVMs)",
+      "Model evaluation and selection techniques",
+      "Hyperparameter tuning and cross-validation",
+      "Introduction to ensemble methods and boosting algorithms"
+    ]
+  },
+  {
+    "title": "Deep Learning",
+    "points": [
+      " Neural network basics (perceptrons, activation functions)",
+      "Building deep neural networks with TensorFlow or PyTorch",
+      "Convolutional Neural Networks (CNNs) for computer vision tasks",
+      "Recurrent Neural Networks (RNNs) for sequential data and NLP tasks"
+    ]
+  },
+  {
+    "title": "Computer Vision",
+    "points": [
+      "Image preprocessing and augmentation techniques",
+      "Object detection algorithms (YOLO, SSD, Faster R-CNN)",
+      "Transfer learning for computer vision tasks",
+      "Evaluation metrics for object detection models"
+    ]
+  },
+  {
+    "title": "Natural Language Processing (NLP)",
+    "points": [
+      "Text preprocessing techniques (tokenization, stemming, lemmatization)",
+      "Word embeddings (Word2Vec, GloVe)",
+      "Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks for NLP tasks",
+      "Transformer-based models for NLP (BERT, GPT)"
+    ]
+  },
+  {
+    "title": "Statistics",
+    "points": [
+      "Probability distributions and hypothesis testing",
+      " Descriptive and inferential statistics",
+      "Bayesian statistics for machine learning"
+    ]
+  },
+  {
+    "title": "Model Deployment on Hugging Face",
+    "points": [
+      " Introduction to Hugging Face Transformers library",
+      "Deploying machine learning models on the Hugging Face Model Hub",
+      "Fine-tuning pre-trained models for specific tasks",
+      " Hosting and serving models using Hugging Face's infrastructure"
+    ]
+  },
+  {
+    "title": "Generative AI",
+    "points": [
+      "Goggle Gemini, Gemini Pro Vision ",
+      " Large language models ",
+      "OpenAI's ChatGPT",
+      "Generative Pre-Trained Transformers",
+      " META's LLAMA ,LLAMA 2",
+      " Creating LLM'S from scratch and Fine-tune.",
+      "Prompt Engineering ",
+      " LORA & CLORA"
+    ]
+  },
+  {
+    "title": "Capstone Project",
+    "points": [
+      "Emphasis on end-to-end 25+ project development, from data collection to model deployment."
+    ]
+  }
+]

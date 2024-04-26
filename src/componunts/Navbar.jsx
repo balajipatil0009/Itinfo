@@ -38,14 +38,14 @@ const Navbar = () => {
             </div>
             <div className=" hidden md:flex justify-evenly w-full">
               <a href="/about">
-                <h1>About us</h1>
+                <h1 className="p-2 hover:bg-white rounded-md">About us</h1>
               </a>
               <a href="/courses">
-                <h1>Courses</h1>
+                <h1 className="p-2 hover:bg-white rounded-md">Courses</h1>
               </a>
-              <h1>Media</h1>
-              <h1>Gallery</h1>
-              <h1>Franchise</h1>
+              <h1 className="p-2 hover:bg-white rounded-md">Media</h1>
+              <h1 className="p-2 hover:bg-white rounded-md">Gallery</h1>
+              <h1 className="p-2 hover:bg-white rounded-md">Franchise</h1>
             </div>
           </div>
         </div>
