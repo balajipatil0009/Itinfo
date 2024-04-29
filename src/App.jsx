@@ -10,11 +10,11 @@ import Goals from "./componunts/Goals";
 const App = () => {
   return (
     <div className=" max-w-[100vw] overflow-hidden">
-      <div className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-gray-100 pt-1">
+      <div className="bg-gradient-to-r from-yellow-500 via-yellow-100 to-gray-100 pt-1">
         <Navbar />
         <div
           id="tagLine"
-          className=" w-[100vw] flex justify-center h-[80vh] items-center"
+          className=" w-[100vw] flex justify-center h-[100vh] bg-[url(/main3.jpg)] bg-cover items-center Intro"
         >
           <div>
             <div className="text-3xl w-fit font-sansMedium font-semibold">
@@ -33,7 +33,7 @@ const App = () => {
               typeSpeed={40}
             />
           </div>
-          <div className="w-[50%] h-full bg-[url(/main1.jpg)] bg-cover Intro"></div>
+          <div className="w-1/3"></div>
         </div>
       </div>
       <div className="bg-sky-400 h-[20vh] items-center flex justify-center">

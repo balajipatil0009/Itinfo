@@ -30,37 +30,5 @@
   {
     "name": "Hardware and Networking",
     "path": "/courses/dataSci"
-  },
-  {
-    "name": "Data Science",
-    "path": "/courses/dataSci"
-  },
-  {
-    "name": "Full Stack Java",
-    "path": "/courses/dataSci"
-  },
-  {
-    "name": "Full Stack Web Development",
-    "path": "/courses/dataSci"
-  },
-  {
-    "name": "Android Development",
-    "path": "/courses/dataSci"
-  },
-  {
-    "name": "Cyber Security",
-    "path": "/courses/dataSci"
-  },
-  {
-    "name": "Ethicil Hacking",
-    "path": "/courses/dataSci"
-  },
-  {
-    "name": "Hardware and Networking",
-    "path": "/courses/dataSci"
-  },
-  {
-    "name": "CPP",
-    "path": "/courses/dataSci"
   }
 ]

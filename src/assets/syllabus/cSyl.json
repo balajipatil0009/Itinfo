@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Introduction to C Language",
+    "points": [
+      "Overview of Programming Concepts",
+      "Understanding high-level vs. low-level languages",
+      "Introduction to compilers and interpreters"
+    ]
+  },
+  {
+    "title": "Getting Started with C",
+    "points": [
+      "Setting up a C development environment (IDEs, compilers)",
+      "Writing and running a simple 'Hello, World!' program",
+      "Understanding the basic structure of a C program"
+    ]
+  },
+  {
+    "title": "Variables and Data Types",
+    "points": [
+      "Declaring and initializing variables",
+      "Basic data types (int, float, char, double)",
+      "Constants and literals"
+    ]
+  },
+  {
+    "title": "Operators and Expressions",
+    "points": [
+      "Arithmetic, relational, and logical operators",
+      "Operator precedence and associativity"
+    ]
+  },
+  {
+    "title": "Control Flow Statements",
+    "points": [
+      "Conditional Statements",
+      "Loops",
+      "While, do-while, and for loops",
+      "Break and continue statements"
+    ]
+  },
+  {
+    "title": "Functions",
+    "points": [
+      "Introduction to Functions",
+      "Scope and Lifetime of Variables",
+      "Global vs. local variables",
+      "Static variables"
+    ]
+  },
+  {
+    "title": "Arrays and Strings",
+    "points": [
+      "Declaration, initialization, and manipulation of arrays",
+      "Multi-dimensional arrays",
+      "String manipulation functions",
+      "Character arrays vs. string literals"
+    ]
+  },
+  {
+    "title": "Pointers and Memory Management",
+    "points": [
+      "Understanding pointers and their syntax",
+      "Pointer arithmetic",
+      "Dynamic Memory Allocation",
+      "malloc, calloc, realloc, and free functions"
+    ]
+  },
+  {
+    "title": "File Input/Output",
+    "points": [
+      "Reading from and writing to files",
+      "File operations (open, close, read, write)"
+    ]
+  },
+  {
+    "title": "Advanced Topics (Optional)",
+    "points": ["Structures and Unions", "Bitwise Operations"]
+  },
+  {
+    "title": "Assessment",
+    "points": [
+      "Assignments and Programming Exercises",
+      "Midterm Examination",
+      "Final Project",
+      "Final Examination"
+    ]
+  }
+]

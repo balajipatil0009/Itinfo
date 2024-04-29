@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../componunts/Navbar";
 import JobRoles from "../assets/JobCourses.json";
 import Footer from "../componunts/Footer";
+import CoursesOpns from "../componunts/CoursesOpns";
+import LangCourses from "../assets/langCourses.json";
 const Courses = () => {
   return (
     <>
@@ -18,52 +20,24 @@ const Courses = () => {
       </div>
       <div className=" h-fit pb-4 relative">
         <div className="w-[99vw] flex justify-center static border border-x-0 border-t-0 border-gray-700 pt-4 pb-8">
-          <div className="mt-6 grid grid-cols-4 gap-5 pb-3">
-            {JobRoles.map((item, index) => (
-              <a href={item.path}>
-                <div
-                  key={index}
-                  className="border text-center border-gray-600 p-2 rounded-md"
-                >
-                  <h1>{item.name}</h1>
-                </div>
-              </a>
-            ))}
-          </div>
+          <CoursesOpns data={JobRoles} />
+
           <h1 className="w-fit h-fit absolute bottom-0 border border-gray-500 px-3 py-1 rounded-md bg-white">
-            Job Role based Courses
+            Language Bases Courses
           </h1>
         </div>
       </div>
       <div className=" h-fit pb-4 relative">
         <div className="w-[99vw] flex justify-center static border border-x-0 border-t-0 border-gray-700 pt-4 pb-8">
-          <div className="mt-6 grid grid-cols-4 gap-5 pb-3">
-            {JobRoles.map((item, index) => (
-              <div
-                key={index}
-                className="border text-center border-gray-600 p-2 rounded-md"
-              >
-                <h1>{item.name}</h1>
-              </div>
-            ))}
-          </div>
+          <CoursesOpns data={LangCourses} />
           <h1 className="w-fit h-fit absolute bottom-0 border border-gray-500 px-3 py-1 rounded-md bg-white">
-            Job Role based Courses
+            Other tech Courses
           </h1>
         </div>
       </div>
-      <div className="">
+      <div className="mb-7">
         <div className="w-[99vw] flex justify-center static pt-4">
-          <div className="mt-6 grid grid-cols-4 gap-5">
-            {JobRoles.map((item, index) => (
-              <div
-                key={index}
-                className="border text-center border-gray-600 p-2 rounded-md"
-              >
-                <h1>{item.name}</h1>
-              </div>
-            ))}
-          </div>
+          <CoursesOpns data={JobRoles} />
         </div>
       </div>
       <Footer />
