@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy } from "react";
 import Navbar from "./componunts/Navbar";
 import { ReactTyped } from "react-typed";
 import "./App.css";
@@ -7,6 +7,7 @@ import Footer from "./componunts/Footer";
 import Highlights from "./componunts/Highlights";
 import Goals from "./componunts/Goals";
 import courses from "./assets/topCourses.json";
+import toplang from "./assets/topLangCourses.json";
 
 const App = () => {
   return (
@@ -43,7 +44,7 @@ const App = () => {
         </h1>
       </div>
       <TopCourses data={courses} />
-      {/* <TopCourses /> */}
+      <TopCourses data={toplang} />
       <Goals />
       <Highlights />
       <Footer />

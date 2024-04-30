@@ -1,0 +1,44 @@
+[
+  {
+    "courseNm": "C",
+    "img": "/langImages/c.jpg",
+    "path": "",
+    "discription": "Mastering the fundamentals: Our C programming course equips you with a solid foundation for low-level programming and system development."
+  },
+  {
+    "courseNm": "C++",
+    "img": "/langImages/cpp.jpg",
+    "path": "",
+    "discription": "Unlock the power of performance and control with our C++ course - master object-oriented programming for system-level software development."
+  },
+  {
+    "courseNm": "Java",
+    "img": "/langImages/java.png",
+    "path": "",
+    "discription": "Dive into the essence of Java with our core Java course - build robust applications by mastering object-oriented programming principles."
+  },
+  {
+    "courseNm": "Python",
+    "img": "/langImages/python.jpg",
+    "path": "",
+    "discription": "Embark on the path to versatile programming with our basic Python course - master this beginner-friendly language for diverse applications."
+  },
+  {
+    "courseNm": "HTML",
+    "img": "/langImages/HTML.jpg",
+    "path": "",
+    "discription": "Craft visually stunning web experiences with our HTML course - master the building blocks of modern website development."
+  },
+  {
+    "courseNm": "CSS",
+    "img": "/langImages/CSS.jpg",
+    "path": "",
+    "discription": "Elevate your web design prowess with our CSS course - unlock the art of styling and layout for captivating user interfaces."
+  },
+  {
+    "courseNm": "Java Script",
+    "img": "/langImages/JS.jpg",
+    "path": "",
+    "discription": "Unleash dynamic, interactive web experiences with our JavaScript course - master front-end development and bring websites to life."
+  }
+]
