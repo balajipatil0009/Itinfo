@@ -1,34 +1,64 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import courses from "../assets/topCourses.json";
-const TopCourses = () => {
+
+const TopCourses = (props) => {
+  const courses = props.data;
+  const [width, setWidth] = useState(window.innerWidth);
+  const [visibleSclide, setVisibleSclides] = useState(4);
+
+  const handleWidth = () => {
+    if (width < 983) {
+      console.log(width);
+      setVisibleSclides(2);
+    } else if (width < 510) {
+      console.log(width);
+
+      setVisibleSclides(1);
+    } else {
+      console.log(width);
+
+      setVisibleSclides(4);
+    }
+  };
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    handleWidth();
+  }, [window.innerWidth]);
   return (
     <div>
       <div className="h-[10vh] bg-blue-500"></div>
-      <CarouselProvider
-        naturalSlideWidth={90}
-        totalSlides={courses.length + 1}
-        infinite
-        isPlaying
-        visibleSlides={4}
-      >
-        <Slider className=" h-[70vh]">
-          {courses.map((item, index) => (
-            <Slide index={index} className=" h-[70vh]">
-              <div className=" bg-gray-100 w-[230px] h-fit rounded-xl border mt-[4px] py-4 mx-2">
-                <img src={item.img} alt="alt" className="p-2" />
-                <h1 className="font-semibold text-lg text-center">
-                  {item.courseNm}
-                </h1>
-                <h3 className="text-sm px-4 py-1 text-justify">
-                  {item.discription}
-                </h3>
-              </div>
-            </Slide>
-          ))}
-        </Slider>
-      </CarouselProvider>
+      <div className="">
+        <div>
+          <CarouselProvider
+            naturalSlideWidth={90}
+            totalSlides={courses.length + 1}
+            infinite
+            isPlaying
+            visibleSlides={visibleSclide}
+          >
+            <Slider className=" h-[50vh] mt-3">
+              {courses.map((item, index) => (
+                <Slide index={index} className=" h-[70vh]" key={index}>
+                  <div className=" bg-gray-100 w-[230px] min-h-[45vh] rounded-xl border mt-[4px] py-4 mx-2">
+                    <div
+                      className="h-36 overflow-hidden m-2 rounded-md bg-center bg-cover"
+                      style={{ backgroundImage: "url(" + item.img + ")" }}
+                    ></div>
+                    <h1 className="font-semibold text-lg text-center">
+                      {item.courseNm}
+                    </h1>
+                    <h3 className="text-sm px-4 py-1 text-justify">
+                      {item.discription}
+                    </h3>
+                  </div>
+                </Slide>
+              ))}
+            </Slider>
+          </CarouselProvider>
+        </div>
+      </div>
     </div>
   );
 };

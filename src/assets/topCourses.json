@@ -1,47 +1,42 @@
 [
   {
-    "img": "/main1.jpg",
+    "img": "/langImages/dataScience.jpg",
     "courseNm": "data science",
-    "discription": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae epellendus alias atque recusandae nulla"
+    "discription": "Unleash the power of data with our data science course - master analytics, machine learning, and AI for cutting-edge insights."
   },
   {
-    "img": "/main1.jpg",
-    "courseNm": "data science",
-    "discription": " Lorem ipsum, dolor sit amet consectetur adipisic Recusandae epellendus alias atque recusandae nulla"
+    "img": "/langImages/java.png",
+    "courseNm": "Java Full Stack Developer",
+    "discription": "Unlock full-stack proficiency with our Java course - master front-end, back-end, and database for end-to-end web application development."
   },
   {
-    "img": "/main1.jpg",
-    "courseNm": "data science",
-    "discription": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae epellendus alias atque recusandae nulla."
+    "img": "/langImages/ethical.jpg",
+    "courseNm": "Ethical Hacking",
+    "discription": "Fortify cybersecurity defenses with our ethical hacking course - master penetration testing and defensive strategies."
   },
   {
-    "img": "/main1.jpg",
-    "courseNm": "data science",
-    "discription": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae epellendus alias atque recusandae nulla."
+    "img": "/langImages/full_web.jpg",
+    "courseNm": "Full Stack web Developer",
+    "discription": " Become a versatile full-stack warrior: Conquer front-end, back-end, and database technologies for end-to-end web development mastery."
   },
   {
-    "img": "/main1.jpg",
-    "courseNm": "data science",
-    "discription": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae epellendus alias atque recusandae nulla."
+    "img": "/langImages/AIML.jpg",
+    "courseNm": "AI & ML",
+    "discription": "Unlock the future of innovation with our AI and ML course - harness data-driven insights and automation."
   },
   {
-    "img": "/main1.jpg",
-    "courseNm": "data science",
-    "discription": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae epellendus alias atque recusandae nulla."
+    "img": "/langImages/cyber.jpg",
+    "courseNm": "Cyber Security",
+    "discription": "Safeguard digital frontiers with our cyber security course - fortify defenses against evolving threats."
   },
   {
-    "img": "/main1.jpg",
-    "courseNm": "data science",
-    "discription": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae epellendus alias atque recusandae nulla."
+    "img": "/langImages/softTesting.jpg",
+    "courseNm": "Software Testing",
+    "discription": "Ensure flawless software experiences through our testing course - master techniques, tools, and methodologies for quality assurance."
   },
   {
-    "img": "/main1.jpg",
-    "courseNm": "data science",
-    "discription": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae epellendus alias atque recusandae nulla."
-  },
-  {
-    "img": "/main1.jpg",
-    "courseNm": "data science",
-    "discription": " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae epellendus alias atque recusandae nulla."
+    "img": "/langImages/dataAna.jpg",
+    "courseNm": "Data Analyst",
+    "discription": "Unravel data storytelling with our data analyst course - acquire skills in data mining, visualization, and business intelligence."
   }
 ]

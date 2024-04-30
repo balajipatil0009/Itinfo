@@ -6,6 +6,7 @@ import TopCourses from "./componunts/TopCourses";
 import Footer from "./componunts/Footer";
 import Highlights from "./componunts/Highlights";
 import Goals from "./componunts/Goals";
+import courses from "./assets/topCourses.json";
 
 const App = () => {
   return (
@@ -41,8 +42,8 @@ const App = () => {
           With ITINFO Learn & become the Top 1% software developer
         </h1>
       </div>
-      <TopCourses />
-      <TopCourses />
+      <TopCourses data={courses} />
+      {/* <TopCourses /> */}
       <Goals />
       <Highlights />
       <Footer />
