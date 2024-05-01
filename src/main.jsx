@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DataSci from "./pages/DataSci.jsx";
 import SwTesting from "./pages/SwTesting.jsx";
 import SwTesting2 from "./pages/SwTesting2.jsx";
+import JavaFullStack from "./pages/JavaFullStack.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const routes = createBrowserRouter([
   {
     path: "/courses/SoftwareTesting",
     element: <SwTesting />,
+  },
+  {
+    path: "/courses/javaFullStack",
+    element: <JavaFullStack />,
   },
 ]);
 
