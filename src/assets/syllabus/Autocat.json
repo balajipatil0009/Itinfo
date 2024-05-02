@@ -1,0 +1,225 @@
+[
+  {
+    "title": "Introduction to Engineering Drawings",
+    "points": [
+      "Various types of engineering drawings used in AEC industry",
+      "Introduction to AutoCAD",
+      "Exploring GUI and Workspaces",
+      "Co-ordinate systems"
+    ]
+  },
+  {
+    "title": "Display Control",
+    "points": [
+      " Zoom",
+      "Pan",
+      "Redraw",
+      "Regen",
+      "Clean Screen",
+      "Steering wheels"
+    ]
+  },
+  {
+    "title": "File Management",
+    "points": ["New", "Qnew", "Open", "Save, Save as", " Close, Exit, Quit"]
+  },
+  {
+    "title": "Drawing settings",
+    "points": [" Units", "Limits"]
+  },
+  {
+    "title": "Drafting settings",
+    "points": [": Snap and Grid", "Polar tracking", ", Object snap"]
+  },
+  {
+    "title": "Drawing tools",
+    "points": [
+      "Line",
+      "Circle",
+      "Arc",
+      "Ellipse",
+      "Polygon",
+      "Rectangle",
+      "Point",
+      "Multiple point"
+    ]
+  },
+  {
+    "title": "Modify tools",
+    "points": [
+      "Erase",
+      "Undo, Redo",
+      "Explode, Move, Copy",
+      "Rotate, Mirror",
+      "Array, Align, Scale, Stretch, Lengthen",
+      " Trim, Extend, Break, Join",
+      "Chamfer, Fillet, Blend curves",
+      "Object selection"
+    ]
+  },
+  {
+    "title": "Object properties",
+    "points": [
+      "Properties window",
+      "Color",
+      "Linetype, Linetype scale",
+      "Line weight",
+      "Match properties"
+    ]
+  },
+  {
+    "title": "Drawing Tools",
+    "points": [" Multiline", "Pline", "Spline", "Wipeout", "Revison cloud"]
+  },
+  {
+    "title": "Modify Tools",
+    "points": [
+      "Multiline style",
+      " Multiline edit",
+      "Polyline edit",
+      "Spline edit",
+      " Offset",
+      " PD Mode, PD Size",
+      "Grip editing, Edit Array",
+      "Change space, Reverse",
+      "Copy nested objects, Delete duplicate",
+      "objectsBring or send Objects"
+    ]
+  },
+  {
+    "title": "Views",
+    "points": [" Grip Editing"]
+  },
+  {
+    "title": "Layer Management",
+    "points": [
+      "Adding/Removing Layers",
+      "Layer Status",
+      "New Property Filter",
+      "New Group Filter",
+      "Layer Status Manager",
+      "Plot Control"
+    ]
+  },
+  {
+    "title": "Object Selection Methods",
+    "points": [" Select", "Qselect", " Filter"]
+  },
+  {
+    "title": "Hatching utilities",
+    "points": [
+      "Hatch, Hatchedit, Hatch Settings",
+      "Gradient",
+      "Boundary",
+      "Fill and Fill mode"
+    ]
+  },
+  {
+    "title": "Inquiry commands",
+    "points": [" Id, Dist, List", "Radius, Angle, Area, Volume"]
+  },
+  {
+    "title": "Isometric drawings",
+    "points": ["sometric snap", "Isometric drawings", "", "", ""]
+  },
+  {
+    "title": "Dimensions",
+    "points": [
+      "Linear, Aligned",
+      "Radius, Diameter",
+      "Angle, Arc length",
+      " Continuous, Baseline, Tolerance,",
+      "Dimension Space, Dimension Break",
+      "Inspection",
+      "Jogged radius, Ordinate dimensions",
+      "Leader, Qleader, Oblique, Dimensions",
+      "Text angle, Dimensions Text Alignment, Quick dimension"
+    ]
+  },
+  {
+    "title": "Leader",
+    "points": [
+      " Multi leader",
+      "Multi leader style",
+      "Add leader, Align Leader, Collect Leader, Remove Leader"
+    ]
+  },
+  {
+    "title": "Annotation Tools",
+    "points": [
+      "Text, Style, Multiline Text, Scale Text, Spell",
+      "Table, Table style, Table edit",
+      "Dimension style Manager, Dimension edit,Dimension text edit, Dimension Associative,",
+      "Re-associate, Jog line, Inspect, Update"
+    ]
+  },
+  {
+    "title": "Block and Base",
+    "points": [
+      "Create Block",
+      "Base",
+      "Write block,",
+      "Dynamic Block,",
+      "Insert",
+      "Design Center, and Tool Palette",
+      "Divide and Measure"
+    ]
+  },
+  {
+    "title": "Express Tools",
+    "points": [
+      "Explode Attribute",
+      " Arc Aligned",
+      "Text Explode",
+      "Text Case",
+      "Torient",
+      "Text Fit",
+      "Text circle and Modify text",
+      "Super Hatch",
+      "Make Line type",
+      "Shape creation"
+    ]
+  },
+  {
+    "title": "Etransmit",
+    "points": []
+  },
+  {
+    "title": "Publish",
+    "points": ["Publish", "Publish to web"]
+  },
+  {
+    "title": "Layout & Viewport",
+    "points": [
+      " Page setup",
+      "Viewports",
+      "Viewport Lock and Unlock",
+      "Viewport LayersManagement",
+      "Model space",
+      "Paper space"
+    ]
+  },
+  {
+    "title": "Plots",
+    "points": ["Plot styles", "Plot (Print) in Model", "Layout area"]
+  },
+  {
+    "title": "Interior Design",
+    "points": [
+      "3D Interior work",
+      "hall design",
+      "kitchen design",
+      "bedroom design",
+      "balcony design"
+    ]
+  },
+  {
+    "title": "working drawing ",
+    "points": [
+      "Electric layout",
+      "plumbing layout",
+      "celing design",
+      "pop design"
+    ]
+  }
+]

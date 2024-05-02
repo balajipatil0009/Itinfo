@@ -1,0 +1,121 @@
+[
+  {
+    "title": "Looking at the Work Area",
+    "points": [
+      "Using the tools",
+      "Using palettes",
+      "Workspaces",
+      "Using context menus",
+      "Opening and closing documents",
+      "Changing the view",
+      "Selecting objects",
+      "Saving a document",
+      "Recovering a document after a failure",
+      "Undoing mistakes",
+      "Working with preferences and defaults"
+    ]
+  },
+  {
+    "title": "Setting Up Pages",
+    "points": [
+      "Setting up basic layout options",
+      "Using rulers, grids, and guides",
+      "Working with pages and spreads",
+      "Numbering pages",
+      "Changing Numbering and Section Options",
+      "Using master pages",
+      "Laying out pages with frames",
+      "Adjusting layout objects automatically",
+      "Working with layers"
+    ]
+  },
+  {
+    "title": "Working with Text",
+    "points": [
+      "About text frames",
+      "About threading text frames",
+      "Adding text to frames",
+      "Setting text frame properties",
+      "Editing text",
+      "Finding and changing text",
+      "Finding and changing fonts",
+      "Combining text and graphics",
+      "Creating path type"
+    ]
+  },
+  {
+    "title": "Setting Type",
+    "points": [
+      "Formatting characters",
+      "Formatting paragraphs",
+      "Working with tabs",
+      "Copying type attributes with the eyedropper tool",
+      "Working with the type composition engines",
+      "Controlling hyphenation and justification",
+      "Paragraph and character style sheets",
+      "Creating nested styles",
+      "OpenType",
+      "Glyphs palette"
+    ]
+  },
+  {
+    "title": "Arranging and Combining Objects",
+    "points": [
+      "Modifying objects using graphics frames",
+      "Grouping and ungrouping objects",
+      "Stacking objects",
+      "Aligning and distributing objects",
+      "Locking object position",
+      "Moving objects",
+      "Changing size, proportions, or orientation",
+      "Duplicating objects"
+    ]
+  },
+  {
+    "title": "Applying Color",
+    "points": [
+      "About spot and process color types",
+      "Working with swatches and unnamed colors",
+      "Applying color",
+      "Using the Swatches palette",
+      "Mixed inks",
+      "Mixed ink groups",
+      "Using swatch libraries",
+      "Using the Color palette",
+      "Applying colors by dragging and dropping",
+      "Creating gradients"
+    ]
+  },
+  {
+    "title": "Creating Tables",
+    "points": [
+      "Creating and editing tables",
+      "Importing spreadsheets from Word or Excel",
+      "Advanced table techniques",
+      "Placing graphics into tables"
+    ]
+  },
+  {
+    "title": "Adobe Product Integration",
+    "points": [
+      "Working with Acrobat, Photoshop, and Illustrator files",
+      "Using Photoshop layer masks instead of clipping paths",
+      "Using Photoshop's file browser",
+      "Copy and Paste from Illustrator to InDesign CS"
+    ]
+  },
+  {
+    "title": "PDF, Print, Preflight, and Package",
+    "points": [
+      "PDF styles",
+      "Export options",
+      "PDF in detail",
+      "Other export formats (ID Interchange)",
+      "Pre-flighting your files",
+      "Using the Package command",
+      "Printing and transparency",
+      "Flattener settings",
+      "The Separations palette"
+    ]
+  }
+]

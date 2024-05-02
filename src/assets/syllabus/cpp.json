@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Introduction to Programming and C++",
+    "points": [
+      "What is programming?",
+      "Importance of programming",
+      "History and evolution of C++",
+      "Features of C++",
+      "Applications of C++"
+    ]
+  },
+  {
+    "title": "Setting up the Development Environment",
+    "points": [
+      "Installing a C++ compiler (e.g., G++)",
+      "Introduction to an Integrated Development Environment (IDE)",
+      "Writing and executing the first C++ program"
+    ]
+  },
+  {
+    "title": "Basic Syntax",
+    "points": ["Structure of a C++ program", "Comments and indentation"]
+  },
+  {
+    "title": "Data Types",
+    "points": [
+      "Variables",
+      "Primitive data types (int, float, char, double, bool)",
+      "Constants and literals"
+    ]
+  },
+  {
+    "title": "Operators",
+    "points": [
+      "Arithmetic operators",
+      "Assignment operators",
+      "Relational operators",
+      "Logical operators",
+      "Bitwise operators"
+    ]
+  },
+  {
+    "title": "Control Structures",
+    "points": [
+      "Conditional statements (if, if-else, nested if-else, switch-case)",
+      "Loops (for, while, do-while)",
+      "Break and continue statements",
+      "Nested loops"
+    ]
+  },
+  {
+    "title": "Functions",
+    "points": [
+      "Introduction to functions",
+      "Function declaration and definition",
+      "Passing arguments (call by value, call by reference, call by address)",
+      "Return values",
+      "Scope of variables",
+      "Recursion",
+      "Function overloading"
+    ]
+  },
+  {
+    "title": "Arrays",
+    "points": [
+      "Introduction to arrays",
+      "One-dimensional arrays",
+      "Multi-dimensional arrays",
+      "Array operations (traversal, searching, sorting)"
+    ]
+  },
+  {
+    "title": "Pointers",
+    "points": [
+      "Understanding memory addresses",
+      "Introduction to pointers",
+      "Pointer arithmetic",
+      "Pointers and arrays",
+      "Dynamic memory allocation (new and delete)"
+    ]
+  },
+  {
+    "title": "Strings",
+    "points": [
+      "Introduction to strings",
+      "C-style strings",
+      "String operations (concatenation, copying, comparison)",
+      "C++ string class"
+    ]
+  },
+  {
+    "title": "Object-Oriented Programming (OOP)",
+    "points": [
+      "Introduction to OOP",
+      "Classes and objects",
+      "Constructors and destructors",
+      "Access specifiers (public, private, protected)",
+      "Encapsulation",
+      "Inheritance (single, multiple, and hierarchical)",
+      "Polymorphism (function overloading and operator overloading)",
+      "Virtual functions and abstract classes"
+    ]
+  },
+  {
+    "title": "File Handling",
+    "points": [
+      "Introduction to file operations",
+      "File streams (ifstream, ofstream, fstream)",
+      "Opening and closing files",
+      "Reading from and writing to files",
+      "File modes (ios::in, ios::out, ios::app, ios::trunc)",
+      "Error handling in file operations"
+    ]
+  },
+  {
+    "title": "Templates",
+    "points": [
+      "Introduction to templates",
+      "Function templates",
+      "Class templates"
+    ]
+  },
+  {
+    "title": "Standard Template Library (STL)",
+    "points": [
+      "Introduction to STL",
+      "Containers (vector, list, deque, set, map)",
+      "Iterators",
+      "Algorithms (sort, find, accumulate, etc.)"
+    ]
+  },
+  {
+    "title": "Exception Handling",
+    "points": [
+      "Introduction to exceptions",
+      "Try-catch blocks",
+      "Throwing and catching exceptions",
+      "Standard exceptions"
+    ]
+  },
+  {
+    "title": "Advanced Topics",
+    "points": [
+      "Command-line arguments",
+      "Namespaces",
+      "Preprocessor directives",
+      "Friend functions and classes",
+      "Operator overloading",
+      "Introduction to data structures (linked lists, stacks, queues, trees)",
+      "Introduction to algorithms (searching, sorting, etc.)"
+    ]
+  }
+]

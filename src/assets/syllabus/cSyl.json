@@ -1,89 +1,119 @@
 [
   {
-    "title": "Introduction to C Language",
+    "title": "Introduction to Programming and C Language",
     "points": [
-      "Overview of Programming Concepts",
-      "Understanding high-level vs. low-level languages",
-      "Introduction to compilers and interpreters"
+      "What is programming?",
+      "Importance of programming",
+      "History and evolution of C language",
+      "Features of C language",
+      "Applications of C language"
     ]
   },
   {
-    "title": "Getting Started with C",
+    "title": "Setting up the Development Environment",
     "points": [
-      "Setting up a C development environment (IDEs, compilers)",
-      "Writing and running a simple 'Hello, World!' program",
-      "Understanding the basic structure of a C program"
+      "Installing a C compiler (e.g., GCC)",
+      "Introduction to an Integrated Development Environment (IDE)",
+      "Writing and executing the first C program"
     ]
   },
   {
-    "title": "Variables and Data Types",
+    "title": "Basic Syntax and Data Types",
+    "points": ["Structure of a C program", "Comments and indentation"]
+  },
+  {
+    "title": "Variables and Data types",
     "points": [
-      "Declaring and initializing variables",
-      "Basic data types (int, float, char, double)",
+      "Variables",
+      "Data types (int, float, char, double)",
       "Constants and literals"
     ]
   },
   {
-    "title": "Operators and Expressions",
+    "title": "Operators",
     "points": [
-      "Arithmetic, relational, and logical operators",
-      "Operator precedence and associativity"
+      "Arithmetic operators",
+      "Assignment operators",
+      "Relational operators",
+      "Logical operators",
+      "Type conversion and type casting"
     ]
   },
   {
-    "title": "Control Flow Statements",
+    "title": "Control Structures",
     "points": [
-      "Conditional Statements",
-      "Loops",
-      "While, do-while, and for loops",
-      "Break and continue statements"
+      "Conditional statements (if, if-else, nested if-else, switch-case)",
+      "Loops (for, while, do-while)",
+      "Break and continue statements",
+      "Nested loops"
     ]
   },
   {
     "title": "Functions",
     "points": [
-      "Introduction to Functions",
-      "Scope and Lifetime of Variables",
-      "Global vs. local variables",
-      "Static variables"
+      "Introduction to functions",
+      "Function declaration and definition",
+      "Passing arguments (call by value, call by reference)",
+      "Return values",
+      "Scope of variables",
+      "Recursion"
     ]
   },
   {
-    "title": "Arrays and Strings",
+    "title": "Arrays",
     "points": [
-      "Declaration, initialization, and manipulation of arrays",
+      "Introduction to arrays",
+      "One-dimensional arrays",
       "Multi-dimensional arrays",
-      "String manipulation functions",
-      "Character arrays vs. string literals"
+      "Array operations (traversal, searching, sorting)"
     ]
   },
   {
-    "title": "Pointers and Memory Management",
+    "title": "Pointers",
     "points": [
-      "Understanding pointers and their syntax",
+      "Understanding memory addresses",
+      "Introduction to pointers",
       "Pointer arithmetic",
-      "Dynamic Memory Allocation",
-      "malloc, calloc, realloc, and free functions"
+      "Pointers and arrays",
+      "Dynamic memory allocation (malloc, calloc, realloc, free)"
     ]
   },
   {
-    "title": "File Input/Output",
+    "title": "Strings",
     "points": [
+      "Introduction to strings",
+      "String operations (concatenation, copying, comparison)",
+      "String functions (strlen, strcpy, strcat, strcmp)"
+    ]
+  },
+  {
+    "title": "Structures and Unions",
+    "points": [
+      "Introduction to structures",
+      "Defining and using structures",
+      "Array of structures",
+      "Nested structures",
+      "Unions"
+    ]
+  },
+  {
+    "title": "File Handling",
+    "points": [
+      "Introduction to file operations",
+      "Opening and closing files",
       "Reading from and writing to files",
-      "File operations (open, close, read, write)"
+      "File modes (r, w, a, r+, w+, a+)",
+      "Error handling in file operations"
     ]
   },
   {
-    "title": "Advanced Topics (Optional)",
-    "points": ["Structures and Unions", "Bitwise Operations"]
-  },
-  {
-    "title": "Assessment",
+    "title": "Advanced Topics",
     "points": [
-      "Assignments and Programming Exercises",
-      "Midterm Examination",
-      "Final Project",
-      "Final Examination"
+      "Command-line arguments",
+      "Bit manipulation",
+      "Enumerations",
+      "Function pointers",
+      "Introduction to data structures (linked lists, stacks, queues, trees)"
     ]
   }
 ]

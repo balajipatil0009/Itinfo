@@ -1,17 +1,17 @@
 import React from "react";
-import Navbar from "../componunts/Navbar";
-import Footer from "../componunts/Footer";
-import SyllCards from "../componunts/SyllCards";
-import data from "../assets/syllabus/fullJava.json";
-const JavaFullStack = () => {
+import data from "../../assets/syllabus/Swtesting.json";
+import Navbar from "../../componunts/Navbar";
+import Footer from "../../componunts/Footer";
+import SyllCards from "../../componunts/SyllCards";
+const SwTesting = () => {
   return (
-    <div>
+    <>
       <div className="w-[100vw] h-auto">
         <Navbar />
         <div className="w-full min-h-[40vh] flex justify-center items-center bg-gradient-to-b from-yellow-400 via-yellow-200 to-white">
           <div className=" mt-16 sm:mt-12 md:m-0">
             <h1 className=" font-sansMedium  text-center text-3xl font-bold w-full">
-              Data Science
+              Software Testing
             </h1>
             <p className="w-[70vw] text-justify pt-5 hidden sm:flex">
               data scince will be 6 month course Lorem ipsum dolor sit amet
@@ -28,8 +28,8 @@ const JavaFullStack = () => {
           <Footer />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
-export default JavaFullStack;
+export default SwTesting;

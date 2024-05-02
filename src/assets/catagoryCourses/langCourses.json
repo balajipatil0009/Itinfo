@@ -1,0 +1,22 @@
+[
+  {
+    "name": "C",
+    "path": "/courses/C"
+  },
+  {
+    "name": "C++",
+    "path": "/courses/Cpp"
+  },
+  {
+    "name": "Core Java",
+    "path": "/courses/Core_Java"
+  },
+  {
+    "name": "Python",
+    "path": "/courses/Python"
+  },
+  {
+    "name": "C#",
+    "path": "/courses/C#"
+  }
+]

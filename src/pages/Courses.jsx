@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "../componunts/Navbar";
-import JobRoles from "../assets/JobCourses.json";
+import JobRoles from "../assets/catagoryCourses/JobCourses.json";
 import Footer from "../componunts/Footer";
 import CoursesOpns from "../componunts/CoursesOpns";
-import LangCourses from "../assets/langCourses.json";
+import LangCourses from "../assets/catagoryCourses/langCourses.json";
 const Courses = () => {
   return (
     <>

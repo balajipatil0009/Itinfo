@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Introduction",
+    "points": [
+      "An overview",
+      "Interface",
+      "Menus and tools",
+      "Working with new document",
+      "Advanced options",
+      "Page setup",
+      "Dockers"
+    ]
+  },
+  {
+    "title": "Drawing",
+    "points": ["Lines", "Shapes", "Objects", "Tables", "Templates"]
+  },
+  {
+    "title": "Import/Export",
+    "points": ["Importing files", "Using Corel Connect", "Exporting files"]
+  },
+  {
+    "title": "Manipulation",
+    "points": [
+      "Viewing options",
+      "Pick tool",
+      "Selection",
+      "Moving",
+      "Sizing",
+      "Mirroring",
+      "Rotating",
+      "Skewing",
+      "Undo",
+      "Redo",
+      "Staking order"
+    ]
+  },
+  {
+    "title": "Text",
+    "points": ["Artistic text", "Paragraph text"]
+  },
+  {
+    "title": "Duplication & Alignment",
+    "points": [
+      "Understanding duplication",
+      "Aligning objects",
+      "Distribution",
+      "Spacing"
+    ]
+  },
+  {
+    "title": "Color",
+    "points": [
+      "Coloring objects",
+      "Uniform fill",
+      "Fountain fill",
+      "Understanding color palette",
+      "Interactive fill",
+      "Eyedropper tool",
+      "Outline",
+      "Convert to curve",
+      "Outline properties",
+      "Advanced outline options"
+    ]
+  },
+  {
+    "title": "Group, Combine, Weld, Trim, Intersect",
+    "points": []
+  }
+]

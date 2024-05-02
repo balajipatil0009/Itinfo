@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Introduction to SketchUp",
+    "points": [
+      "SketchUp for Web: requirements",
+      "SketchUp Pro: Hardware and software requirements"
+    ]
+  },
+  {
+    "title": "Interface overview",
+    "points": [
+      " how to navigate",
+      "title bar",
+      "menu bar",
+      "getting started toolbar",
+      "drawing area",
+      " status bar",
+      "measurements box",
+      "default panels",
+      "",
+      ""
+    ]
+  },
+  {
+    "title": "Panels menus and tools overview",
+    "points": [
+      "How to use SketchUp tools",
+      "Setting up tools panels",
+      "preferences Saving",
+      "reopening a model"
+    ]
+  },
+  {
+    "title": "Quickstart: Creating 3D Elements",
+    "points": [
+      "Drawing shapes",
+      "Adding volume",
+      "Moving elements",
+      "Transforming elements",
+      "Adding textures and colors",
+      "Navigation with tools keys and mouse",
+      "Orbit",
+      "zoom",
+      "pan Saving and exporting"
+    ]
+  },
+  {
+    "title": "Core Concepts 1",
+    "points": [
+      "Select elements",
+      "Modifiers keys",
+      "Working with axis",
+      "Managing units of measurement (set units and precision in the model info window)",
+      "Camera"
+    ]
+  },
+  {
+    "title": "Camera",
+    "points": [
+      "Standard views",
+      "Perspectives",
+      "Walk",
+      "Look around",
+      "Field of view",
+      "Zoom extends",
+      "Position"
+    ]
+  },
+  {
+    "title": "Creating a 3D Model (Drawing Lines, Shapes, and 3D Objects)",
+    "points": [
+      "Inference types and engine",
+      "Drawing lines",
+      "Creating and dividing faces",
+      "Working with edges",
+      "Healing deleted faces",
+      "Finding and locking an inference",
+      "Linear inferencing toggle",
+      "Locking inferences with the keyboard",
+      "Ensuring edges are aligned to axes",
+      "Model and entity info"
+    ]
+  },
+  {
+    "title": "Working with Shapes",
+    "points": [
+      "Drawing a rectangle, square, circle, ellipse, polygon, and shape",
+      "View styles for edges and faces",
+      "Editing shapes",
+      "Adjusting the drawing axes",
+      "Pushing and pulling shapes",
+      "Drawing arcs and Drawing freehand shapes",
+      "Measurement tools",
+      "Measuring angles and distances to model precisely",
+      "Dividing, splitting, and exploding lines and faces",
+      "Sticky modifiers",
+      "Flipping, mirroring, rotating, and arrays",
+      "Scaling and slicing models",
+      "Using the follow me tool",
+      "Softening, smoothing, and hiding geometry",
+      "Offsetting a line from existing geometry"
+    ]
+  },
+  {
+    "title": "Working with Solid Tools",
+    "points": [
+      "Applying colors, photos, materials, and textures",
+      "Reference images",
+      "Match Photo",
+      "Grouping",
+      "Components",
+      "Layers",
+      "Outliner: Working with Hierarchies"
+    ]
+  },
+  {
+    "title": "Working with Text",
+    "points": ["Fonts", "3D text Layers"]
+  },
+  {
+    "title": "Core Concepts 2",
+    "points": [
+      "Exporting and rendering",
+      "Cast realistic shadows",
+      "Location and times of day",
+      "View the model in Google Earth",
+      "Watermarking a model",
+      "SU Podium photorealistic rendering",
+      "Sandbox Tools",
+      "Modeling terrain",
+      "Geolocated terrain",
+      "Importing",
+      "Creating Terrain",
+      "Sculpting",
+      "Placing models and objects",
+      "Exporting"
+    ]
+  },
+  {
+    "title": "Warehouse",
+    "points": [
+      "3D warehouse",
+      "Searching for models",
+      "Category, properties, and filters",
+      "Extensions warehouse",
+      "Extensions manager"
+    ]
+  }
+]

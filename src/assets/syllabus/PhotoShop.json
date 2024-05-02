@@ -1,0 +1,89 @@
+[
+  {
+    "title": "Introduction",
+    "points": [
+      "Photoshop Interface",
+      "Raster graphics & vector graphics",
+      "Image formats",
+      "Operations on image"
+    ]
+  },
+  {
+    "title": "Manipulation of Image",
+    "points": [
+      "The marquee tool",
+      "the lasso tool",
+      "magic Wand tool",
+      "Inverting Selection",
+      "Layers",
+      "Brush tool",
+      "Eraser tool",
+      "Fill tool",
+      "Blur tool",
+      "Smudge tool",
+      "Sharpen tool",
+      "Dodge tool",
+      "Sponge tool",
+      "Darken tool"
+    ]
+  },
+  {
+    "title": "Transformation & Retouching",
+    "points": [
+      "Free transform",
+      "Scaling",
+      "rotation",
+      "Skew",
+      "perspective",
+      "Wrap",
+      "Distort",
+      "Crop",
+      "Image size",
+      "Canvas size",
+      "Clone stamp tool",
+      "Healing brush tool",
+      "patch tool",
+      "red eye tool",
+      "history brush tool"
+    ]
+  },
+  {
+    "title": "Color Correction",
+    "points": [
+      "Color swatch",
+      "Image modes",
+      "Color adjustments",
+      "Color selection"
+    ]
+  },
+  {
+    "title": "Text",
+    "points": [
+      "The text tool",
+      "Editing text",
+      "Formatting",
+      "Line & spacing",
+      "Wrap text",
+      "Text effects"
+    ]
+  },
+  {
+    "title": "Effects",
+    "points": [
+      "Blending modes",
+      "Styles",
+      "Filters",
+      "Liquefy",
+      "Vanishing point"
+    ]
+  },
+  {
+    "title": "Drawing",
+    "points": [
+      "The pen tool",
+      "Drawing shapes",
+      "Managing paths",
+      "Converting path to selection"
+    ]
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "title": "Introduction to Python",
+    "points": [
+      "What can Python do?",
+      "Why Python?",
+      "Good to know",
+      "Python Syntax contrasted(compared) with other programming dialects or languages.",
+      "Python Install"
+    ]
+  },
+  {
+    "title": "Beginning Python Basics",
+    "points": [
+      "The print statement",
+      "Comments",
+      "Python Data Structures & Data Types",
+      "String Operations in Python",
+      "Simple Input & Output",
+      "Simple Output Formatting",
+      "Operators in python"
+    ]
+  },
+  {
+    "title": "Python Program Flow",
+    "points": [
+      "Indentation",
+      "The If statement and it's related statement",
+      "An example with if and it's related statement",
+      "The while loop",
+      "The for loop",
+      "The range statement",
+      "Break & Continue",
+      "Assert",
+      "Examples for looping"
+    ]
+  },
+  {
+    "title": "Functions & Modules ",
+    "points": [
+      "Create your own functions",
+      "Functions Parameters",
+      "Variable Arguments",
+      "Scope of a Function",
+      "Function Documentations",
+      "Lambda Functions & map",
+      "n Exercise with functions",
+      "Create a Module",
+      "Standard Modules"
+    ]
+  },
+  {
+    "title": "Exceptions Handling ",
+    "points": [
+      "Errors",
+      "Exception handling with try",
+      "handling Multiple Exceptions",
+      "Writing your own Exception"
+    ]
+  },
+  {
+    "title": " File Handling",
+    "points": [
+      "File handling Modes",
+      "Reading Files",
+      "Writing & Appending to Files",
+      "Handling File Exceptions",
+      "The with statement"
+    ]
+  },
+  {
+    "title": "Classes In Python",
+    "points": [
+      "New Style Classes",
+      "Creating Classes",
+      "Instance Methods",
+      "Inheritance",
+      "Polymorphism",
+      "Exception Classes & Custom Exceptions"
+    ]
+  },
+  {
+    "title": "Generators and iterators",
+    "points": ["Iterators", "Generators", "With Statement", "Data Compression"]
+  },
+  {
+    "title": "Data Structures ",
+    "points": [
+      "List Comprehensions",
+      "Nested List Comprehensions",
+      "Functions",
+      "Default Parameters",
+      "Variable Arguments",
+      "Specialized Sorts"
+    ]
+  },
+  {
+    "title": "Advance Python ",
+    "points": [
+      "Writing GUIs in Pytho",
+      "Python SQL Database Access",
+      "Network Programming ",
+      "Date and Time",
+      "Threads ESSENTIAL ",
+      "Some similar topics in-detailed"
+    ]
+  },
+  {
+    "title": "Writing GUIs in Python",
+    "points": [
+      "Introduction",
+      "Components and Events",
+      "The root Component",
+      "Adding a Button",
+      "Entry Widgets",
+      "Text Widgets"
+    ]
+  },
+  {
+    "title": "Python SQL Database Access ",
+    "points": [
+      "Installation",
+      "DB Connection",
+      "Creating DB Table",
+      "INSERT, READ, UPDATE, DELETE operations",
+      "COMMIT & ROLLBACK operation",
+      "handling Errors"
+    ]
+  },
+  {
+    "title": "Network Programming ",
+    "points": [
+      "Introduction",
+      "A Daytime Server",
+      "Clients and Servers",
+      "The Client Program",
+      "The Server Program"
+    ]
+  },
+  {
+    "title": "Date and Time",
+    "points": ["sleep", "Program execution time", "more methods on date/time"]
+  },
+  {
+    "title": " Some similar topics in-detailed",
+    "points": [
+      "Filter",
+      "Map",
+      "Reduce",
+      "Decorators",
+      "Frozen set",
+      "Collections"
+    ]
+  },
+  {
+    "title": "Regular expression ",
+    "points": [
+      "Split",
+      "Working with special characters, dates, emails",
+      "Quantifiers",
+      "Match and find all",
+      "character sequence and substitute",
+      "Search method"
+    ]
+  },
+  {
+    "title": "Threads ESSENTIAL",
+    "points": [
+      "Class and threads",
+      "Multi-threading",
+      "Synchronization",
+      "Treads Life cycle",
+      "use cases"
+    ]
+  },
+  {
+    "title": "Some More Topics",
+    "points": ["Multithreading", "Python JSON", "Python Excel"]
+  }
+]

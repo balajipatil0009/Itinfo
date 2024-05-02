@@ -6,10 +6,12 @@ import Courses from "./pages/Courses.jsx";
 import About from "./pages/About.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import DataSci from "./pages/DataSci.jsx";
-import SwTesting from "./pages/SwTesting.jsx";
-import SwTesting2 from "./pages/SwTesting2.jsx";
-import JavaFullStack from "./pages/JavaFullStack.jsx";
+import DataSci from "./pages/syllabus/DataSci.jsx";
+import SwTesting from "./pages/syllabus/SwTesting.jsx";
+import SwTesting2 from "./pages/syllabus/SwTesting2.jsx";
+import JavaFullStack from "./pages/syllabus/JavaFullStack.jsx";
+import Csyl from "./pages/syllabus/Csyl.jsx";
+import Python from "./pages/syllabus/Python.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -35,6 +37,14 @@ const routes = createBrowserRouter([
   {
     path: "/courses/javaFullStack",
     element: <JavaFullStack />,
+  },
+  {
+    path: "/courses/C",
+    element: <Csyl />,
+  },
+  {
+    path: "/courses/Python",
+    element: <Python />,
   },
 ]);
 

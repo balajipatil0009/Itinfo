@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../componunts/Navbar";
-import Footer from "../componunts/Footer";
-import data from "../assets/syllabus/DataSci.json";
-import SyllCards from "../componunts/SyllCards";
+import Navbar from "../../componunts/Navbar";
+import Footer from "../../componunts/Footer";
+import data from "../../assets/syllabus/DataSci.json";
+import SyllCards from "../../componunts/SyllCards";
 
-const DataSci = () => {
+const SketchUp = () => {
   return (
     <>
       <div className="w-[100vw] h-auto">
@@ -33,4 +33,4 @@ const DataSci = () => {
   );
 };
 
-export default DataSci;
+export default SketchUp;

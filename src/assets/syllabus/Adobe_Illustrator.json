@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Workspace",
+    "points": [
+      "Workspace basics",
+      "Customizing the workspace",
+      "Artboard overview",
+      "Files and templates",
+      "Recovery, undo, and automation",
+      "Rulers, grids and guides",
+      "Using multiple artboards",
+      "Viewing artwork"
+    ]
+  },
+
+  {
+    "title": "Drawing",
+    "points": [
+      "Drawing basics",
+      "Drawing simple lines and shapes",
+      "Drawing with the Pen, Pencil, or Flare tool",
+      "Editing paths",
+      "Adjust path segments",
+      "Using Live Trace",
+      "About Perspective Grid",
+      "Perspective drawing",
+      "Symbolism tools and symbol sets",
+      "Symbols"
+    ]
+  },
+  {
+    "title": "Color",
+    "points": [
+      "About color",
+      "Selecting colors",
+      "Using and creating swatches",
+      "Create color themes with Kuler",
+      "Adjusting colors"
+    ]
+  },
+  {
+    "title": "Painting",
+    "points": [
+      "About painting",
+      "Painting with fills and strokes",
+      "Live Paint groups",
+      "Brushes",
+      "Transparency and blending modes",
+      "Gradients",
+      "Gradient panel and Gradient tool overview",
+      "Apply or edit a gradient",
+      "Stroke an object",
+      "Meshes",
+      "Patterns"
+    ]
+  },
+  {
+    "title": "Selecting and arranging objects",
+    "points": [
+      "Selecting objects",
+      "Grouping and expanding objects",
+      "Moving, aligning, and distributing objects",
+      "Rotating and reflecting objects",
+      "Layers",
+      "Locking, hiding, and deleting objects",
+      "Duplicating objects",
+      "Stacking objects"
+    ]
+  },
+  {
+    "title": "Reshaping objects",
+    "points": [
+      "Transforming objects",
+      "Scaling, shearing, and distorting objects",
+      "Reshape using envelopes",
+      "Combining objects",
+      "Cutting and dividing objects",
+      "Clipping masks",
+      "Creating shapes using Shape BuilderTool",
+      "Blending objects",
+      "Building new shapes using the Shape Builder tool",
+      "Creating 3D objects",
+      "Reshaping objects with effects"
+    ]
+  },
+  {
+    "title": "Type",
+    "points": [
+      "Importing and exporting text",
+      "Creating text",
+      "Creating type on a path",
+      "Scaling and rotating type",
+      "Fonts",
+      "Character and paragraph styles",
+      "Formatting paragraphs",
+      "Formatting type",
+      "Hyphenation and line breaks",
+      "Line and character spacing",
+      "Special characters"
+    ]
+  },
+  {
+    "title": "Creating special effects",
+    "points": [
+      "Appearance attributes",
+      "Working with effects",
+      "Summary of effects",
+      "Create a drop shadow",
+      "Drop shadows, glows, and feathering",
+      "Graphic styles"
+    ]
+  },
+  {
+    "title": "Importing, exporting, and saving",
+    "points": [
+      "Adobe PDF options",
+      "Creating Adobe PDF files",
+      "Exporting artwork",
+      "File information and metadata",
+      "Importing Adobe PDF files",
+      "Importing artwork files",
+      "Importing artwork from Photoshop",
+      "Importing bitmap images",
+      "Saving artwork"
+    ]
+  }
+]

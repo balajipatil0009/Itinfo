@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../componunts/Navbar";
-import Footer from "../componunts/Footer";
-import "../App.css";
+import Navbar from "../../componunts/Navbar";
+import Footer from "../../componunts/Footer";
+import "../../App.css";
 
 const SwTesting2 = () => {
   return (
