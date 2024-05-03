@@ -4,6 +4,7 @@ import JobRoles from "../assets/catagoryCourses/JobCourses.json";
 import Footer from "../componunts/Footer";
 import CoursesOpns from "../componunts/CoursesOpns";
 import LangCourses from "../assets/catagoryCourses/langCourses.json";
+import Graphic from "../assets/catagoryCourses/graphic.json";
 const Courses = () => {
   return (
     <>
@@ -37,7 +38,7 @@ const Courses = () => {
       </div>
       <div className="mb-7">
         <div className="w-[99vw] flex justify-center static pt-4">
-          <CoursesOpns data={JobRoles} />
+          <CoursesOpns data={Graphic} />
         </div>
       </div>
       <Footer />

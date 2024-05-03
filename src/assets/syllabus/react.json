@@ -1,0 +1,153 @@
+[
+  {
+    "title": "Introduction to React",
+    "points": [
+      "What is React?",
+      "Understanding the Virtual DOM",
+      "Benefits of using React (component-based architecture, reusable components, efficient updates)",
+      "Setting up the development environment (Node.js, npm/yarn, Create React App)"
+    ]
+  },
+  {
+    "title": "JSX and Components",
+    "points": [
+      "Understanding JSX syntax",
+      "Creating functional components",
+      "Props and state management",
+      "Rendering lists and conditional content",
+      "Component lifecycle methods",
+      "Handling events"
+    ]
+  },
+  {
+    "title": "React Hooks",
+    "points": [
+      "Introduction to React Hooks",
+      "useState hook (managing state)",
+      "useEffect hook (side effects, lifecycle methods)",
+      "useContext hook (consuming context)",
+      "Other built-in hooks (useRef, useMemo, useCallback)",
+      "Creating custom hooks"
+    ]
+  },
+  {
+    "title": "React Router",
+    "points": [
+      "Setting up React Router",
+      "Defining routes and components",
+      "Navigating between components (Link, NavLink)",
+      "Nested routes",
+      "Passing data through URL parameters",
+      "Programmatic navigation"
+    ]
+  },
+  {
+    "title": "React Context API",
+    "points": [
+      "Understanding the Context API",
+      "Creating and consuming context",
+      "Multiple contexts",
+      "Context vs. Redux"
+    ]
+  },
+  {
+    "title": "React Forms",
+    "points": [
+      "Controlled and uncontrolled components",
+      "Form validation",
+      "Working with third-party libraries (e.g., Formik, React Hook Form)",
+      "Handling form submissions"
+    ]
+  },
+  {
+    "title": "React Redux",
+    "points": [
+      "Introduction to Redux",
+      "Creating actions and reducers",
+      "Setting up the Redux store",
+      "Connecting React with Redux (react-redux library)",
+      "Using Redux middleware (e.g., thunk, saga)",
+      "Handling asynchronous actions"
+    ]
+  },
+  {
+    "title": "React Testing",
+    "points": [
+      "Introduction to testing in React",
+      "Unit testing with Jest and Enzyme/React Testing Library",
+      "Testing components, hooks, and Redux",
+      "Snapshot testing",
+      "End-to-end testing with Cypress or Selenium"
+    ]
+  },
+  {
+    "title": "Styling in React",
+    "points": [
+      "CSS Modules",
+      "Styled Components",
+      "CSS-in-JS libraries (e.g., Emotion, Radium)",
+      "Theming and global styles"
+    ]
+  },
+  {
+    "title": "React Performance Optimization",
+    "points": [
+      "Code splitting and lazy loading",
+      "Memoization and React.memo",
+      "useMemo and useCallback hooks",
+      "React.Profiler and performance analysis",
+      "Performance optimization techniques (virtualization, windowing)"
+    ]
+  },
+  {
+    "title": "Server-side Rendering (SSR) with React",
+    "points": [
+      "Introduction to SSR",
+      "Setting up SSR with React",
+      "Benefits and drawbacks of SSR",
+      "Handling hydration and client-side rendering"
+    ]
+  },
+  {
+    "title": "React Native",
+    "points": [
+      "Introduction to React Native",
+      "Building mobile apps with React Native",
+      "Navigating between screens",
+      "Handling platform-specific code",
+      "Deploying React Native apps"
+    ]
+  },
+  {
+    "title": "Advanced React Concepts",
+    "points": [
+      "Render props",
+      "Higher-Order Components (HOCs)",
+      "React Hooks and advanced patterns (useReducer, useImperativeHandle, useLayoutEffect)",
+      "React Portals",
+      "React Suspense and React.lazy",
+      "Error boundaries"
+    ]
+  },
+  {
+    "title": "React Ecosystem",
+    "points": [
+      "TypeScript with React",
+      "State management libraries (MobX, Recoil)",
+      "React Router advanced concepts",
+      "Server-side rendering with Next.js or Gatsby",
+      "Static site generation with Gatsby",
+      "React and GraphQL"
+    ]
+  },
+  {
+    "title": "Project: Building a Full-Stack React Application",
+    "points": [
+      "Integrating React with a backend API (REST or GraphQL)",
+      "Authentication and authorization",
+      "Handling API calls and state management",
+      "Deployment and hosting (Netlify, Vercel, AWS, etc.)",
+      "Performance optimization and testing"
+    ]
+  }
+]

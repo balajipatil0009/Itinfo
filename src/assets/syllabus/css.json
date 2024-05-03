@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Introduction to CSS (Cascading Style Sheets)",
+    "points": [
+      "What is CSS?",
+      "CSS syntax and selectors",
+      "Inline, internal, and external CSS",
+      "Styling text, colors, and backgrounds"
+    ]
+  },
+  {
+    "title": "CSS Selectors",
+    "points": [
+      "Element selectors",
+      "Class and ID selectors",
+      "Universal and attribute selectors",
+      "Descendant and child selectors",
+      "Pseudo-classes and pseudo-elements"
+    ]
+  },
+  {
+    "title": "CSS Box Model",
+    "points": [
+      "Understanding the box model",
+      "Margins, padding, and borders",
+      "Box-sizing property"
+    ]
+  },
+  {
+    "title": "CSS Layout",
+    "points": [
+      "Display property (block, inline, inline-block)",
+      "Positioning (static, relative, absolute, fixed, sticky)",
+      "Floats and clearing",
+      "Flexbox layout",
+      "CSS Grid layout"
+    ]
+  },
+  {
+    "title": "CSS Typography",
+    "points": [
+      "Font properties (family, size, weight, style)",
+      "Text properties (color, alignment, decoration, spacing)",
+      "Web safe fonts and web font services",
+      "Google Fonts and Font Awesome"
+    ]
+  },
+  {
+    "title": "CSS Backgrounds",
+    "points": [
+      "Background colors and images",
+      "Background positioning and repetition",
+      "Background gradients",
+      "Multiple backgrounds"
+    ]
+  },
+  {
+    "title": "CSS Transitions and Animations",
+    "points": [
+      "Introduction to CSS transitions",
+      "Transition properties",
+      "Introduction to CSS animations",
+      "Keyframe animations"
+    ]
+  },
+  {
+    "title": "CSS Transformations",
+    "points": [
+      "2D transformations (translate, rotate, scale, skew)",
+      "3D transformations",
+      "Transformation origin"
+    ]
+  },
+  {
+    "title": "CSS Responsive Design",
+    "points": [
+      "Media queries",
+      "Viewport meta tag",
+      "Responsive layouts (fluid, adaptive, and responsive design)",
+      "Mobile-first approach"
+    ]
+  },
+  {
+    "title": "CSS Frameworks and Libraries",
+    "points": [
+      "Introduction to CSS frameworks and libraries",
+      "Bootstrap",
+      "Foundation",
+      "Materialize",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "title": "CSS Preprocessors",
+    "points": [
+      "Introduction to CSS preprocessors",
+      "Sass (Syntactically Awesome Style Sheets)",
+      "Less",
+      "Variables, mixins, and nesting",
+      "Compiling CSS preprocessor code"
+    ]
+  },
+  {
+    "title": "CSS Best Practices and Techniques",
+    "points": [
+      "CSS code organization and naming conventions",
+      "CSS resets and normalization",
+      "Vendor prefixes",
+      "CSS linters and formatting tools",
+      "CSS performance optimization"
+    ]
+  }
+]

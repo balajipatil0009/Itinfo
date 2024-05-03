@@ -1,0 +1,189 @@
+[
+  {
+    "title": "Introduction to Programming and C#",
+    "points": [
+      "What is programming?",
+      "Importance of programming",
+      "History and evolution of C#",
+      "Features of C#",
+      "Applications of C#"
+    ]
+  },
+  {
+    "title": "Setting up the Development Environment",
+    "points": [
+      "Installing Visual Studio",
+      "Introduction to the Visual Studio IDE",
+      "Creating a new project",
+      "Writing and executing the first C# program"
+    ]
+  },
+  {
+    "title": "C# Basics",
+    "points": [
+      "Structure of a C# program",
+      "Comments and indentation",
+      "Naming conventions",
+      "Keywords and reserved words"
+    ]
+  },
+  {
+    "title": "Data Types",
+    "points": [
+      "Variables",
+      "Primitive data types (int, float, double, char, bool)",
+      "Type casting",
+      "Literals",
+      "Nullable types"
+    ]
+  },
+  {
+    "title": "Operators",
+    "points": [
+      "Arithmetic operators",
+      "Assignment operators",
+      "Relational operators",
+      "Logical operators",
+      "Bitwise operators",
+      "Conditional operators",
+      "Operator precedence and associativity"
+    ]
+  },
+  {
+    "title": "Control Structures",
+    "points": [
+      "Conditional statements (if, if-else, nested if-else, switch-case)",
+      "Loops (for, while, do-while, foreach)",
+      "Break and continue statements",
+      "Nested loops"
+    ]
+  },
+  {
+    "title": "Arrays",
+    "points": [
+      "Introduction to arrays",
+      "One-dimensional arrays",
+      "Multi-dimensional arrays",
+      "Array operations (traversal, searching, sorting)",
+      "Array class"
+    ]
+  },
+  {
+    "title": "Object-Oriented Programming (OOP)",
+    "points": [
+      "Introduction to OOP",
+      "Classes and objects",
+      "Constructors and destructors",
+      "Access modifiers (public, private, protected, internal)",
+      "Encapsulation",
+      "Inheritance (single, multiple, and hierarchical)",
+      "Polymorphism (method overloading and method overriding)",
+      "Abstraction and interfaces",
+      "Abstract classes"
+    ]
+  },
+  {
+    "title": "Strings",
+    "points": [
+      "Introduction to strings",
+      "String class and its methods",
+      "String operations (concatenation, comparison, manipulation)",
+      "StringBuilder class"
+    ]
+  },
+  {
+    "title": "Exception Handling",
+    "points": [
+      "Introduction to exceptions",
+      "Try-catch blocks",
+      "Throwing and catching exceptions",
+      "Built-in exceptions",
+      "Creating custom exceptions",
+      "Finally block"
+    ]
+  },
+  {
+    "title": "File Handling",
+    "points": [
+      "Introduction to file operations",
+      "File and Directory classes",
+      "Reading from and writing to files",
+      "File streams (FileStream, StreamReader, StreamWriter)",
+      "Error handling in file operations"
+    ]
+  },
+  {
+    "title": "Collections",
+    "points": [
+      "Introduction to collections",
+      "List (List<T>)",
+      "Dictionary (Dictionary<TKey, TValue>)",
+      "Set (HashSet<T>, SortedSet<T>)",
+      "Queue (Queue<T>)",
+      "Stack (Stack<T>)",
+      "Iterators and foreach loop"
+    ]
+  },
+  {
+    "title": "Generics",
+    "points": [
+      "Introduction to generics",
+      "Generic classes",
+      "Generic methods",
+      "Type parameters and type arguments",
+      "Constraints"
+    ]
+  },
+  {
+    "title": "Multithreading",
+    "points": [
+      "Introduction to multithreading",
+      "Creating and starting threads",
+      "Thread lifecycle",
+      "Thread synchronization",
+      "Deadlocks",
+      "Thread pools"
+    ]
+  },
+  {
+    "title": "Delegates and Events",
+    "points": [
+      "Introduction to delegates",
+      "Defining and using delegates",
+      "Multicast delegates",
+      "Introduction to events",
+      "Raising and handling events"
+    ]
+  },
+  {
+    "title": "LINQ (Language Integrated Query)",
+    "points": [
+      "Introduction to LINQ",
+      "LINQ to Objects",
+      "LINQ to SQL",
+      "LINQ to XML",
+      "LINQ expressions and query syntax"
+    ]
+  },
+  {
+    "title": "Windows Forms (GUI Programming)",
+    "points": [
+      "Introduction to Windows Forms",
+      "Creating a Windows Forms application",
+      "Form controls (Button, Label, TextBox, etc.)",
+      "Event handling",
+      "Layout management"
+    ]
+  },
+  {
+    "title": "Advanced Topics",
+    "points": [
+      "Reflection",
+      "Attributes",
+      "Asynchronous programming (async and await)",
+      "LINQ to Entities (Entity Framework)",
+      "Windows Presentation Foundation (WPF)",
+      "ASP.NET (Web development)"
+    ]
+  }
+]

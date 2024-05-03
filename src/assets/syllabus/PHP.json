@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Introduction to PHP",
+    "points": [
+      "What is PHP?",
+      "Benefits of using PHP",
+      "Setting up a PHP development environment",
+      "Writing your first PHP script"
+    ]
+  },
+  {
+    "title": "PHP Syntax and Data Types",
+    "points": [
+      "PHP syntax basics",
+      "Variables and data types",
+      "Operators and expressions",
+      "Control structures (if, else, switch, loops)"
+    ]
+  },
+  {
+    "title": "PHP Functions",
+    "points": [
+      "Understanding functions in PHP",
+      "Defining and calling functions",
+      "Function parameters and arguments",
+      "Variable scope and global variables"
+    ]
+  },
+  {
+    "title": "Arrays and Strings",
+    "points": [
+      "Working with arrays in PHP",
+      "Array functions and operations",
+      "String manipulation and regular expressions"
+    ]
+  },
+  {
+    "title": "PHP and Web Development",
+    "points": [
+      "Understanding web servers and clients",
+      "HTTP request and response handling",
+      "Working with forms and user input",
+      "URL parameters and query strings"
+    ]
+  },
+  {
+    "title": "PHP and Databases",
+    "points": [
+      "Introduction to databases",
+      "Connecting to a database with PHP",
+      "Querying databases with SQL",
+      "Database abstraction layers (e.g., PDO, mysqli)"
+    ]
+  },
+  {
+    "title": "PHP and File Handling",
+    "points": [
+      "Reading and writing files in PHP",
+      "File uploads and downloads",
+      "Working with directories and file systems"
+    ]
+  },
+  {
+    "title": "PHP Object-Oriented Programming",
+    "points": [
+      "Introduction to OOP concepts",
+      "Classes and objects in PHP",
+      "Inheritance, interfaces, and abstractions",
+      "Autoloading and namespaces"
+    ]
+  },
+  {
+    "title": "PHP Security",
+    "points": [
+      "Understanding security risks in web applications",
+      "Sanitizing and validating user input",
+      "Preventing common vulnerabilities (XSS, CSRF, SQL Injection)",
+      "Secure password handling and authentication"
+    ]
+  },
+  {
+    "title": "PHP Frameworks",
+    "points": [
+      "Introduction to PHP frameworks",
+      "Popular frameworks (Laravel, Symfony, CodeIgniter)",
+      "Routing and controllers",
+      "Models, Views, and Templates (MVC pattern)"
+    ]
+  },
+  {
+    "title": "PHP and Web Services",
+    "points": [
+      "Understanding web services and APIs",
+      "Building RESTful APIs with PHP",
+      "Consuming external APIs",
+      "JSON and XML data formats"
+    ]
+  },
+  {
+    "title": "PHP Testing",
+    "points": [
+      "Introduction to testing in PHP",
+      "Unit testing with PHPUnit",
+      "Test-driven development (TDD)",
+      "Integration and end-to-end testing"
+    ]
+  },
+  {
+    "title": "PHP and Deployment",
+    "points": [
+      "Deploying PHP applications",
+      "Web servers and hosting environments",
+      "Caching and performance optimization",
+      "Continuous Integration and Deployment (CI/CD)"
+    ]
+  },
+  {
+    "title": "Project: Building a Full-Stack PHP Application",
+    "points": [
+      "Planning and architecting the application",
+      "Setting up the project structure",
+      "Implementing the backend with PHP",
+      "Integrating a database",
+      "Building the frontend with HTML, CSS, and JavaScript",
+      "Authentication and authorization",
+      "Deployment and hosting"
+    ]
+  }
+]

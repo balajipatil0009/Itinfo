@@ -1,0 +1,124 @@
+[
+  {
+    "title": "Introduction to JavaScript",
+    "points": [
+      "What is JavaScript?",
+      "Client-side vs. Server-side scripting",
+      "JavaScript's role in web development",
+      "Adding JavaScript to HTML"
+    ]
+  },
+  {
+    "title": "JavaScript Basics",
+    "points": [
+      "Variables and data types",
+      "Operators",
+      "Expressions and statements",
+      "Comments and coding conventions"
+    ]
+  },
+  {
+    "title": "Control Flow",
+    "points": [
+      "Conditional statements (if, else, switch)",
+      "Loops (for, while, do-while, for...in, for...of)",
+      "Break and continue statements"
+    ]
+  },
+  {
+    "title": "Functions",
+    "points": [
+      "Function declaration and expression",
+      "Parameters and arguments",
+      "Return statement",
+      "Scope and closures",
+      "Arrow functions"
+    ]
+  },
+  {
+    "title": "Arrays",
+    "points": [
+      "Creating and accessing arrays",
+      "Array methods (push, pop, shift, unshift, indexOf, etc.)",
+      "Array iteration (forEach, map, filter, reduce, etc.)",
+      "Spread and rest operators"
+    ]
+  },
+  {
+    "title": "Objects",
+    "points": [
+      "Object literals",
+      "Object properties and methods",
+      "Object constructors",
+      "Prototypes and inheritance",
+      "Classes (ES6)"
+    ]
+  },
+  {
+    "title": "DOM Manipulation",
+    "points": [
+      "The Document Object Model (DOM)",
+      "Selecting and traversing elements",
+      "Creating, modifying, and removing elements",
+      "Handling events",
+      "DOM traversal and manipulation methods"
+    ]
+  },
+  {
+    "title": "JavaScript in the Browser",
+    "points": [
+      "The Browser Object Model (BOM)",
+      "The Window object",
+      "Timers (setTimeout, setInterval)",
+      "Cookies and local storage",
+      "Debugging tools (console, debugger)"
+    ]
+  },
+  {
+    "title": "Asynchronous JavaScript",
+    "points": [
+      "Callbacks",
+      "Promises",
+      "Async/await",
+      "Handling asynchronous operations"
+    ]
+  },
+  {
+    "title": "JavaScript Libraries and Frameworks",
+    "points": [
+      "Introduction to libraries and frameworks",
+      "jQuery",
+      "React",
+      "Angular",
+      "Vue.js"
+    ]
+  },
+  {
+    "title": "JavaScript APIs",
+    "points": [
+      "Web APIs (Fetch, XMLHttpRequest, Geolocation, etc.)",
+      "Third-party APIs (Google Maps, Twitter, Facebook, etc.)",
+      "API consumption and data handling"
+    ]
+  },
+  {
+    "title": "ES6+ and Modern JavaScript",
+    "points": [
+      "ES6 features (let, const, arrow functions, template literals, etc.)",
+      "Modules and imports/exports",
+      "Destructuring",
+      "Promises and async/await",
+      "Generators and iterators"
+    ]
+  },
+  {
+    "title": "JavaScript Best Practices",
+    "points": [
+      "Code organization and modularity",
+      "Linting and code style",
+      "Testing (unit, integration, and end-to-end)",
+      "Performance optimization",
+      "Security considerations"
+    ]
+  }
+]

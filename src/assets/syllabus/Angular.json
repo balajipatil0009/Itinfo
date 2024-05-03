@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Introduction to Angular",
+    "points": [
+      "What is Angular?",
+      "Benefits of using Angular",
+      "Setting up the development environment",
+      "Creating your first Angular application"
+    ]
+  },
+  {
+    "title": "Angular Components",
+    "points": [
+      "Understanding components",
+      "Creating components",
+      "Component metadata",
+      "Component lifecycle hooks",
+      "Input and Output properties"
+    ]
+  },
+  {
+    "title": "Angular Templates",
+    "points": [
+      "Understanding Angular templates",
+      "Template syntax",
+      "Data binding (Interpolation, Property binding, Event binding, Two-way binding)",
+      "Directives",
+      "Pipes"
+    ]
+  },
+  {
+    "title": "Angular Services and Dependency Injection",
+    "points": [
+      "Understanding services in Angular",
+      "Creating and injecting services",
+      "Dependency injection",
+      "Using services for data sharing"
+    ]
+  },
+  {
+    "title": "Angular Routing",
+    "points": [
+      "Introduction to Angular routing",
+      "Setting up routes",
+      "Router links and router outlets",
+      "Child routes",
+      "Route parameters"
+    ]
+  },
+  {
+    "title": "Angular Forms",
+    "points": [
+      "Introduction to Angular forms",
+      "Template-driven forms",
+      "Reactive forms",
+      "Form validation",
+      "Working with form data"
+    ]
+  },
+  {
+    "title": "Angular HTTP and Observables",
+    "points": [
+      "Understanding Observables",
+      "Making HTTP requests with the HttpClient module",
+      "Handling responses and errors",
+      "RxJS operators"
+    ]
+  },
+  {
+    "title": "Angular Modules",
+    "points": [
+      "Understanding Angular modules",
+      "Creating and importing modules",
+      "Feature modules and lazy loading",
+      "Shared modules"
+    ]
+  },
+  {
+    "title": "Angular Testing",
+    "points": [
+      "Introduction to testing in Angular",
+      "Unit testing with Jasmine and Karma",
+      "Testing components and services",
+      "Integration testing",
+      "End-to-end testing with Protractor"
+    ]
+  },
+  {
+    "title": "Angular CLI",
+    "points": [
+      "Introduction to the Angular CLI",
+      "Creating and serving applications",
+      "Generating components, services, and modules",
+      "Building and deploying applications"
+    ]
+  },
+  {
+    "title": "Angular State Management",
+    "points": [
+      "Understanding state management in Angular",
+      "Using services for state management",
+      "Introduction to NgRx (Redux pattern)",
+      "Actions, reducers, and effects in NgRx"
+    ]
+  },
+  {
+    "title": "Angular Performance Optimization",
+    "points": [
+      "Angular change detection",
+      "Optimizing change detection",
+      "Lazy loading",
+      "Server-side rendering (Angular Universal)",
+      "Web Workers"
+    ]
+  },
+  {
+    "title": "Advanced Angular Topics",
+    "points": [
+      "Angular elements",
+      "Angular libraries and micro-frontends",
+      "Progressive Web Apps (PWAs) with Angular",
+      "Angular and GraphQL",
+      "Angular and WebSockets"
+    ]
+  },
+  {
+    "title": "Project: Building a Full-Stack Angular Application",
+    "points": [
+      "Planning and architecting the application",
+      "Setting up the project structure",
+      "Implementing the frontend with Angular",
+      "Integrating with a backend API",
+      "Authentication and authorization",
+      "State management",
+      "Deployment and hosting"
+    ]
+  }
+]

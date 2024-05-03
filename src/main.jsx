@@ -12,6 +12,11 @@ import SwTesting2 from "./pages/syllabus/SwTesting2.jsx";
 import JavaFullStack from "./pages/syllabus/JavaFullStack.jsx";
 import Csyl from "./pages/syllabus/Csyl.jsx";
 import Python from "./pages/syllabus/Python.jsx";
+import Cpp from "./pages/syllabus/Cpp.jsx";
+import Adobe_InDesign from "./pages/syllabus/Adobe_InDesign.jsx";
+import Adobe_Illustrator from "./pages/syllabus/Adobe_Illustrator.jsx";
+import CorelDraw from "./pages/syllabus/CorelDraw.jsx";
+import CoreJava from "./pages/syllabus/CoreJava.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -45,6 +50,26 @@ const routes = createBrowserRouter([
   {
     path: "/courses/Python",
     element: <Python />,
+  },
+  {
+    path: "/courses/Cpp",
+    element: <Cpp />,
+  },
+  {
+    path: "/courses/Adobe_InDesign",
+    element: <Adobe_InDesign />,
+  },
+  {
+    path: "/courses/Illustrator",
+    element: <Adobe_Illustrator />,
+  },
+  {
+    path: "/courses/CorelDraw",
+    element: <CorelDraw />,
+  },
+  {
+    path: "/courses/Core_Java",
+    element: <CoreJava />,
   },
 ]);
 

@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Introduction to Web Development and HTML",
+    "points": [
+      "What is the World Wide Web?",
+      "Web browsers and web servers",
+      "Introduction to HTML",
+      "HTML versions and standards"
+    ]
+  },
+  {
+    "title": "Basic HTML Structure",
+    "points": [
+      "HTML document structure",
+      "HTML elements and tags",
+      "HTML attributes",
+      "Headings and paragraphs",
+      "Formatting text",
+      "Creating links"
+    ]
+  },
+  {
+    "title": "Images and Multimedia",
+    "points": [
+      "Adding images",
+      "Image formats (JPEG, PNG, GIF, SVG)",
+      "Image attributes",
+      "Adding audio and video",
+      "Embedding multimedia content"
+    ]
+  },
+  {
+    "title": "HTML Lists",
+    "points": [
+      "Unordered lists",
+      "Ordered lists",
+      "Nested lists",
+      "Definition lists"
+    ]
+  },
+  {
+    "title": "HTML Tables",
+    "points": [
+      "Creating tables",
+      "Table structure (rows and columns)",
+      "Table headers",
+      "Table styling and attributes"
+    ]
+  },
+  {
+    "title": "HTML Forms",
+    "points": [
+      "Introduction to forms",
+      "Form elements (input fields, textareas, checkboxes, radio buttons, dropdowns)",
+      "Form submission and handling",
+      "Form validation"
+    ]
+  },
+  {
+    "title": "HTML Semantic Elements",
+    "points": [
+      "HTML5 semantic elements (header, nav, section, article, aside, footer)",
+      "Importance of semantic markup",
+      "Accessibility and search engine optimization (SEO)"
+    ]
+  },
+  {
+    "title": "HTML Layout",
+    "points": [
+      "HTML layout techniques (div and span elements)",
+      "CSS layout (introduction to CSS)",
+      "Responsive web design"
+    ]
+  },
+  {
+    "title": "HTML Meta Tags",
+    "points": [
+      "What are meta tags?",
+      "Common meta tags (viewport, description, keywords, author, etc.)",
+      "Open Graph and Twitter Cards"
+    ]
+  },
+  {
+    "title": "HTML Entities",
+    "points": [
+      "What are HTML entities?",
+      "Common HTML entities",
+      "Using HTML entities for special characters"
+    ]
+  },
+  {
+    "title": "HTML Best Practices",
+    "points": [
+      "HTML code structure and organization",
+      "Validating HTML",
+      "Accessibility considerations",
+      "Cross-browser compatibility"
+    ]
+  },
+  {
+    "title": "Introduction to CSS (Cascading Style Sheets)",
+    "points": [
+      "What is CSS?",
+      "CSS syntax and selectors",
+      "Inline, internal, and external CSS",
+      "Styling text, colors, and backgrounds"
+    ]
+  }
+]
