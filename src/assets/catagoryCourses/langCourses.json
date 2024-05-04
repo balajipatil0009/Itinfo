@@ -18,5 +18,49 @@
   {
     "name": "C#",
     "path": "/courses/Chash"
+  },
+  {
+    "name": "HTML",
+    "path": "/courses/html"
+  },
+  {
+    "name": "CSS",
+    "path": "/courses/CSS"
+  },
+  {
+    "name": "Java Script",
+    "path": "/courses/Java Script"
+  },
+  {
+    "name": "ReactJS",
+    "path": "/courses/ReactJS"
+  },
+  {
+    "name": "NodeJS",
+    "path": "/courses/nodejs"
+  },
+  {
+    "name": "AngularJS",
+    "path": "/courses/Angular"
+  },
+  {
+    "name": "PHP",
+    "path": "/courses/PHP"
+  },
+  {
+    "name": "ASP.NET",
+    "path": "/courses/ASP"
+  },
+  {
+    "name": "SQL",
+    "path": "/courses/SQL"
+  },
+  {
+    "name": "MySQL",
+    "path": "/courses/Mysql"
+  },
+  {
+    "name": "MongoDB",
+    "path": "/courses/MongoDB"
   }
 ]

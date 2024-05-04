@@ -17,6 +17,14 @@ import Adobe_InDesign from "./pages/syllabus/Adobe_InDesign.jsx";
 import Adobe_Illustrator from "./pages/syllabus/Adobe_Illustrator.jsx";
 import CorelDraw from "./pages/syllabus/CorelDraw.jsx";
 import CoreJava from "./pages/syllabus/CoreJava.jsx";
+import Chash from "./pages/syllabus/Chash.jsx";
+import HTml from "./pages/syllabus/HTml.jsx";
+import CSS from "./pages/syllabus/CSS.jsx";
+import JavaScript from "./pages/syllabus/JavaScript.jsx";
+import React1 from "./pages/syllabus/React1.jsx";
+import Node1 from "./pages/syllabus/Node1.jsx";
+import Angular1 from "./pages/syllabus/Angular1.jsx";
+import PHP1 from "./pages/syllabus/PHP1.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -70,6 +78,38 @@ const routes = createBrowserRouter([
   {
     path: "/courses/Core_Java",
     element: <CoreJava />,
+  },
+  {
+    path: "/courses/Chash",
+    element: <Chash />,
+  },
+  {
+    path: "/courses/html",
+    element: <HTml />,
+  },
+  {
+    path: "/courses/CSS",
+    element: <CSS />,
+  },
+  {
+    path: "/courses/Java Script",
+    element: <JavaScript />,
+  },
+  {
+    path: "/courses/ReactJS",
+    element: <React1 />,
+  },
+  {
+    path: "/courses/nodejs",
+    element: <Node1 />,
+  },
+  {
+    path: "/courses/Angular",
+    element: <Angular1 />,
+  },
+  {
+    path: "/courses/PHP",
+    element: <PHP1 />,
   },
 ]);
 

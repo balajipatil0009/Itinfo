@@ -8,7 +8,7 @@ const CoursesOpns = (props) => {
         <a href={item.path}>
           <div
             key={index}
-            className="border text-center border-gray-600 p-2 rounded-md  min-w-56"
+            className="border text-center border-gray-600 p-2 rounded-md min-w-[90vw] sm:min-w-56"
           >
             <h1>{item.name}</h1>
           </div>
