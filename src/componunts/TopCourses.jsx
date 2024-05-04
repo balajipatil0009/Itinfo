@@ -8,13 +8,13 @@ const TopCourses = (props) => {
   const [visibleSclide, setVisibleSclides] = useState(4);
 
   const handleWidth = () => {
-    if (width < 983) {
+    if (width < 510) {
       console.log(width);
-      setVisibleSclides(2);
-    } else if (width < 510) {
+      setVisibleSclides(1);
+    } else if (width < 983) {
       console.log(width);
 
-      setVisibleSclides(1);
+      setVisibleSclides(2);
     } else {
       console.log(width);
 
