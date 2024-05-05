@@ -1,10 +1,22 @@
 [
   {
-    "name": "Adobe",
-    "path": "/courses/Adobe"
+    "name": "Adobe PhotoShop",
+    "path": "/courses/Adobe_PhotoShop"
   },
   {
     "name": "Adobe Illustrator",
     "path": "/courses/Illustrator"
+  },
+  {
+    "name": "Adobe InDesign",
+    "path": "/courses/Adobe_InDesign"
+  },
+  {
+    "name": "Autocad",
+    "path": "/courses/Autocad"
+  },
+  {
+    "name": "Coraldraw",
+    "path": "/courses/CoralDraw"
   }
 ]

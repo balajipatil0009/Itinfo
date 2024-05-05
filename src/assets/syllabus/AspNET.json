@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Introduction to ASP.NET",
+    "points": [
+      "History and evolution of ASP.NET",
+      ".NET Framework and .NET Core",
+      "Web application architectures (Web Forms, MVC, Web API, Blazor)",
+      "Advantages and use cases of each architecture"
+    ]
+  },
+  {
+    "title": "C# Programming Language",
+    "points": [
+      "Introduction to C# and its features",
+      "Data types, variables, and expressions",
+      "Control statements (if-else, loops, switch)",
+      "Methods and parameter passing",
+      "Classes, objects, and inheritance",
+      "Interfaces and abstract classes",
+      "Exceptions and error handling",
+      "Collections and generics",
+      "LINQ and lambda expressions",
+      "Asynchronous programming (async/await)",
+      "File I/O and streams"
+    ]
+  },
+  {
+    "title": "ASP.NET Web Forms",
+    "points": [
+      "Web Forms fundamentals (Page lifecycle, Events, Server controls)",
+      "Server controls (Button, TextBox, DropDownList, GridView, etc.)",
+      "Event handling and code-behind",
+      "State management (ViewState, Session, Application, Cookies)",
+      "Data binding and data controls (GridView, DetailsView, FormView)",
+      "Master Pages and Themes",
+      "User controls and custom controls",
+      "Navigation and site maps",
+      "Web Parts and Web User Controls"
+    ]
+  },
+  {
+    "title": "ASP.NET MVC",
+    "points": [
+      "MVC pattern and its components (Model, View, Controller)",
+      "Routing and URL handling",
+      "Views, Layouts, and Partial Views",
+      "Model binding and validation",
+      "Action filters and result filters",
+      "Areas and modularization",
+      "Entity Framework for data access",
+      "Authentication and authorization",
+      "Dependency injection and Inversion of Control (IoC)"
+    ]
+  },
+  {
+    "title": "ASP.NET Web API",
+    "points": [
+      "Introduction to REST and HTTP",
+      "Creating Web API controllers",
+      "Routing and HTTP methods",
+      "Data transfer formats (JSON, XML)",
+      "Content negotiation",
+      "Model binding and validation",
+      "Authentication and authorization",
+      "Asynchronous programming in Web API",
+      "CORS and cross-origin requests"
+    ]
+  },
+  {
+    "title": "Front-end Development",
+    "points": [
+      "HTML, CSS, and JavaScript fundamentals",
+      "Responsive web design and media queries",
+      "Bootstrap or other CSS frameworks",
+      "Client-side scripting and AJAX",
+      "JavaScript libraries and frameworks (jQuery, React, Angular)",
+      "Single Page Applications (SPA)"
+    ]
+  },
+  {
+    "title": "Databases and Data Access",
+    "points": [
+      "Introduction to relational databases (SQL Server, MySQL, PostgreSQL)",
+      "Database design and normalization",
+      "SQL queries (SELECT, INSERT, UPDATE, DELETE)",
+      "Stored procedures and triggers",
+      "Entity Framework Core",
+      "Code-first and Database-first approaches",
+      "LINQ to SQL",
+      "Transactions and concurrency"
+    ]
+  },
+  {
+    "title": "Security",
+    "points": [
+      "Authentication and authorization techniques",
+      "ASP.NET Identity and Role-based security",
+      "Hashing and salting passwords",
+      "Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF)",
+      "Encryption and data protection",
+      "HTTPS and SSL/TLS"
+    ]
+  },
+  {
+    "title": "Deployment and Hosting",
+    "points": [
+      "IIS (Internet Information Services) configuration",
+      "Azure App Service and cloud deployment",
+      "Continuous integration and deployment (CI/CD)",
+      "Load balancing and scaling",
+      "Monitoring and logging"
+    ]
+  },
+  {
+    "title": "Advanced Topics",
+    "points": [
+      "Caching and performance optimization",
+      "Logging and error handling",
+      "Unit testing and integration testing",
+      "Dependency injection and Inversion of Control (IoC) containers",
+      "Microservices and API Gateway",
+      "Blazor (Client-side and Server-side)",
+      "SignalR and real-time communication",
+      "Web Sockets and Server-Sent Events"
+    ]
+  },
+  {
+    "title": "Projects and Assignments",
+    "points": [
+      "Hands-on projects and assignments to reinforce concepts",
+      "Building a simple web application using Web Forms",
+      "Building a web application using MVC",
+      "Building a RESTful API using Web API",
+      "Building a Single Page Application (SPA) with a modern JavaScript framework",
+      "Deploying applications to a hosting environment"
+    ]
+  }
+]

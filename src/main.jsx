@@ -25,6 +25,17 @@ import React1 from "./pages/syllabus/React1.jsx";
 import Node1 from "./pages/syllabus/Node1.jsx";
 import Angular1 from "./pages/syllabus/Angular1.jsx";
 import PHP1 from "./pages/syllabus/PHP1.jsx";
+import MongoDB from "./pages/syllabus/MongoDB.jsx";
+import MySQL from "./pages/syllabus/MySQL.jsx";
+import SQL from "./pages/syllabus/SQL.jsx";
+import ASPNET from "./pages/syllabus/ASPNET.jsx";
+import Ehical from "./pages/syllabus/Ehical.jsx";
+import Cyber from "./pages/syllabus/Cyber.jsx";
+import MERNFull from "./pages/syllabus/MERNFull.jsx";
+import Flutter from "./pages/syllabus/Flutter.jsx";
+import HWandNetworking from "./pages/syllabus/HWandNetworking.jsx";
+import PhotoShop from "./pages/syllabus/PhotoShop.jsx";
+import Autocat from "./pages/syllabus/Autocat.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -110,6 +121,62 @@ const routes = createBrowserRouter([
   {
     path: "/courses/PHP",
     element: <PHP1 />,
+  },
+  {
+    path: "/courses/MongoDB",
+    element: <MongoDB />,
+  },
+  {
+    path: "/courses/Mysql",
+    element: <MySQL />,
+  },
+  {
+    path: "/courses/SQL",
+    element: <SQL />,
+  },
+  {
+    path: "/courses/ASP",
+    element: <ASPNET />,
+  },
+  {
+    path: "/courses/Ethical_Hacking",
+    element: <Ehical />,
+  },
+  {
+    path: "/courses/Cyber Security",
+    element: <Cyber />,
+  },
+  {
+    path: "/courses/MERN full stack web dev",
+    element: <MERNFull />,
+  },
+  {
+    path: "/courses/Flutter DEV",
+    element: <Flutter />,
+  },
+  {
+    path: "/courses/Hardware and Networking",
+    element: <HWandNetworking />,
+  },
+  {
+    path: "/courses/Illustrator",
+    element: <Adobe_Illustrator />,
+  },
+  {
+    path: "/courses/Adobe_PhotoShop",
+    element: <PhotoShop />,
+  },
+  {
+    path: "/courses/Adobe_InDesign",
+    element: <Adobe_InDesign />,
+  },
+  {
+    path: "/courses/Autocad",
+    element: <Autocat />,
+  },
+  {
+    path: "/courses/CoralDraw",
+    element: <CorelDraw />,
   },
 ]);
 

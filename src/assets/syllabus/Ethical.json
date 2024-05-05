@@ -1,0 +1,209 @@
+[
+  {
+    "title": "Introduction to Ethical Hacking",
+    "points": [
+      "Ethical Hacking",
+      "Information Assurance (IA)",
+      "Risk Management",
+      "Incident Management",
+      "PCI DSS",
+      "HIPPA",
+      "SOC",
+      "GDPR",
+      "Domain in Cyber Security",
+      "Ethical Hacking Stages",
+      "Linux",
+      "Kali Lab Installation"
+    ]
+  },
+  {
+    "title": "Foot Printing and Reconnaissance",
+    "points": [
+      "Footprinting Concepts",
+      "Footprinting through Search Engines",
+      "Footprinting through Web Services",
+      "Footprinting through Social Networking Sites",
+      "Website Footprinting",
+      "Email Footprinting",
+      "Whois Footprinting",
+      "DNS Footprinting",
+      "Network Footprinting",
+      "Footprinting through Social Engineering",
+      "Footprinting Tools",
+      "Footprinting Countermeasures"
+    ]
+  },
+  {
+    "title": "Scanning Networks",
+    "points": [
+      "Network Scanning Concepts",
+      "Scanning Tools",
+      "Host Discovery",
+      "Port and Service Discovery",
+      "OS Discovery (Banner Grabbing/OS Fingerprinting)",
+      "Scanning Beyond IDS and Firewall",
+      "Network Scanning Countermeasures"
+    ]
+  },
+  {
+    "title": "Enumeration",
+    "points": [
+      "Enumeration Concepts",
+      "NetBIOS Enumeration",
+      "SNMP Enumeration",
+      "LDAP Enumeration",
+      "NTP and NFS Enumeration",
+      "SMTP and DNS Enumeration",
+      "Other Enumeration Technique",
+      "Enumeration Countermeasures"
+    ]
+  },
+  {
+    "title": "Vulnerability Analysis",
+    "points": [
+      "Vulnerability Assessment Concepts",
+      "Vulnerability Classification and Assessment Types",
+      "Vulnerability Assessment Tools"
+    ]
+  },
+  {
+    "title": "System Hacking",
+    "points": [
+      "Gaining Access",
+      "Escalating Privileges",
+      "Maintaining Access",
+      "Clearing Logs"
+    ]
+  },
+  {
+    "title": "Malware Threats",
+    "points": [
+      "Malware, Components of Malware",
+      "APT",
+      "Trojan",
+      "9 Types of Trojans",
+      "Exploit Kits",
+      "Virus",
+      "Virus Lifecycle",
+      "Types of Viruses Ransomware",
+      "Computer Worms",
+      "Fileless Malware",
+      "Malware Analysis"
+    ]
+  },
+  {
+    "title": "Sniffing",
+    "points": [
+      "Sniffing Concepts",
+      "Sniffing Technique: MAC Attacks",
+      "Sniffing Technique: DHCP Attacks",
+      "Sniffing Technique: ARP Poisoning",
+      "Sniffing Technique: Spoofing Attacks"
+    ]
+  },
+  {
+    "title": "Social Engineering",
+    "points": [
+      "Social Engineering Concepts",
+      "Social Engineering Techniques",
+      "Insider Threats",
+      "Impersonation on Social Networking Sites",
+      "Identity Theft",
+      "Social Engineering Countermeasures"
+    ]
+  },
+  {
+    "title": "Denial-of-Service",
+    "points": [
+      "DoS/DDoS Concepts",
+      "Botnets",
+      "DoS/DDoS Attack Techniques",
+      "DDOS Case Study",
+      "DoS/DDoS Attack Countermeasures"
+    ]
+  },
+  {
+    "title": "Session Hijacking",
+    "points": [
+      "Session Hijacking Concepts",
+      "Application-Level Session Hijacking",
+      "Network-Level Session Hijacking",
+      "Session Hijacking Tools",
+      "Session Hijacking Countermeasures"
+    ]
+  },
+  {
+    "title": "Evading IDS, Firewalls, and Honeypots",
+    "points": [
+      "IDS, IPS, Firewall, and Honeypot Concepts",
+      "IDS, IPS, Firewall, and Honeypot Solutions",
+      "Evading IDS",
+      "Evading Firewalls",
+      "Evading NAC and Endpoint Security",
+      "IDS/Firewall Evading Tools",
+      "Detecting Honeypots",
+      "IDS/Firewall Evasion Countermeasures"
+    ]
+  },
+  {
+    "title": "Hacking Web Servers",
+    "points": [
+      "Web Server Concepts",
+      "Web Server Attacks",
+      "Web Server Attack Methodology",
+      "Web Server Attack Countermeasures"
+    ]
+  },
+  {
+    "title": "Hacking Web Applications",
+    "points": [
+      "Web Application Concepts",
+      "Web Application Threats",
+      "Web Application Hacking Methodology",
+      "Web API, Webhooks, and Web Shell",
+      "Web Application Security"
+    ]
+  },
+  {
+    "title": "Sql Injection",
+    "points": [
+      "SQL Injection Concepts",
+      "Types of SQL Injection",
+      "SQL Injection Methodology",
+      "SQL Injection Tools",
+      "SQL Injection Countermeasures"
+    ]
+  },
+  {
+    "title": "Hacking Wireless Networks",
+    "points": [
+      "Wireless Concepts",
+      "Wireless Encryption",
+      "Wireless Threats",
+      "Wireless Hacking Methodology",
+      "Wireless Hacking Tools"
+    ]
+  },
+  {
+    "title": "Hacking Mobile Platforms",
+    "points": ["Mobile Platform Attack Vectors", "Hacking Android OS"]
+  },
+  {
+    "title": "Cloud Computing",
+    "points": [
+      "Cloud Computing Concepts",
+      "Container Technology",
+      "Cloud Security"
+    ]
+  },
+  {
+    "title": "Cryptography",
+    "points": [
+      "Cryptography Concepts",
+      "Encryption Algorithms",
+      "Cryptography Tools",
+      "Disk Encryption",
+      "Email Encryption"
+    ]
+  }
+]

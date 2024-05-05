@@ -1,0 +1,126 @@
+[
+  {
+    "title": "Introduction to Flutter",
+    "points": [
+      "What is Flutter?",
+      "Flutter Architecture",
+      "Flutter vs. Other Cross-Platform Frameworks",
+      "Setting up the Development Environment"
+    ]
+  },
+  {
+    "title": "Dart Programming Language",
+    "points": [
+      "Introduction to Dart",
+      "Dart Syntax and Data Types",
+      "Control Flow and Functions",
+      "Object-Oriented Programming in Dart",
+      "Asynchronous Programming in Dart",
+      "Collections and Generics"
+    ]
+  },
+  {
+    "title": "Flutter Fundamentals",
+    "points": [
+      "Flutter Project Structure",
+      "Flutter Widgets and User Interface",
+      "Stateless and Stateful Widgets",
+      "Layout and Styling",
+      "Navigation and Routing",
+      "State Management"
+    ]
+  },
+  {
+    "title": "Flutter Widgets and UI",
+    "points": [
+      "Material Design Widgets",
+      "Cupertino (iOS-styled) Widgets",
+      "Custom Widgets",
+      "Animations and Transitions",
+      "Gestures and Touch Handling",
+      "Drawing and Canvas APIs"
+    ]
+  },
+  {
+    "title": "Flutter and Dart Packages",
+    "points": [
+      "Introduction to Dart Packages",
+      "Package Management with Pub",
+      "Popular Flutter Packages",
+      "Creating and Publishing Custom Packages"
+    ]
+  },
+  {
+    "title": "Flutter and Firebase",
+    "points": [
+      "Introduction to Firebase",
+      "Firebase Authentication",
+      "Firebase Cloud Firestore",
+      "Firebase Cloud Storage",
+      "Firebase Cloud Functions"
+    ]
+  },
+  {
+    "title": "Flutter and RESTful APIs",
+    "points": [
+      "Making HTTP Requests",
+      "Working with JSON Data",
+      "API Authentication and Authorization",
+      "Handling Errors and Exceptions"
+    ]
+  },
+  {
+    "title": "Flutter and Local Data Storage",
+    "points": [
+      "Shared Preferences",
+      "SQLite Databases",
+      "File Storage and Caching"
+    ]
+  },
+  {
+    "title": "Flutter Platform Integration",
+    "points": [
+      "Interacting with Native Code",
+      "Platform Channels and Method Channels",
+      "Platform Views and Embedding Views",
+      "Platform-Specific Implementations"
+    ]
+  },
+  {
+    "title": "Testing and Debugging in Flutter",
+    "points": [
+      "Unit Testing in Flutter",
+      "Widget Testing",
+      "Integration Testing",
+      "Debugging Tools and Techniques"
+    ]
+  },
+  {
+    "title": "Deploying Flutter Apps",
+    "points": [
+      "Preparing for App Release",
+      "Building and Signing Android Apps",
+      "Building and Submitting iOS Apps",
+      "Over-the-Air (OTA) Updates"
+    ]
+  },
+  {
+    "title": "Advanced Flutter Topics",
+    "points": [
+      "Flutter Desktop and Web",
+      "Flutter and Machine Learning",
+      "Flutter and Augmented Reality (AR)",
+      "Flutter Performance Optimization"
+    ]
+  },
+  {
+    "title": "Projects and Assignments",
+    "points": [
+      "Hands-on projects and assignments to reinforce concepts",
+      "Building a Todo App",
+      "Building a Weather App",
+      "Building a Chat App",
+      "Building an E-Commerce App"
+    ]
+  }
+]

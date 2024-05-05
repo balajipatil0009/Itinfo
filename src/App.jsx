@@ -16,7 +16,7 @@ const App = () => {
         <Navbar />
         <div
           id="tagLine"
-          className=" w-[100vw] flex justify-center h-[100vh] bg-[url(/main3.jpg)] bg-cover items-center Intro"
+          className=" w-[100vw] flex justify-center h-[60vh] md:h-[80vh] md:bg-[url(/main3.jpg)] bg-cover bg-right items-center Intro"
         >
           <div>
             <div className="text-3xl w-fit font-sansMedium font-semibold">
@@ -38,7 +38,7 @@ const App = () => {
           <div className="w-1/3"></div>
         </div>
       </div>
-      <div className="bg-sky-400 h-[20vh] items-center flex justify-center">
+      <div className="bg-sky-400 hidden h-[20vh] items-center md:flex justify-center">
         <h1 className="text-3xl text-white font-sansMedium font-semibold">
           With ITINFO Learn & become the Top 1% software developer
         </h1>

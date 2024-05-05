@@ -9,19 +9,19 @@
   },
   {
     "name": "Full Stack Web Development",
-    "path": "/courses/dataSci"
+    "path": "/courses/MERN full stack web dev"
   },
   {
     "name": "Android Development",
-    "path": "/courses/dataSci"
+    "path": "/courses/Flutter DEV"
   },
   {
     "name": "Cyber Security",
-    "path": "/courses/dataSci"
+    "path": "/courses/Cyber Security"
   },
   {
     "name": "Ethicil Hacking",
-    "path": "/courses/dataSci"
+    "path": "/courses/Ethical_Hacking"
   },
   {
     "name": "Software Testing",
@@ -29,6 +29,6 @@
   },
   {
     "name": "Hardware and Networking",
-    "path": "/courses/dataSci"
+    "path": "/courses/Hardware and Networking"
   }
 ]

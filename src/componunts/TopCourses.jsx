@@ -27,9 +27,9 @@ const TopCourses = (props) => {
     handleWidth();
   }, [window.innerWidth]);
   return (
-    <div>
+    <div className="">
       <div className="h-[10vh] bg-blue-500"></div>
-      <div className="">
+      <div className="pl-12 md:p-0">
         <div>
           <CarouselProvider
             naturalSlideWidth={90}

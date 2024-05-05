@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Introduction to CorelDraw",
+    "points": [
+      "What is CorelDraw?",
+      "Exploring the CorelDraw Interface",
+      "Understanding Vector and Raster Graphics",
+      "Installing and Setting up CorelDraw"
+    ]
+  },
+  {
+    "title": "Drawing and Illustration Tools",
+    "points": [
+      "Using the Drawing Tools (Freehand, Bezier, etc.)",
+      "Working with Shapes and Objects",
+      "Manipulating Objects (Transforming, Combining, etc.)",
+      "Creating and Editing Text"
+    ]
+  },
+  {
+    "title": "Layers and Page Layout",
+    "points": [
+      "Understanding Layers",
+      "Managing and Organizing Layers",
+      "Working with Multiple Pages and Masters",
+      "Setting up Page Layout and Bleed"
+    ]
+  },
+  {
+    "title": "Color Management",
+    "points": [
+      "Color Models and Color Palettes",
+      "Working with Color Styles and Harmonies",
+      "Color Adjustment and Blending Tools",
+      "Color Management for Print and Web"
+    ]
+  },
+  {
+    "title": "Editing and Retouching Images",
+    "points": [
+      "Importing and Editing Raster Images",
+      "Using Masking and Transparency Tools",
+      "Image Adjustment and Enhancement Tools",
+      "Working with Bitmap Patterns and Textures"
+    ]
+  },
+  {
+    "title": "Working with Typography",
+    "points": [
+      "Understanding Typography Fundamentals",
+      "Working with Text Tools and Text Effects",
+      "Creating and Managing Typographic Styles",
+      "Working with OpenType and Artistic Text"
+    ]
+  },
+  {
+    "title": "Utilizing Graphic Effects",
+    "points": [
+      "Understanding CorelDraw Effects",
+      "Using Bitmaps and Vector Effects",
+      "Working with Lens Effects and Distortions",
+      "Creating 3D Objects and Extrusions"
+    ]
+  },
+  {
+    "title": "Preparing for Print and Web",
+    "points": [
+      "Understanding Print and Web Publishing",
+      "Preparing Files for Print",
+      "Optimizing Files for Web",
+      "Creating Print and Web Layouts"
+    ]
+  },
+  {
+    "title": "Automation and Customization",
+    "points": [
+      "Introduction to Macros and Scripting",
+      "Customizing the CorelDraw Interface",
+      "Using Symbols and Templates",
+      "Automating Workflows and Processes"
+    ]
+  },
+  {
+    "title": "Advanced CorelDraw Techniques",
+    "points": [
+      "Working with Curves and Complex Shapes",
+      "Creating Patterns and Brushes",
+      "Working with Symbols and Barcodes",
+      "Integrating with Other Software and Plugins"
+    ]
+  },
+  {
+    "title": "Projects and Assignments",
+    "points": [
+      "Hands-on projects and assignments to reinforce concepts",
+      "Creating a Logo and Branding Identity",
+      "Designing a Print Advertisement or Poster",
+      "Building a Web Graphics and UI Kit",
+      "Creating a Complex Illustration or Infographic"
+    ]
+  }
+]

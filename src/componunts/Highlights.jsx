@@ -14,10 +14,10 @@ const Highlights = () => {
         isPlaying
         infinite
       >
-        <Slider className=" h-[80vh]">
+        <Slider className=" h-50vh] md:h-[80vh]">
           {courses.map((item, index) => (
-            <Slide index={index} className=" h-[80vh]" key={index}>
-              <div className="h-[80vh] w-[100vw] flex justify-center">
+            <Slide index={index} className=" h-[50vh] md:h-[80vh]" key={index}>
+              <div className="h-[50vh] md:h-[80vh] w-[100vw] flex justify-center">
                 <div className=" bg-gray-100 h-full w-10/12 rounded-xl border mt-[4px] py-4 mx-2">
                   <div className="w-full h-[95%] flex justify-center">
                     <img

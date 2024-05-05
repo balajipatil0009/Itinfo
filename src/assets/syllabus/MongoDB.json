@@ -1,0 +1,90 @@
+[
+  {
+    "title": "Introduction to MongoDB",
+    "points": [
+      "What is MongoDB?",
+      "History and evolution of MongoDB",
+      "NoSQL databases and their advantages",
+      "MongoDB architecture and components"
+    ]
+  },
+  {
+    "title": "MongoDB Setup and Configuration",
+    "points": [
+      "Installing MongoDB on different operating systems",
+      "MongoDB Shell (mongo) and MongoDB Compass",
+      "Creating and managing users and roles",
+      "Configuring a MongoDB replica set"
+    ]
+  },
+  {
+    "title": "MongoDB Data Model",
+    "points": [
+      "JSON and BSON",
+      "MongoDB documents",
+      "Collections",
+      "Embedded and referenced data models"
+    ]
+  },
+  {
+    "title": "CRUD Operations",
+    "points": [
+      "Inserting documents",
+      "Querying documents",
+      "Updating documents",
+      "Deleting documents"
+    ]
+  },
+  {
+    "title": "Query Language",
+    "points": [
+      "MongoDB query syntax",
+      "Query operators ($eq, $gt, $lt, $in, $regex, etc.)",
+      "Projection and embedded fields",
+      "Sorting and limiting results"
+    ]
+  },
+  {
+    "title": "Advanced Querying",
+    "points": [
+      "Aggregation pipeline and operators ($match, $group, $unwind, etc.)",
+      "Indexing and performance optimization",
+      "Text search and geospatial queries"
+    ]
+  },
+  {
+    "title": "Data Modeling and Schema Design",
+    "points": [
+      "Embedding and referencing data",
+      "Data modeling patterns",
+      "Schema validation and governance"
+    ]
+  },
+  {
+    "title": "Administration and Deployment",
+    "points": [
+      "MongoDB Atlas and cloud deployment",
+      "Backup and restore strategies",
+      "Monitoring and performance tuning",
+      "Sharding and horizontal scaling"
+    ]
+  },
+  {
+    "title": "Integration and Development",
+    "points": [
+      "MongoDB drivers and clients",
+      "Integrating MongoDB with programming languages (Node.js, Python, Java, etc.)",
+      "MongoDB Stitch and Atlas App Services"
+    ]
+  },
+  {
+    "title": "Projects and Assignments",
+    "points": [
+      "Hands-on projects and assignments to reinforce concepts",
+      "Building a MongoDB application",
+      "Data modeling and schema design",
+      "Querying and manipulating data",
+      "Integrating MongoDB with a programming language"
+    ]
+  }
+]

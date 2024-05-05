@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Introduction to MySQL",
+    "points": [
+      "What is MySQL?",
+      "History and evolution of MySQL",
+      "MySQL architecture and components",
+      "Advantages and use cases of MySQL"
+    ]
+  },
+  {
+    "title": "MySQL Setup and Configuration",
+    "points": [
+      "Installing MySQL on different operating systems",
+      "MySQL command-line client",
+      "MySQL Workbench and other GUI tools",
+      "Creating and managing users and privileges"
+    ]
+  },
+  {
+    "title": "SQL Basics",
+    "points": [
+      "SQL syntax and structure",
+      "Creating and dropping databases",
+      "Creating and modifying tables",
+      "Data types in MySQL",
+      "Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, etc.)"
+    ]
+  },
+  {
+    "title": "Querying Data",
+    "points": [
+      "SELECT statement and its clauses",
+      "Filtering data with WHERE clause",
+      "Sorting data with ORDER BY clause",
+      "Limiting and pagination using LIMIT clause",
+      "Joining tables (INNER, LEFT, RIGHT, and FULL JOIN)"
+    ]
+  },
+  {
+    "title": "Modifying Data",
+    "points": [
+      "Inserting data with INSERT statement",
+      "Updating data with UPDATE statement",
+      "Deleting data with DELETE statement"
+    ]
+  },
+  {
+    "title": "Advanced SQL Topics",
+    "points": [
+      "Aggregate functions (COUNT, SUM, AVG, MAX, MIN)",
+      "GROUP BY and HAVING clauses",
+      "Subqueries and derived tables",
+      "Views",
+      "Stored procedures and functions"
+    ]
+  },
+  {
+    "title": "Database Design",
+    "points": [
+      "Normalization and database normalization forms",
+      "Entity-Relationship Modeling (ER Diagrams)",
+      "Indexing and performance optimization",
+      "Transactions and concurrency control"
+    ]
+  },
+  {
+    "title": "Data Manipulation and Import/Export",
+    "points": [
+      "Importing and exporting data",
+      "Backup and restore strategies",
+      "MySQL Workbench data modeling and migration",
+      "Data manipulation with Python/PHP/Node.js"
+    ]
+  },
+  {
+    "title": "Security and Administration",
+    "points": [
+      "User management and privileges",
+      "Database security best practices",
+      "MySQL server configuration and optimization",
+      "Monitoring and logging"
+    ]
+  },
+  {
+    "title": "Advanced Topics",
+    "points": [
+      "MySQL replication and high availability",
+      "Partitioning and sharding",
+      "MySQL on the cloud (AWS RDS, Azure MySQL, etc.)",
+      "NoSQL and NewSQL databases"
+    ]
+  },
+  {
+    "title": "Projects and Assignments",
+    "points": [
+      "Hands-on projects and assignments to reinforce concepts",
+      "Building a simple database for a specific domain",
+      "Querying and manipulating data",
+      "Designing and implementing a database schema",
+      "Integrating MySQL with a programming language (PHP, Python, Node.js, etc.)"
+    ]
+  }
+]

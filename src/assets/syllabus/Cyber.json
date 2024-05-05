@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Introduction to Cyber Security",
+    "points": [
+      "What is Cyber Security?",
+      "Importance of Cyber Security",
+      "Cyber Security Domains",
+      "Cyber Security Principles",
+      "Cyber Security Frameworks and Standards"
+    ]
+  },
+  {
+    "title": "Cyber Threats and Vulnerabilities",
+    "points": [
+      "Types of Cyber Threats",
+      "Threat Actors and Motivations",
+      "Vulnerability Assessment and Management",
+      "Risk Assessment and Management",
+      "Incident Response and Management"
+    ]
+  },
+  {
+    "title": "Network Security",
+    "points": [
+      "Network Security Concepts",
+      "Firewalls and Network Access Control",
+      "Virtual Private Networks (VPNs)",
+      "Wireless Security",
+      "Network Monitoring and Analysis"
+    ]
+  },
+  {
+    "title": "Application Security",
+    "points": [
+      "Web Application Security",
+      "Mobile Application Security",
+      "Secure Coding Practices",
+      "Software Security Testing",
+      "Secure Software Development Life Cycle (SDLC)"
+    ]
+  },
+  {
+    "title": "System Security",
+    "points": [
+      "Operating System Security",
+      "Hardening and Patching",
+      "Access Control and Authentication",
+      "Encryption and Data Protection",
+      "Malware and Anti-Virus Protection"
+    ]
+  },
+  {
+    "title": "Cloud Security",
+    "points": [
+      "Cloud Computing Security Concepts",
+      "Cloud Service Models (IaaS, PaaS, SaaS)",
+      "Cloud Security Controls and Best Practices",
+      "Cloud Governance and Compliance",
+      "Cloud Security Tools and Services"
+    ]
+  },
+  {
+    "title": "Cryptography and Secure Communications",
+    "points": [
+      "Cryptography Concepts and Principles",
+      "Symmetric and Asymmetric Cryptography",
+      "Key Management and Public Key Infrastructure (PKI)",
+      "Secure Communication Protocols (SSL/TLS, IPSec)",
+      "Cryptanalysis and Cryptographic Attacks"
+    ]
+  },
+  {
+    "title": "Cyber Security Policies and Compliance",
+    "points": [
+      "Information Security Policies and Standards",
+      "Regulatory Compliance (GDPR, PCI DSS, HIPAA, etc.)",
+      "Security Audits and Assessments",
+      "Security Awareness and Training",
+      "Business Continuity and Disaster Recovery Planning"
+    ]
+  },
+  {
+    "title": "Ethical Hacking and Penetration Testing",
+    "points": [
+      "Ethical Hacking Concepts and Methodology",
+      "Reconnaissance and Footprinting",
+      "Vulnerability Analysis and Exploitation",
+      "Penetration Testing Tools and Techniques",
+      "Penetration Testing Report and Remediation"
+    ]
+  },
+  {
+    "title": "Cyber Security Operations and Management",
+    "points": [
+      "Security Operations Center (SOC)",
+      "Security Information and Event Management (SIEM)",
+      "Cyber Security Metrics and Reporting",
+      "Cyber Security Governance and Risk Management",
+      "Cyber Security Career Paths and Certifications"
+    ]
+  },
+  {
+    "title": "Emerging Cyber Security Topics",
+    "points": [
+      "Internet of Things (IoT) Security",
+      "Artificial Intelligence and Machine Learning in Cyber Security",
+      "Blockchain and Cyber Security",
+      "Quantum Computing and Cyber Security",
+      "Privacy and Data Protection"
+    ]
+  }
+]

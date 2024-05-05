@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "../../componunts/Navbar";
 import Footer from "../../componunts/Footer";
-import data from "../../assets/syllabus/PhotoShop.json";
+import data from "../../assets/syllabus/Ethical.json";
 import SyllCards from "../../componunts/SyllCards";
-const PhotoShop = () => {
+
+const Ehical = () => {
   return (
     <>
       <div className="w-[100vw] h-auto">
@@ -32,4 +33,4 @@ const PhotoShop = () => {
   );
 };
 
-export default PhotoShop;
+export default Ehical;

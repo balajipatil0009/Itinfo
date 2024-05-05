@@ -1,0 +1,91 @@
+[
+  {
+    "title": "Introduction to SQL",
+    "points": [
+      "What is SQL?",
+      "History and evolution of SQL",
+      "Relational database management systems (RDBMS)",
+      "SQL standards and dialects"
+    ]
+  },
+  {
+    "title": "SQL Basics",
+    "points": [
+      "SQL syntax and structure",
+      "Creating and dropping databases",
+      "Creating and modifying tables",
+      "Data types in SQL",
+      "Constraints (PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, etc.)"
+    ]
+  },
+  {
+    "title": "Querying Data",
+    "points": [
+      "SELECT statement and its clauses",
+      "Filtering data with WHERE clause",
+      "Sorting data with ORDER BY clause",
+      "Limiting and pagination using LIMIT/OFFSET clauses",
+      "Joining tables (INNER, LEFT, RIGHT, and FULL JOIN)",
+      "Set operations (UNION, INTERSECT, EXCEPT)"
+    ]
+  },
+  {
+    "title": "Modifying Data",
+    "points": [
+      "Inserting data with INSERT statement",
+      "Updating data with UPDATE statement",
+      "Deleting data with DELETE statement",
+      "Transaction control (COMMIT, ROLLBACK)"
+    ]
+  },
+  {
+    "title": "Advanced SQL Topics",
+    "points": [
+      "Aggregate functions (COUNT, SUM, AVG, MAX, MIN)",
+      "GROUP BY and HAVING clauses",
+      "Subqueries and derived tables",
+      "Views",
+      "Stored procedures and functions",
+      "Triggers"
+    ]
+  },
+  {
+    "title": "Database Design",
+    "points": [
+      "Normalization and database normalization forms",
+      "Entity-Relationship Modeling (ER Diagrams)",
+      "Indexing and performance optimization",
+      "Transactions and concurrency control"
+    ]
+  },
+  {
+    "title": "SQL in Practice",
+    "points": [
+      "SQL in different RDBMS (MySQL, PostgreSQL, SQL Server, Oracle, etc.)",
+      "Integrating SQL with programming languages (Python, Java, C#, etc.)",
+      "SQL injection and security best practices",
+      "SQL tuning and optimization techniques"
+    ]
+  },
+  {
+    "title": "Advanced Topics",
+    "points": [
+      "Window functions",
+      "Recursive queries and hierarchical data",
+      "Temporal data and time-series analysis",
+      "Spatial data and GIS",
+      "NoSQL and NewSQL databases"
+    ]
+  },
+  {
+    "title": "Projects and Assignments",
+    "points": [
+      "Hands-on projects and assignments to reinforce concepts",
+      "Building a database for a specific domain",
+      "Querying and manipulating data",
+      "Designing and implementing a database schema",
+      "Integrating SQL with a programming language",
+      "Building data analysis and reporting tools"
+    ]
+  }
+]

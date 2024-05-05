@@ -1,0 +1,119 @@
+[
+  {
+    "title": "Introduction to Computer Hardware",
+    "points": [
+      "What is Computer Hardware?",
+      "Computer Systems and Components",
+      "Hardware Specifications and Performance Metrics",
+      "Hardware Troubleshooting and Maintenance"
+    ]
+  },
+  {
+    "title": "Motherboards and Processors",
+    "points": [
+      "Motherboard Components and Chipsets",
+      "CPU Architecture and Sockets",
+      "CPU Cooling and Overclocking",
+      "Memory Types and Configurations"
+    ]
+  },
+  {
+    "title": "Storage Devices",
+    "points": [
+      "Hard Disk Drives (HDDs)",
+      "Solid-State Drives (SSDs)",
+      "RAID Configurations",
+      "Storage Interfaces and Connectivity"
+    ]
+  },
+  {
+    "title": "Power Supplies and Cooling",
+    "points": [
+      "Power Supply Units (PSUs)",
+      "Cooling Systems (Air and Liquid)",
+      "Power Management and Energy Efficiency"
+    ]
+  },
+  {
+    "title": "Peripheral Devices",
+    "points": [
+      "Display Technologies and Connections",
+      "Input Devices (Keyboards, Mice, etc.)",
+      "Printers and Scanners",
+      "Multimedia Devices"
+    ]
+  },
+  {
+    "title": "Introduction to Computer Networks",
+    "points": [
+      "What is a Computer Network?",
+      "Network Types and Topologies",
+      "Network Protocols and Standards",
+      "Network Hardware and Devices"
+    ]
+  },
+  {
+    "title": "Network Architectures and Models",
+    "points": [
+      "OSI Reference Model",
+      "TCP/IP Model",
+      "Network Addressing (IPv4 and IPv6)",
+      "Subnetting and VLSM"
+    ]
+  },
+  {
+    "title": "LAN Technologies",
+    "points": [
+      "Ethernet Standards and Cabling",
+      "Wireless LAN Technologies (Wi-Fi, Bluetooth)",
+      "Switching and VLANs",
+      "LAN Security and Access Control"
+    ]
+  },
+  {
+    "title": "WAN Technologies",
+    "points": [
+      "WAN Concepts and Services",
+      "WAN Protocols and Encapsulation",
+      "WAN Devices (Routers, Modems, etc.)",
+      "WAN Connectivity and VPNs"
+    ]
+  },
+  {
+    "title": "Network Services and Applications",
+    "points": [
+      "Domain Name System (DNS)",
+      "DHCP and Network Address Translation (NAT)",
+      "Remote Access Technologies",
+      "Network File Sharing and Storage"
+    ]
+  },
+  {
+    "title": "Network Security",
+    "points": [
+      "Network Security Threats and Vulnerabilities",
+      "Firewalls and Access Control Lists (ACLs)",
+      "Encryption and Authentication Protocols",
+      "Network Monitoring and Intrusion Detection"
+    ]
+  },
+  {
+    "title": "Network Troubleshooting and Management",
+    "points": [
+      "Network Troubleshooting Methodologies",
+      "Network Monitoring and Diagnostic Tools",
+      "Network Performance Optimization",
+      "Network Management and Documentation"
+    ]
+  },
+  {
+    "title": "Projects and Assignments",
+    "points": [
+      "Hands-on projects and assignments to reinforce concepts",
+      "Building and Configuring a Computer System",
+      "Setting up a Small Office/Home Office (SOHO) Network",
+      "Configuring Network Services and Applications",
+      "Implementing Network Security Measures"
+    ]
+  }
+]
