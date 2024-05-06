@@ -6,3 +6,7 @@
   font-family: "Sans_Medium";
   src: url("./assets/IBMPlexSans-Medium.ttf");
 }
+@font-face {
+  font-family: "Sans_Light";
+  src: url("./assets/IBMPlexSans-Light.ttf");
+}

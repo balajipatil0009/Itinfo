@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         sansMedium: "Sans_Medium",
+        sansLight: "Sans_Light",
       },
     },
   },
