@@ -7,18 +7,20 @@ import SyllCards from "../../componunts/SyllCards";
 const Flutter = () => {
   return (
     <>
-      <div className="w-[100vw] h-auto">
+      <div className="max-w-[100vw] h-auto">
         <Navbar />
         <div className="w-full min-h-[40vh] flex justify-center items-center bg-gradient-to-b from-yellow-400 via-yellow-200 to-white">
           <div className=" mt-16 sm:mt-12 md:m-0">
             <h1 className=" font-sansMedium  text-center text-3xl font-bold w-full">
-              Data Science
+              Android Development using Flutter
             </h1>
-            <p className="w-[70vw] text-justify pt-5 hidden sm:flex">
-              data scince will be 6 month course Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Cum obcaecati cupiditate, odio a
-              dolorem iure nam eos veritatis ipsa placeat nesciunt voluptates
-              eaque, explicabo excepturi tempore sequi inventore fuga amet!
+            <p className="w-[70vw] text-center font-sansLight pt-5 hidden sm:flex">
+              An open-source UI software development kit created by Google for
+              building natively compiled applications for mobile, web, and
+              desktop from a single codebase. It uses the Dart programming
+              language and offers a reactive framework for creating
+              high-performance, visually attractive, and natively compiled
+              applications.
             </p>
           </div>
         </div>

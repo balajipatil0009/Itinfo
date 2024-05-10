@@ -7,7 +7,7 @@ import SyllCards from "../../componunts/SyllCards";
 const MySQL = () => {
   return (
     <>
-      <div className="w-[100vw] h-auto">
+      <div className="max-w-[100vw] h-auto">
         <Navbar />
         <div className="w-full min-h-[40vh] flex justify-center items-center bg-gradient-to-b from-yellow-400 via-yellow-200 to-white">
           <div className=" mt-16 sm:mt-12 md:m-0">

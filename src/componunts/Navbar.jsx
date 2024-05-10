@@ -26,7 +26,14 @@ const Navbar = () => {
     <div className="fixed z-10 top-0 left-0 right-0 grid w-[100vw] md:flex justify-left">
       <div className="grid w-[95%]">
         <div className=" flex justify-around md:justify-around mx-[3%] px-1 rounded-xl py-2 text-sm font-semibold shadow-md shadow-gray-200 bg-gradient-to-r from-gray-50 to-gray-300 mt-2 items-center w-full">
-          <div className="w-1/2 md:w-1/3">Home</div>
+          <div className="w-1/2 md:w-1/3">
+            {" "}
+            <img
+              src="../public/logo.jpg"
+              alt="ITINFO"
+              className="max-h-[5vh]"
+            />
+          </div>
           <div className="flex flex-col md:w-1/2">
             <div className="flex">
               <div className="md:hidden" ref={dots}>

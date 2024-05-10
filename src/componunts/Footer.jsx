@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className=" bg-amber-400 h-[80vh] flex flex-col md:flex-row p-10">
+    <div className=" bg-amber-400 max-w-[100vw] h-[80vh] flex flex-col md:flex-row p-10">
       <div className="md:w-1/4 flex items-center">
         <div className="w-full">
           <img

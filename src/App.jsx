@@ -11,7 +11,7 @@ import toplang from "./assets/topLangCourses.json";
 
 const App = () => {
   return (
-    <div className=" max-w-[100vw] overflow-hidden">
+    <div className="max-w-[100vw] overflow-hidden">
       <div className="bg-gradient-to-r from-yellow-500 via-yellow-100 to-gray-100 pt-1">
         <Navbar />
         <div
