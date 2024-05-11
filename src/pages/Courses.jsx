@@ -8,9 +8,9 @@ import other from "../assets/catagoryCourses/graphic.json";
 
 const Courses = () => {
   return (
-    <div className="max-w-[100vw] overflow-hidden">
+    <div className="max-w-[100vw] overflow-hidden bg-[url('/logo.jpg')] bg-no-repeat bg-fixed bg-center">
       <Navbar />
-      <div className=" max-w-[99vw] overflow-hidden h-[50vh] flex items-center  justify-center bg-gradient-to-b from-yellow-400 via-yellow-200 to-white  relative py-4">
+      <div className=" max-w-[99vw] overflow-hidden h-[50vh] flex items-center  justify-center bg-gradient-to-b from-yellow-400 via-yellow-200 to-tranferant  relative py-4">
         <div className="w-full border flex justify-center border-b-gray-500 border-x-0 border-t-0 static h-full items-center">
           <h1 className=" font-sansMedium  text-center text-3xl font-bold w-full">
             Courses Provoided by Us
