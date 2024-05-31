@@ -36,6 +36,7 @@ import Flutter from "./pages/syllabus/Flutter.jsx";
 import HWandNetworking from "./pages/syllabus/HWandNetworking.jsx";
 import PhotoShop from "./pages/syllabus/PhotoShop.jsx";
 import Autocat from "./pages/syllabus/Autocat.jsx";
+import Internship from "./pages/Internship.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -177,6 +178,10 @@ const routes = createBrowserRouter([
   {
     path: "/courses/CoralDraw",
     element: <CorelDraw />,
+  },
+  {
+    path: "/internShips",
+    element: <Internship />,
   },
 ]);
 

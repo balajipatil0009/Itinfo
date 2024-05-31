@@ -28,11 +28,7 @@ const Navbar = () => {
         <div className=" flex justify-around md:justify-around mx-[3%] px-1 rounded-xl py-2 text-sm font-semibold shadow-md shadow-gray-200 bg-gradient-to-r from-gray-50 to-gray-300 mt-2 items-center w-full">
           <div className="w-1/2 md:w-1/3">
             {" "}
-            <img
-              src="../public/logo.jpg"
-              alt="ITINFO"
-              className="max-h-[5vh]"
-            />
+            <img src="/logo.jpg" alt="ITINFO" className="max-h-[5vh]" />
           </div>
           <div className="flex flex-col md:w-1/2">
             <div className="flex">
@@ -50,7 +46,9 @@ const Navbar = () => {
               <a href="/courses">
                 <h1 className="p-2 hover:bg-white rounded-md">Courses</h1>
               </a>
-              <h1 className="p-2 hover:bg-white rounded-md">Media</h1>
+              <a href="/internShips">
+                <h1 className="p-2 hover:bg-white rounded-md">Internship</h1>
+              </a>
               <h1 className="p-2 hover:bg-white rounded-md">Gallery</h1>
               <h1 className="p-2 hover:bg-white rounded-md">Franchise</h1>
             </div>
@@ -66,7 +64,9 @@ const Navbar = () => {
           <a href="/courses">
             <h1 className="p-1 hover:bg-white rounded-md">Courses</h1>
           </a>
-          <h1 className="p-1 hover:bg-white rounded-md">Media</h1>
+          <a href="/internShips">
+            <h1 className="p-1 hover:bg-white rounded-md">Internship</h1>
+          </a>
           <h1 className="p-1 hover:bg-white rounded-md">Gallery</h1>
           <h1 className="p-1 hover:bg-white rounded-md">Franchise</h1>
         </div>
