@@ -49,7 +49,9 @@ const Navbar = () => {
               <a href="/internShips">
                 <h1 className="p-2 hover:bg-white rounded-md">Internship</h1>
               </a>
-              <h1 className="p-2 hover:bg-white rounded-md">Gallery</h1>
+              <a href="/gallary">
+                <h1 className="p-2 hover:bg-white rounded-md">Gallery</h1>
+              </a>
               <h1 className="p-2 hover:bg-white rounded-md">Franchise</h1>
             </div>
           </div>

@@ -37,6 +37,7 @@ import HWandNetworking from "./pages/syllabus/HWandNetworking.jsx";
 import PhotoShop from "./pages/syllabus/PhotoShop.jsx";
 import Autocat from "./pages/syllabus/Autocat.jsx";
 import Internship from "./pages/Internship.jsx";
+import Gallary from "./pages/Gallary.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -182,6 +183,10 @@ const routes = createBrowserRouter([
   {
     path: "/internShips",
     element: <Internship />,
+  },
+  {
+    path: "/gallary",
+    element: <Gallary />,
   },
 ]);
 
