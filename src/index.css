@@ -10,3 +10,7 @@
   font-family: "Sans_Light";
   src: url("./assets/IBMPlexSans-Light.ttf");
 }
+@font-face {
+  font-family: "Bank";
+  src: url("./assets/BankGothicMediumBT.ttf");
+}

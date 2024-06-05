@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         sansMedium: "Sans_Medium",
         sansLight: "Sans_Light",
+        Bank: "Bank",
       },
     },
   },
