@@ -16,7 +16,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="p-6 bg-slate-100">
+      {/* <div className="p-6 bg-slate-100">
         <div>
           <u>
             <h1 className="text-4xl">OUR VISION</h1>
@@ -48,7 +48,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="flex justify-center">
         <div className="w-[80vw]">
           <h3 className=" text-4xl font-sansMedium m-4">Company Overview</h3>
