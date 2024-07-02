@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../componunts/Navbar";
 import Footer from "../componunts/Footer";
+import { GoGoal } from "react-icons/go";
+import { GiStairsGoal } from "react-icons/gi";
 
 const About = () => {
   return (
@@ -49,9 +51,11 @@ const About = () => {
           </div>
         </div>
       </div> */}
-      <div className="flex justify-center">
-        <div className="w-[80vw]">
-          <h3 className=" text-4xl font-sansMedium m-4">Company Overview</h3>
+      <div className="flex justify-center my-10">
+        <div className="w-[90vw] p-10 rounded-lg border-[3px] border-black">
+          <h3 className=" text-4xl font-bold text-blue-600 m-4">
+            COMPANY OVERVIEW
+          </h3>
           <p>
             ITINFO Academy provides comprehensive training and services. Our
             academy is committed to creating a supportive learning environment
@@ -61,30 +65,39 @@ const About = () => {
             personal values such as self-confidence, accountability, and
             inspiration.
           </p>
-          <u>
-            <h1 className="text-2xl">OUR VISION</h1>
-          </u>
-          <p className="p-0 md:p-0  text-justify">
-            &nbsp;&nbsp;&nbsp;&nbsp;To become a globally recognized institution
-            empowering individuals with comprehensive knowledge and expertise in
-            cutting-edge information technology, fostering innovation, and
-            preparing them for successful careers in a rapidly evolving digital
-            landscape.
-          </p>
-          <u>
-            <h1 className="text-2xl">OUR MISSION</h1>
-          </u>
-          <p className="p-0 md:p-6 text-justify">
-            &nbsp;&nbsp;&nbsp;&nbsp; At ITINFO ACADEMY, our mission is to
-            provide a dynamic learning environment that emphasizes hands-on
-            experience, industry-aligned curriculum, and personalized learning
-            paths. We aim to cultivate a community of learners guided by expert
-            faculty and industry connections, fostering a supportive ecosystem
-            that nurtures individual growth and encourages exploration of
-            emerging technologies. Through mentorship, certifications, and
-            accreditation, we aspire to equip our students with the skills and
-            mindset needed to thrive in the ever-changing IT landscape.
-          </p>
+
+          <div className="p-2 bg-blue-500 mt-6">
+            <div className="flex items-center">
+              <GiStairsGoal />
+              <h1 className="text-xl font-sansMedium m-2">OUR VISION</h1>
+            </div>
+            <p className="p-0 md:p-0  text-justify">
+              &nbsp;&nbsp;&nbsp;&nbsp;To become a globally recognized
+              institution empowering individuals with comprehensive knowledge
+              and expertise in cutting-edge information technology, fostering
+              innovation, and preparing them for successful careers in a rapidly
+              evolving digital landscape.
+            </p>
+          </div>
+
+          <div className="p-2 bg-red-500 mt-6">
+            <div className="flex items-center">
+              <GoGoal />
+              <h1 className="text-xl font-sansMedium m-2">OUR MISSION</h1>
+            </div>
+            <p className="p-0 md:p-0 text-justify">
+              &nbsp;&nbsp;&nbsp;&nbsp; At ITINFO ACADEMY, our mission is to
+              provide a dynamic learning environment that emphasizes hands-on
+              experience, industry-aligned curriculum, and personalized learning
+              paths. We aim to cultivate a community of learners guided by
+              expert faculty and industry connections, fostering a supportive
+              ecosystem that nurtures individual growth and encourages
+              exploration of emerging technologies. Through mentorship,
+              certifications, and accreditation, we aspire to equip our students
+              with the skills and mindset needed to thrive in the ever-changing
+              IT landscape.
+            </p>
+          </div>
           <h3 className=" text-xl font-sansMedium m-4">Customised Tainning</h3>
           <p>
             We offer customized training programs, including one-on-one formats,
