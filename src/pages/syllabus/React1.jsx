@@ -12,13 +12,13 @@ const React1 = () => {
         <div className="w-full min-h-[40vh] flex justify-center items-center bg-gradient-to-b from-yellow-400 via-yellow-200  to-tranferant ">
           <div className=" mt-16 sm:mt-12 md:m-0">
             <h1 className=" font-sansMedium  text-center text-3xl font-bold w-full">
-              Data Science
+              ReactJs
             </h1>
-            <p className="w-[70vw] text-justify pt-5 hidden sm:flex">
-              data scince will be 6 month course Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Cum obcaecati cupiditate, odio a
-              dolorem iure nam eos veritatis ipsa placeat nesciunt voluptates
-              eaque, explicabo excepturi tempore sequi inventore fuga amet!
+            <p className="w-[70vw] text-center pt-5 hidden sm:flex">
+              React is an open-source JavaScript library used to build user
+              interface (UI) components for single-page applications. Originally
+              created by Facebook, React streamlines app development, improves
+              performance, and simplifies code maintenance
             </p>
           </div>
         </div>

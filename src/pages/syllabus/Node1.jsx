@@ -12,13 +12,17 @@ const Node1 = () => {
         <div className="w-full min-h-[40vh] flex justify-center items-center bg-gradient-to-b from-yellow-400 via-yellow-200  to-tranferant ">
           <div className=" mt-16 sm:mt-12 md:m-0">
             <h1 className=" font-sansMedium  text-center text-3xl font-bold w-full">
-              Data Science
+              Node.js
             </h1>
-            <p className="w-[70vw] text-justify pt-5 hidden sm:flex">
-              data scince will be 6 month course Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Cum obcaecati cupiditate, odio a
-              dolorem iure nam eos veritatis ipsa placeat nesciunt voluptates
-              eaque, explicabo excepturi tempore sequi inventore fuga amet!
+            <p className="w-[70vw] text-center pt-5 hidden sm:flex">
+              Node.js is an open-source, cross-platform JavaScript runtime
+              environment that executes JavaScript code outside of a web
+              browser1. Unlike a language or a framework, Node.js provides an
+              environment for writing server-side applications using JavaScript.
+              It’s built on Chrome’s V8 JavaScript engine, which ensures
+              efficient execution and scalability. Developers use Node.js for
+              tasks like building APIs, handling real-time data, and creating
+              web servers.
             </p>
           </div>
         </div>

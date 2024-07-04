@@ -29,7 +29,7 @@ const Internship = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[url('./girlLap.jpg')] h-[70vh] w-[99vw] bg-cover bg-center flex justify-end items-center">
+      <div className="bg-[url('/girlLap.jpg')] h-[70vh] w-[99vw] bg-cover bg-center flex justify-end items-center">
         <div className="md:w-[55vw] text-justify flex flex-col gap-4">
           <div className="flex gap-3 w-[80%]">
             <GoGoal className="text-[60px]" />

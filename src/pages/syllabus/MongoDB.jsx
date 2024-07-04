@@ -12,13 +12,16 @@ const MongoDB = () => {
         <div className="w-full min-h-[40vh] flex justify-center items-center bg-gradient-to-b from-yellow-400 via-yellow-200  to-tranferant ">
           <div className=" mt-16 sm:mt-12 md:m-0">
             <h1 className=" font-sansMedium  text-center text-3xl font-bold w-full">
-              Data Science
+              MongoDB
             </h1>
             <p className="w-[70vw] text-justify pt-5 hidden sm:flex">
-              data scince will be 6 month course Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Cum obcaecati cupiditate, odio a
-              dolorem iure nam eos veritatis ipsa placeat nesciunt voluptates
-              eaque, explicabo excepturi tempore sequi inventore fuga amet!
+              MongoDB is a NoSQL database that stores data in a
+              document-oriented format (BSON). Developed in C++, it’s designed
+              for scalability and handling large amounts of unstructured data.
+              In MongoDB, a document is a collection of key-value pairs, where
+              keys are strings (field names) and values can be various data
+              types like strings, numbers, arrays, boolean values, dates, or
+              even nested documents.
             </p>
           </div>
         </div>

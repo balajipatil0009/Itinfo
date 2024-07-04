@@ -11,13 +11,17 @@ const PhotoShop = () => {
         <div className="w-full min-h-[40vh] flex justify-center items-center bg-gradient-to-b from-yellow-400 via-yellow-200  to-tranferant ">
           <div className=" mt-16 sm:mt-12 md:m-0">
             <h1 className=" font-sansMedium  text-center text-3xl font-bold w-full">
-              Data Science
+              Adobe Photoshop
             </h1>
             <p className="w-[70vw] text-justify pt-5 hidden sm:flex">
-              data scince will be 6 month course Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Cum obcaecati cupiditate, odio a
-              dolorem iure nam eos veritatis ipsa placeat nesciunt voluptates
-              eaque, explicabo excepturi tempore sequi inventore fuga amet!
+              Adobe Photoshop is a powerful graphics editing software developed
+              by Adobe Inc. It was first released in 1987 and has since become
+              the go-to tool for photographers, graphic designers, digital
+              artists, and other creatives. With Photoshop, users can create,
+              edit, and enhance images with unparalleled precision and
+              creativity1. It offers features like layers, masks, and various
+              selection tools, making it an essential tool in the creative
+              industry
             </p>
           </div>
         </div>
