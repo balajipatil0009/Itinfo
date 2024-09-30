@@ -38,6 +38,7 @@ import PhotoShop from "./pages/syllabus/PhotoShop.jsx";
 import Autocat from "./pages/syllabus/Autocat.jsx";
 import Internship from "./pages/Internship.jsx";
 import Gallary from "./pages/Gallary.jsx";
+import SearchIds from "./pages/SearchIds.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -52,6 +53,11 @@ const routes = createBrowserRouter([
     path: "/about",
     element: <About />,
   },
+  {
+    path: "/SerachIds",
+    element: <SearchIds />,
+  },
+  //Courser
   {
     path: "/courses/dataSci",
     element: <DataSci />,

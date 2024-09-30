@@ -2,41 +2,49 @@
   {
     "img": "/langImages/dataScience.jpg",
     "courseNm": "data science",
-    "discription": "Unleash the power of data with our data science course - master analytics, machine learning, and AI for cutting-edge insights."
+    "discription": "Unleash the power of data with our data science course - master analytics, machine learning, and AI for cutting-edge insights.",
+    "path": "/courses/dataSci"
   },
   {
     "img": "/langImages/java.png",
     "courseNm": "Java Full Stack Developer",
-    "discription": "Unlock full-stack proficiency with our Java course - master front-end, back-end, and database for end-to-end web application development."
+    "discription": "Unlock full-stack proficiency with our Java course - master front-end, back-end, and database for end-to-end web application development.",
+    "path": "/courses/javaFullStack"
   },
   {
     "img": "/langImages/ethical.jpg",
     "courseNm": "Ethical Hacking",
-    "discription": "Fortify cybersecurity defenses with our ethical hacking course - master penetration testing and defensive strategies."
+    "discription": "Fortify cybersecurity defenses with our ethical hacking course - master penetration testing and defensive strategies.",
+    "path": "/courses/Ethical_Hacking"
   },
   {
     "img": "/langImages/full_web.jpg",
     "courseNm": "Full Stack web Developer",
-    "discription": " Become a versatile full-stack warrior: Conquer front-end, back-end, and database technologies for end-to-end web development mastery."
+    "discription": " Become a versatile full-stack warrior: Conquer front-end, back-end, and database technologies for end-to-end web development mastery.",
+    "path": "/courses/MERN full stack web dev"
   },
   {
     "img": "/langImages/AIML.jpg",
     "courseNm": "AI & ML",
-    "discription": "Unlock the future of innovation with our AI and ML course - harness data-driven insights and automation."
+    "discription": "Unlock the future of innovation with our AI and ML course - harness data-driven insights and automation.",
+    "path": "/courses/dataSci"
   },
   {
     "img": "/langImages/cyber.jpg",
     "courseNm": "Cyber Security",
-    "discription": "Safeguard digital frontiers with our cyber security course - fortify defenses against evolving threats."
+    "discription": "Safeguard digital frontiers with our cyber security course - fortify defenses against evolving threats.",
+    "path": "/courses/Cyber Securit"
   },
   {
     "img": "/langImages/softTesting.jpg",
     "courseNm": "Software Testing",
-    "discription": "Ensure flawless software experiences through our testing course - master techniques, tools, and methodologies for quality assurance."
+    "discription": "Ensure flawless software experiences through our testing course - master techniques, tools, and methodologies for quality assurance.",
+    "path": "/courses/SoftwareTesting"
   },
   {
     "img": "/langImages/dataAna.jpg",
     "courseNm": "Data Analyst",
-    "discription": "Unravel data storytelling with our data analyst course - acquire skills in data mining, visualization, and business intelligence."
+    "discription": "Unravel data storytelling with our data analyst course - acquire skills in data mining, visualization, and business intelligence.",
+    "path": "/courses/dataSci"
   }
 ]

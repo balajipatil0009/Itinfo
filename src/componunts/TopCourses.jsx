@@ -9,15 +9,10 @@ const TopCourses = (props) => {
 
   const handleWidth = () => {
     if (width < 510) {
-      console.log(width);
       setVisibleSclides(1);
     } else if (width < 983) {
-      console.log(width);
-
       setVisibleSclides(2);
     } else {
-      console.log(width);
-
       setVisibleSclides(4);
     }
   };
@@ -40,8 +35,18 @@ const TopCourses = (props) => {
           >
             <Slider className=" h-[50vh] mt-3">
               {courses.map((item, index) => (
-                <Slide index={index} className=" h-[70vh]" key={index}>
-                  <div className=" bg-gray-100 w-[230px] min-h-[45vh] rounded-xl border mt-[4px] py-4 mx-2">
+                <Slide
+                  index={index}
+                  className=" h-[70vh]"
+                  key={index}
+                  onClick={() => {
+                    window.location = item.path;
+                  }}
+                >
+                  <div
+                    className=" bg-gray-100 w-[230px] min-h-[45vh] rounded-xl border mt-[4px] py-4 mx-2"
+                    key={index}
+                  >
                     <div
                       className="h-36 overflow-hidden m-2 rounded-md bg-center bg-cover"
                       style={{ backgroundImage: "url(" + item.img + ")" }}
