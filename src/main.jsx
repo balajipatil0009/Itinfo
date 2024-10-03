@@ -54,7 +54,7 @@ const routes = createBrowserRouter([
     element: <About />,
   },
   {
-    path: "/SerachIds",
+    path: "/SearchById",
     element: <SearchIds />,
   },
   //Courser
@@ -191,7 +191,7 @@ const routes = createBrowserRouter([
     element: <Internship />,
   },
   {
-    path: "/gallary",
+    path: "/gallery",
     element: <Gallary />,
   },
 ]);

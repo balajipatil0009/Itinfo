@@ -7,6 +7,7 @@ import Footer from "../componunts/Footer";
 const SearchIds = () => {
   const [data, setData] = useState([]);
   const [id, setId] = useState("");
+  const [student, setStudent] = useState([]);
 
   const loadExcel = async () => {
     const response = await fetch(
@@ -28,7 +29,7 @@ const SearchIds = () => {
       });
 
       const newJsonData = jsonData.filter((item) => {
-        console.log(Object.keys(item).includes("A"));
+        // console.log(Object.keys(item).includes("A"));
 
         return Object.keys(item).includes("A");
       });
@@ -40,11 +41,13 @@ const SearchIds = () => {
   };
 
   const handleSearch = () => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+    let newStudent = data.filter((item) => {
+      return Object.values(item).includes(id);
+    });
+    if (newStudent.length > 0) {
+      setStudent(Object.values(newStudent[0]));
     } else {
-      alert("Id Not Present");
+      setStudent([]);
     }
   };
 
@@ -61,7 +64,9 @@ const SearchIds = () => {
           placeholder="Enter certificate ID"
           className="border p-2 w-full md:w-1/3 bg-transparent"
           onChange={(e) => {
-            setId(e.target.value);
+            if (e.target.value != null || e.target.value != undefined) {
+              setId(e.target.value.trim());
+            }
           }}
         />
         <button className="bg-yellow-400 p-2" onClick={handleSearch}>
@@ -72,37 +77,19 @@ const SearchIds = () => {
         The ALPHABETS should be written in respected case
       </h1>
       <div className="w-[100vw] flex justify-center pb-20">
-        <table className="border table-fixed lg:w-[70vw]">
-          <thead>
-            <tr>
-              {data.length > 0 &&
-                Object.keys(data[0]).map((key) => (
-                  <th key={key} className="border">
-                    {key}
-                  </th>
-                ))}
-            </tr>
-          </thead>
-          <tbody>
-            {data.map((row, index) => (
-              <tr
-                key={index}
-                id={Object.values(row)[4]}
-                style={
-                  id == Object.values(row)[4]
-                    ? { backgroundColor: "#31ff00" }
-                    : {}
-                }
-              >
-                {Object.values(row).map((value, i) => (
-                  <td key={i} className="border">
-                    {value}
-                  </td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        {student.length > 0 ? (
+          <>
+            <p>
+              This Certifies that <b> Mr {student[1]} </b>has complied{" "}
+              <b>{student[2]}</b> Course with Id <b>{student[4]}</b> from{" "}
+              <b>ITINFO ACADEMY.</b>
+            </p>
+          </>
+        ) : (
+          <>
+            <p className="text-red-600">Please Enter a Valid Student ID</p>
+          </>
+        )}
       </div>
       <Footer />
     </div>
