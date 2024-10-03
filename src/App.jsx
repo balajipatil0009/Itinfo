@@ -12,6 +12,7 @@ import toplang from "./assets/topLangCourses.json";
 const App = () => {
   return (
     <div className="max-w-[100vw] overflow-hidden">
+      <div className="bg-gradient-to-r from-yellow-500 via-yellow-100 to-gray-100 h-16"></div>
       <div className="bg-gradient-to-r from-yellow-500 via-yellow-100 to-gray-100 pt-1">
         <Navbar />
         <div
@@ -19,21 +20,10 @@ const App = () => {
           className=" w-[100vw] flex justify-center h-[60vh] md:h-[80vh] md:bg-[url(/main3.jpg)] bg-cover bg-right items-center Intro"
         >
           <div>
-            <div className="text-3xl w-fit font-sansMedium font-semibold">
+            <div className="text-5xl w-fit font-sansMedium font-semibold">
               <h2>With ITINFO</h2> <h2>Learn & become the Top 1%</h2>
               <h2 className=" text-sky-500"> software developer</h2>
             </div>
-
-            <ReactTyped
-              startWhenVisible
-              loop
-              strings={[
-                "It info acaoruy sangli",
-                "balaji patil",
-                "It Info accadomy",
-              ]}
-              typeSpeed={40}
-            />
           </div>
           <div className="w-1/3"></div>
         </div>

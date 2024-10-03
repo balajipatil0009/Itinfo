@@ -8,6 +8,7 @@ import { GiStairsGoal, GiMustache } from "react-icons/gi";
 const Internship = () => {
   return (
     <>
+      <div className="bg-white h-16"></div>
       <Navbar />
       <div className="h-[80vh]  m-0">
         <div className="bg-no-repeat bg-center bg-cover bg-[url('/mainImg2.jpg')] h-full Intro ">
