@@ -28,10 +28,12 @@ const App = () => {
           <div className="w-1/3"></div>
         </div>
       </div>
-      <div className="bg-sky-400 hidden h-[20vh] items-center md:flex justify-center">
-        <h1 className="text-3xl text-white font-sansMedium font-semibold">
-          With ITINFO Learn & become the Top 1% software developer
-        </h1>
+      <div className="bg-sky-400 hidden h-[10vh] items-center md:flex justify-center">
+        <a href="/courses">
+          <h1 className="text-3xl text-white font-sansMedium font-semibold">
+            ITINFO Courses
+          </h1>
+        </a>
       </div>
       <TopCourses data={courses} />
       <TopCourses data={toplang} />

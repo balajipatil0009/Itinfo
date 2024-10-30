@@ -15,7 +15,10 @@ const Courses = () => {
           <h1 className=" font-sansMedium  text-center text-3xl font-bold w-full">
             Courses Provoided by Us
           </h1>
-          <h1 className="w-fit h-fit absolute bottom-0 border border-gray-500 px-3 py-1 rounded-md bg-white">
+          <h1
+            className="w-fit h-fit absolute bottom-0 border border-gray-500 px-3 py-1 rounded-md bg-white"
+            id="job"
+          >
             Job Role based Courses
           </h1>
         </div>
@@ -32,7 +35,10 @@ const Courses = () => {
       <div className=" h-fit pb-4 relative">
         <div className="w-[99vw] flex justify-center static border border-x-0 border-t-0 border-gray-700 pt-4 pb-8">
           <CoursesOpns data={LangCourses} />
-          <h1 className="w-fit h-fit absolute bottom-0 border border-gray-500 px-3 py-1 rounded-md bg-white">
+          <h1
+            className="w-fit h-fit absolute bottom-0 border border-gray-500 px-3 py-1 rounded-md bg-white"
+            id="other"
+          >
             Other tech Courses
           </h1>
         </div>

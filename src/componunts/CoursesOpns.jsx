@@ -1,5 +1,3 @@
-import React from "react";
-
 const CoursesOpns = (props) => {
   const data = props.data;
   return (

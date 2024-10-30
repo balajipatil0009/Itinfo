@@ -23,8 +23,8 @@ const TopCourses = (props) => {
   }, [window.innerWidth]);
   return (
     <div className="">
-      <div className="h-[10vh] bg-blue-500"></div>
-      <div className="pl-12 md:p-0">
+      {/* <div className="h-[10vh] bg-blue-500"></div> */}
+      <div className="pl-[5vw] md:p-0">
         <div>
           <CarouselProvider
             naturalSlideWidth={90}
@@ -44,7 +44,7 @@ const TopCourses = (props) => {
                   }}
                 >
                   <div
-                    className=" bg-gray-100 w-[230px] min-h-[45vh] rounded-xl border mt-[4px] py-4 mx-2"
+                    className=" bg-gray-100 md:w-[230px] w-[90vw] min-h-[45vh] rounded-xl border mt-[4px] py-4 md:mx-2"
                     key={index}
                   >
                     <div

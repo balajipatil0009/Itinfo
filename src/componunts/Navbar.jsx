@@ -42,6 +42,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className=" hidden md:flex justify-evenly w-full">
+              <a href="/">
+                <h1 className="p-2 hover:bg-white rounded-md">Home</h1>
+              </a>
               <a href="/about">
                 <h1 className="p-2 hover:bg-white rounded-md">About us</h1>
               </a>

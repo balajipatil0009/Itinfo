@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { read, utils } from "xlsx";
 import Navbar from "../componunts/Navbar";
 import Footer from "../componunts/Footer";
+import Goals from "../componunts/Goals";
 
 const SearchIds = () => {
   const [data, setData] = useState([]);
@@ -56,7 +57,7 @@ const SearchIds = () => {
   }, []);
 
   return (
-    <div className="bg-sky-400 min-h-[100vh]">
+    <div className="bg-gradient-to-t from-white via-white to-sky-500 min-h-[100vh]">
       <Navbar />
       <div className="w-[98vw] flex justify-center p-4 pb-0 pt-20">
         <input
@@ -86,11 +87,20 @@ const SearchIds = () => {
             </p>
           </>
         ) : (
-          <>
-            <p className="text-red-600">Please Enter a Valid Student ID</p>
-          </>
+          <div>
+            <p className="text-red-600 block">
+              Please Enter a Valid Student ID
+            </p>
+            <img
+              src="/Search.jpg"
+              alt=""
+              srcset=""
+              className="h-[60vh] block mix-blend-darken	"
+            />
+          </div>
         )}
       </div>
+      <Goals />
       <Footer />
     </div>
   );
