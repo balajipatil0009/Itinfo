@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../componunts/Navbar";
 import JobRoles from "../assets/catagoryCourses/JobCourses.json";
 import Footer from "../componunts/Footer";

@@ -8,7 +8,6 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DataSci from "./pages/syllabus/DataSci.jsx";
 import SwTesting from "./pages/syllabus/SwTesting.jsx";
-import SwTesting2 from "./pages/syllabus/SwTesting2.jsx";
 import JavaFullStack from "./pages/syllabus/JavaFullStack.jsx";
 import Csyl from "./pages/syllabus/Csyl.jsx";
 import Python from "./pages/syllabus/Python.jsx";

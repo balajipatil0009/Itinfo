@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../componunts/Navbar";
 import Footer from "../componunts/Footer";
 import { GoGoal } from "react-icons/go";
@@ -187,7 +186,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div>
+      {/* <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.681282727234!2d74.60932207488369!3d16.842160218283528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc123d5641f129d%3A0xc48428c2379387d7!2sITINFO%20ACADEMY%20-%20Best%20IT%20institute!5e0!3m2!1sen!2sin!4v1719935382171!5m2!1sen!2sin"
           width="600"
@@ -196,7 +195,7 @@ const About = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-      </div>
+      </div> */}
       <Footer />
     </>
   );

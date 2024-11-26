@@ -1,10 +1,7 @@
-import React, { lazy } from "react";
 import Navbar from "./componunts/Navbar";
-import { ReactTyped } from "react-typed";
 import "./App.css";
 import TopCourses from "./componunts/TopCourses";
 import Footer from "./componunts/Footer";
-import Highlights from "./componunts/Highlights";
 import Goals from "./componunts/Goals";
 import courses from "./assets/topCourses.json";
 import toplang from "./assets/topLangCourses.json";

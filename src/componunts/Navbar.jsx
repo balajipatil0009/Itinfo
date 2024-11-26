@@ -79,6 +79,9 @@ const Navbar = () => {
           <a href="/gallery">
             <h1 className="p-1 hover:bg-white rounded-md">Gallery</h1>
           </a>
+          <a href="/SearchById">
+            <h1 className="p-2 hover:bg-white rounded-md">Validator</h1>
+          </a>
           <h1 className="p-1 hover:bg-white rounded-md">Franchise</h1>
         </div>
       </div>

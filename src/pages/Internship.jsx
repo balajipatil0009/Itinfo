@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../componunts/Navbar";
 import Footer from "../componunts/Footer";
 import "../App.css";
