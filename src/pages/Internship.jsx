@@ -10,9 +10,9 @@ const Internship = () => {
     <>
       <div className="bg-white h-16"></div>
       <Navbar />
-      <div className="h-[80vh]  m-0">
-        <div className="bg-no-repeat bg-center bg-cover bg-[url('/mainImg2.jpg')] h-full Intro ">
-          <div className="flex justify-center items-center w-full sm:w-3/4 md:w-[60vw] h-full ">
+      <div className="h-[60vh] sm:h-[80vh]  m-0">
+        <div className="bg-no-repeat bg-center bg-cover bg-[url(/itinfo/itiinfo020.jpg)] sm:bg-[url('/mainImg2.jpg')] h-full Intro ">
+          <div className="flex justify-center items-center w-full  sm:w-3/4 md:w-[60vw] h-full ">
             <div className="border border-l-2 py-6 border-x-0 border-y-0 border-black font-sansbold text-4xl cshadow bg-gradient-to-r from-slate-200 to-white">
               <p className=" bg-orange-400 text-white pl-1">
                 Improve your Skills with
@@ -31,7 +31,7 @@ const Internship = () => {
         </div>
       </div>
       <div className="bg-[url('/girlLap.jpg')] h-[70vh] w-[99vw] bg-cover bg-center flex justify-end items-center">
-        <div className="md:w-[55vw] text-justify flex flex-col gap-4">
+        <div className="md:w-[55vw] text-justify flex flex-col gap-4 pl-4">
           <div className="flex gap-3 w-[80%]">
             <GoGoal className="text-[60px]" />
             <p className="  font-sansLight">

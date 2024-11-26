@@ -6,7 +6,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className=" bg-amber-400 max-w-[100vw] flex h-auto justify-evenly font-sansLight p-6">
+    <div className=" bg-amber-400 max-w-[100vw] sm:flex h-auto justify-evenly font-sansLight p-6">
       <div>
         <h1 className="text-sm font-semibold text-white mb-5">
           STUDENT CARE CENTER
@@ -20,7 +20,7 @@ const Footer = () => {
           7821087396 | 7821087396
         </h1>
       </div>
-      <div>
+      <div className=" my-6">
         <h1 className=" font-extrabold text-white">COMPANY</h1>
         <a href="/about">
           <h1 className="pl-2 mt-2 text-white ">About</h1>

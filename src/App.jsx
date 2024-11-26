@@ -17,7 +17,7 @@ const App = () => {
         <Navbar />
         <div
           id="tagLine"
-          className=" w-[100vw] flex justify-center h-[60vh] md:h-[80vh] md:bg-[url(/main3.jpg)] bg-cover bg-right items-center Intro"
+          className=" w-[100vw] flex justify-center h-[60vh] md:h-[80vh] bg-[url(/itinfo/itiinfo010.jpg)]  md:bg-[url(/main3.jpg)] bg-cover bg-right items-center Intro"
         >
           <div>
             <div className="text-5xl w-fit font-sansMedium font-semibold">
@@ -38,7 +38,6 @@ const App = () => {
       <TopCourses data={courses} />
       <TopCourses data={toplang} />
       <Goals />
-      <Highlights />
       <Footer />
     </div>
   );
