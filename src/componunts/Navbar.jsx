@@ -64,7 +64,7 @@ const Navbar = () => {
           </div>
         </div>
         <div
-          className="hidden flex-col md:hidden justify-self-end mr-[5vw] w-[30%] sm:w-[20%] pt-3 bg-gray-200 p-2 rounded-md gap-1"
+          className="hidden flex-col md:hidden justify-self-end  w-[50%] sm:w-[20%] pt-3 bg-gray-200 p-2 rounded-md gap-1"
           ref={options}
         >
           <a href="/about">

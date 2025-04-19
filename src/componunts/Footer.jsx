@@ -17,7 +17,7 @@ const Footer = () => {
           className="h-[130px] rounded"
         />
         <h1 className="text-xs font-semibold text-black  mt-5">
-          7821087396 | 7821087396
+        8830257210 | 8007633732
         </h1>
       </div>
       <div className=" my-6">

@@ -10,7 +10,7 @@ const Internship = () => {
       <div className="bg-white h-16"></div>
       <Navbar />
       <div className="h-[60vh] sm:h-[80vh]  m-0">
-        <div className="bg-no-repeat bg-center bg-cover bg-[url(/itinfo/itiinfo020.jpg)] sm:bg-[url('/mainImg2.jpg')] h-full Intro ">
+        <div className="bg-no-repeat bg-center md:bg-top bg-cover md:bg-[url(/itinfo/itiinfo020.jpg)] sm:bg-[url('/mainImg2.jpg')] h-full Intro ">
           <div className="flex justify-center items-center w-full  sm:w-3/4 md:w-[60vw] h-full ">
             <div className="border border-l-2 py-6 border-x-0 border-y-0 border-black font-sansbold text-4xl cshadow bg-gradient-to-r from-slate-200 to-white">
               <p className=" bg-orange-400 text-white pl-1">
@@ -60,14 +60,14 @@ const Internship = () => {
       </div>
       <div
         style={{ backgroundImage: "url('./gifRoad.gif')" }}
-        className="h-[50vh] bg-no-repeat bg-center hidden md:block"
+        className="h-[50vh] bg-no-repeat bg-center bg-contain md:block"
       >
-        <p className=" text-center font-sansMedium text-[60px]">
+        <p className=" text-center font-sansMedium text-2xl md:text-[60px]">
           Let's Build Together
         </p>
       </div>
       <div className="flex justify-center mb-8">
-        <div className="w-[70vw]">
+        <div className="w-[95vw] md:w-[70vw]">
           <h1 className="text-2xl font-bold mb-4">
             Empowering the Next Generation of IT Professionals
           </h1>
