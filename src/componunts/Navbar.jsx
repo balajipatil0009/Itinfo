@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import  { useRef, useState } from "react";
 import { SlOptionsVertical } from "react-icons/sl";
 import { RxCross2 } from "react-icons/rx";
 

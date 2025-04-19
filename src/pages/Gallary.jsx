@@ -1,5 +1,6 @@
 import Navbar from "../componunts/Navbar";
 import Footer from "../componunts/Footer";
+import GalCard from "../componunts/GalCard";
 
 const Gallary = () => {
   return (
@@ -16,44 +17,21 @@ const Gallary = () => {
       </div>
 
       <div className=" relative h-auto ">
-        <div className="h-[80vh] flex w-[99vw] overflow-hidden justify-center">
-          <div className="w-[90vw]  relative flex gap-6">
-            <div className="bg-[url('/itinfo/info1.jpeg')] bg-center bg-cover border-4 border-white rounded-xl h-[80%] w-1/2 absolute hover:z-10 hover:shadow-lg"></div>
-            <div className=" h-full w-1/2">
-              <div className="h-1/2 w-[40vw] bg-[url('/itinfo/info2.jpeg')] bg-center bg-cover border-4 border-white rounded-xl absolute right-7 hover:z-10 hover:shadow-lg"></div>
-              <div className="h-3/5 w-[40vw] bg-[url('/itinfo/info4.jpeg')] bg-center bg-cover border-4 border-white absolute left-[35vw] bottom-5 rounded-xl"></div>
-            </div>
-          </div>
-        </div>
+      <GalCard img1={"url('/itinfo/info1.jpeg')"} img2={"url('/itinfo/info2.jpeg')"} img3={"url('/itinfo/info4.jpeg')"} />
 
-        <div className="h-[80vh] flex w-[99vw] overflow-hidden justify-center">
-          <div className="w-[90vw] relative flex gap-6">
-            <div className="bg-[url('/itinfo/info6.jpeg')] bg-center bg-cover border-4 border-white rounded-xl h-[80%] w-1/2 absolute hover:z-10 hover:shadow-lg"></div>
-            <div className=" h-full w-1/2">
-              <div className="h-1/2 w-[40vw] bg-[url('/itinfo/info8.jpeg')] bg-center bg-cover border-4 border-white rounded-xl absolute right-7 hover:z-10 hover:drop-shadow-lg"></div>
-              <div className="h-3/5 w-[40vw] bg-[url('/itinfo/info12.jpeg')] bg-center bg-cover border-4 border-white absolute left-[35vw] bottom-5 rounded-xl"></div>
-            </div>
-          </div>
-        </div>
-        <div className="h-[80vh] flex w-[99vw] overflow-hidden justify-center">
-          <div className="w-[90vw] overflow-hidden relative flex gap-6">
-            <div className="bg-[url('/itinfo/info5.jpeg')] bg-center bg-cover border-4 border-white rounded-xl h-[80%] w-1/2 absolute hover:z-10 hover:shadow-lg"></div>
-            <div className=" h-full w-1/2">
-              <div className="h-1/2 w-[40vw] bg-[url('/itinfo/info10.jpeg')] bg-center bg-cover border-4 border-white rounded-xl absolute right-7 hover:z-10 hover:drop-shadow-lg"></div>
-              <div className="h-3/5 w-[40vw] bg-[url('/itinfo/info16.jpeg')] bg-center bg-cover border-4 border-white absolute left-[35vw] bottom-5 rounded-xl"></div>
-            </div>
-          </div>
-        </div>
-        <div className="h-[80vh] flex w-[99vw] overflow-hidden justify-center">
-          <div className="w-[90vw] relative flex gap-6">
-            <div className="bg-[url('/itinfo/info13.jpeg')] bg-center bg-cover border-4 border-white rounded-xl h-[80%] w-1/2 absolute hover:z-10 hover:shadow-lg"></div>
-            <div className=" h-full w-1/2">
-              <div className="h-1/2 w-[40vw] bg-[url('/itinfo/info12.jpeg')] bg-center bg-cover border-4 border-white rounded-xl absolute right-7 hover:z-10 hover:drop-shadow-lg"></div>
-              <div className="h-3/5 w-[40vw] bg-[url('/itinfo/info15.jpeg')] bg-center bg-cover border-4 border-white absolute left-[35vw] bottom-5 rounded-xl"></div>
-            </div>
-          </div>
-        </div>
+      <GalCard img1={"url('/itinfo/info6.jpeg')"} img2={"url('/itinfo/info8.jpeg')"} img3={"url('/itinfo/info12.jpeg')"} />
+      <GalCard img1={"url('/itinfo/info5.jpeg')"} img2={"url('/itinfo/info10.jpeg')"} img3={"url('/itinfo/info16.jpeg')"} />
+      <GalCard img1={"url('/itinfo/info13.jpeg')"} img2={"url('/itinfo/info12.jpeg')"} img3={"url('/itinfo/info15.jpeg')"} />
+          <GalCard img1={"url('/itinfo/info18.jpeg')"} img2={"url('/itinfo/info19.jpeg')"} img3={"url('/itinfo/info20.jpeg')"} />
+          <GalCard img1={"url('/itinfo/info21.jpeg')"} img2={"url('/itinfo/info22.jpeg')"} img3={"url('/itinfo/info23.jpeg')"} />
+          <GalCard img1={"url('/itinfo/info25.jpeg')"} img2={"url('/itinfo/info26.jpeg')"} img3={"url('/itinfo/info27.jpeg')"} />
+          <GalCard img1={"url('/itinfo/info28.jpeg')"} img2={"url('/itinfo/info29.jpeg')"} img3={"url('/itinfo/info30.jpeg')"} />
+          <GalCard img1={"url('/itinfo/info31.jpeg')"} img2={"url('/itinfo/info32.jpeg')"} img3={"url('/itinfo/info33.jpeg')"} />
+          <GalCard img1={"url('/itinfo/info34.jpeg')"} img2={"url('/itinfo/info35.jpeg')"} img3={"url('/itinfo/info36.jpeg')"} />
       </div>
+    
+
+ 
 
       <Footer />
     </div>
