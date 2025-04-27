@@ -17,39 +17,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* <div className="p-6 bg-slate-100">
-        <div>
-          <u>
-            <h1 className="text-4xl">OUR VISION</h1>
-          </u>
-          <p className="p-0 md:p-0 w-[60vw] text-justify">
-            &nbsp;&nbsp;&nbsp;&nbsp;To become a globally recognized institution
-            empowering individuals with comprehensive knowledge and expertise in
-            cutting-edge information technology, fostering innovation, and
-            preparing them for successful careers in a rapidly evolving digital
-            landscape.
-          </p>
-        </div>
-        <div className=" flex md:justify-end bg-slate-100 pt-6 md:p-6">
-          <div className="right-0 md:right-4 ">
-            <u>
-              <h1 className="text-4xl md:text-right">OUR MISSION</h1>
-            </u>
-            <p className="p-0 md:p-6 w-[60vw] text-justify">
-              &nbsp;&nbsp;&nbsp;&nbsp; At ITINFO ACADEMY, our mission is to
-              provide a dynamic learning environment that emphasizes hands-on
-              experience, industry-aligned curriculum, and personalized learning
-              paths. We aim to cultivate a community of learners guided by
-              expert faculty and industry connections, fostering a supportive
-              ecosystem that nurtures individual growth and encourages
-              exploration of emerging technologies. Through mentorship,
-              certifications, and accreditation, we aspire to equip our students
-              with the skills and mindset needed to thrive in the ever-changing
-              IT landscape.
-            </p>
-          </div>
-        </div>
-      </div> */}
+    
       <div className="flex justify-center my-10">
         <div className="w-[80vw] p-2 md:p-20 rounded-lg border-[3px] border-gray-400">
           <h3 className=" text-4xl font-bold text-blue-600 m">
@@ -102,7 +70,7 @@ const About = () => {
           </h3>
           <p>
             We offer customized training programs, including one-on-one formats,
-            at students' homes or business locations. With the rapid advancement
+            at students homes or business locations. With the rapid advancement
             of technology and constant influx of new software applications and
             hardware devices, there is a continuous demand for training and
             skills upgrading. This ensures that individuals can maximize the
