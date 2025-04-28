@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { read, utils } from "xlsx";
 import Navbar from "../componunts/Navbar";
 import Footer from "../componunts/Footer";
@@ -9,42 +8,44 @@ const SearchIds = () => {
   const [data, setData] = useState([]);
   const [id, setId] = useState("");
   const [student, setStudent] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [searched, setSearched] = useState(false);
 
   const loadExcel = async () => {
     const response = await fetch(
-      "https://docs.google.com/spreadsheets/d/1-smCzzN5c4YQo-CfMdvAbpH0SwaP5zQwmwh-l-Dy9No/edit?gid=0#gid=0"
+      "https://docs.google.com/spreadsheets/d/1nrxibaenyNnvJ8MgZ9aEoo_smXtL-67J6OELH0dVyTY/edit?usp=sharing"
     );
     const blob = await response.blob();
-    const reader = new FileReader();
-
-    reader.onload = (event) => {
-      const wb = read(event.target.result);
-      const sheetName = wb.SheetNames[0];
-      const jsonData = utils.sheet_to_json(wb.Sheets[sheetName]);
-      jsonData.splice(0, 2);
-      jsonData.map((item) => {
-        // console.log(item);
-        delete item.E;
-        delete item.__EMPTY;
-        delete item.G;
-      });
-
-      const newJsonData = jsonData.filter((item) => {
-        // console.log(Object.keys(item).includes("A"));
-
-        return Object.keys(item).includes("A");
-      });
-
-      setData(newJsonData);
-    };
-
-    reader.readAsArrayBuffer(blob);
+    return new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        const wb = read(event.target.result);
+        const sheetName = wb.SheetNames[0];
+        const jsonData = utils.sheet_to_json(wb.Sheets[sheetName]);
+        jsonData.splice(0, 2);
+        jsonData.map((item) => {
+          delete item.E;
+          delete item.__EMPTY;
+          delete item.G;
+        });
+        const newJsonData = jsonData.filter((item) =>
+          Object.keys(item).includes("A")
+        );
+        setData(newJsonData);
+        resolve();
+      };
+      reader.readAsArrayBuffer(blob);
+    });
   };
 
+  useEffect(() => {
+    setLoading(true);
+    loadExcel().then(() => setLoading(false));
+  }, []);
+
   const handleSearch = () => {
-    let newStudent = data.filter((item) => {
-      return Object.values(item).includes(id);
-    });
+    setSearched(true);
+    let newStudent = data.filter((item) => Object.values(item).includes(id));
     if (newStudent.length > 0) {
       setStudent(Object.values(newStudent[0]));
     } else {
@@ -52,53 +53,76 @@ const SearchIds = () => {
     }
   };
 
-  useEffect(() => {
-    loadExcel();
-  }, []);
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-blue-100 flex items-center justify-center">
+        <p className="text-blue-900 text-xl">Loading data...</p>
+      </div>
+    );
+  }
 
   return (
-    <div className="bg-gradient-to-t from-white via-white to-sky-500 min-h-[100vh]">
+    <div className="min-h-screen bg-blue-100">
       <Navbar />
-      <div className="w-[98vw] flex justify-center p-4 pb-0 pt-20">
-        <input
-          type="text"
-          placeholder="Enter certificate ID"
-          className="border p-2 w-full md:w-1/3 bg-transparent"
-          onChange={(e) => {
-            if (e.target.value != null || e.target.value != undefined) {
-              setId(e.target.value.trim());
-            }
-          }}
-        />
-        <button className="bg-yellow-400 p-2" onClick={handleSearch}>
-          search
-        </button>
-      </div>
-      <h1 className="text-center text-red-500 font-bold pb-4">
-        The ALPHABETS should be written in respected case
-      </h1>
-      <div className="w-[100vw] flex justify-center pb-20">
-        {student.length > 0 ? (
-          <>
-            <p>
-              This Certifies that <b> Mr {student[1]} </b>has complied{" "}
-              <b>{student[2]}</b> Course with Id <b>{student[4]}</b> from{" "}
-              <b>ITINFO ACADEMY.</b>
+      <div className="container mx-auto p-4 md:p-8">
+        <h1 className="text-3xl font-bold text-blue-900 text-center mb-8">
+          Certificate Validator
+        </h1>
+        <div className="bg-white p-8 rounded-lg shadow-lg max-w-2xl mx-auto">
+          <div className="mb-4">
+            <label
+              htmlFor="certificateId"
+              className="block text-blue-900 font-semibold mb-2"
+            >
+              Enter Certificate ID
+            </label>
+            <div className="flex">
+              <input
+                type="text"
+                id="certificateId"
+                className="flex-1 p-3 border border-blue-200 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-yellow-400"
+                placeholder="Enter certificate ID"
+                onChange={(e) => setId(e.target.value.trim())}
+              />
+              <button
+                className="bg-yellow-400 text-blue-900 p-3 rounded-r-lg hover:bg-yellow-500 transition"
+                onClick={handleSearch}
+              >
+                Search
+              </button>
+            </div>
+            <p className="text-red-500 text-sm mt-2">
+              Note: The alphabets should be written in the respected case.
             </p>
-          </>
-        ) : (
-          <div>
-            <p className="text-red-600 block">
-              Please Enter a Valid Student ID
-            </p>
-            <img
-              src="/Search.jpg"
-              alt=""
-              srcset=""
-              className="h-[60vh] block mix-blend-darken	"
-            />
           </div>
-        )}
+          {searched && student.length > 0 && (
+            <div className="mt-8 p-6 bg-blue-50 rounded-lg shadow-inner animate-fadeIn">
+              <h2 className="text-2xl font-bold text-blue-900 mb-4">
+                Certificate Valid
+              </h2>
+              <p className="text-blue-900">
+                This certifies that{" "}
+                <span className="font-semibold">{student[1]}</span> has
+                completed the{" "}
+                <span className="font-semibold">{student[2]}</span> course with
+                ID <span className="font-semibold">{student[4]}</span> from
+                ITINFO Academy.
+              </p>
+            </div>
+          )}
+          {searched && student.length === 0 && (
+            <div className="mt-8 text-center animate-fadeIn">
+              <p className="text-red-500 font-semibold mb-4">
+                Please enter a valid Student ID
+              </p>
+              <img
+                src="/Search.jpg"
+                alt="Certificate not found"
+                className="mx-auto max-h-[300px] object-contain"
+              />
+            </div>
+          )}
+        </div>
       </div>
       <Goals />
       <Footer />

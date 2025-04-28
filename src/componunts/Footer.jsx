@@ -1,86 +1,52 @@
-import React from "react";
-import { MdOutlineCopyright } from "react-icons/md";
-import { AiOutlineTrademark } from "react-icons/ai";
-import { BiLogoGmail } from "react-icons/bi";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaFacebook, FaWhatsapp , FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className=" bg-amber-400 max-w-[100vw] sm:flex h-auto justify-evenly font-sansLight p-6">
-      <div>
-        <h1 className="text-sm font-semibold text-white mb-5">
-          STUDENT CARE CENTER
-        </h1>
-        <img
-          src="./itinfo/help.jpeg"
-          alt="help logo"
-          className="h-[130px] rounded"
-        />
-        <h1 className="text-xs font-semibold text-black  mt-5">
-        8830257210 | 8007633732
-        </h1>
-      </div>
-      <div className=" my-6">
-        <h1 className=" font-extrabold text-white">COMPANY</h1>
-        <a href="/about">
-          <h1 className="pl-2 mt-2 text-white ">About</h1>
-        </a>
-        <a href="https://www.instagram.com/itinfoacademy?igsh=ZHRoYWN2d3o1aWdi">
-          <h1 className="pl-2 mt-2 text-white ">Instagram</h1>
-        </a>
-        <a href="https://www.linkedin.com/in/itinfo-academy-aa05a02a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-          <h1 className="pl-2 mt-2 text-white ">LinkedIn</h1>
-        </a>
-        <a href="https://www.facebook.com/share/ciPrf9ixUD4eeeeT/">
-          <h1 className="pl-2 mt-2 text-white ">Facebook</h1>
-        </a>
-        <a href="https://wa.me/918830257210">
-          <h1 className="pl-2 mt-2 text-white ">Whatsapp</h1>
-        </a>
-      </div>
-
-      <div>
-        <h1 className=" font-extrabold text-white">CAREER COURSES</h1>
-
-        <a href="/courses">
-          <h1 className="pl-2 mt-2 text-white ">Job Role Courses</h1>
-        </a>
-        <a href="/courses/#other">
-          <h1 className="pl-2 mt-2 text-white ">Language Courses</h1>
-        </a>
-        <a href="/courses/#other">
-          <h1 className="pl-2 mt-2 text-white ">Other Tech Courses</h1>
-        </a>
-      </div>
-      {/* <div>
-        <div className="flex justify-center">
+    <footer className="bg-blue-900 text-white py-10">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* About Section */}
           <div>
-            <h1 className="text-center">Contact US</h1>
-            <div className="flex gap-5 w-fit">
-              <div className="flex items-center gap-2">
-                <BiLogoGmail className=" text-2xl" />
-                <h1 className="w-fit ">Itinfo@gmail.com</h1>
-              </div>
-              <div className="flex items-center gap-2 w-fit">
-                <FaPhoneAlt />
+            <h3 className="text-xl font-semibold text-yellow-400 mb-4">About ITINFO Academy</h3>
+            <p className="text-sm leading-relaxed">
+              We are committed to delivering top-tier IT education, equipping students with the skills to thrive in the tech world.
+            </p>
+          </div>
 
-                <h1 className="w-fit">345678907890 / 345678909889</h1>
-              </div>
+          {/* Contact Section */}
+          <div>
+            <h3 className="text-xl font-semibold text-yellow-400 mb-4">Contact Us</h3>
+            <p className="text-sm">Email: Itinfo@gmail.com</p>
+            <p className="text-sm">Phone: 8830257210 | 8007633732</p>
+            <p className="text-sm">Address: 123 Tech Street, Pune, India</p>
+          </div>
+
+          {/* Social Section */}
+          <div>
+            <h3 className="text-xl font-semibold text-yellow-400 mb-4">Follow Us</h3>
+            <div className="flex space-x-4">
+              <a href="https://www.facebook.com/share/ciPrf9ixUD4eeeeT/" className="text-white hover:text-yellow-400 transition duration-300 transform hover:scale-110">
+                <FaFacebook size={24} />
+              </a>
+              <a href="#" className="text-white hover:text-yellow-400 transition duration-300 transform hover:scale-110">
+                <FaWhatsapp  size={24} />
+              </a>
+              <a href="https://www.instagram.com/itinfoacademy?igsh=ZHRoYWN2d3o1aWdi" className="text-white hover:text-yellow-400 transition duration-300 transform hover:scale-110">
+                <FaInstagram size={24} />
+              </a>
+              <a href="https://www.linkedin.com/in/itinfo-academy-aa05a02a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-white hover:text-yellow-400 transition duration-300 transform hover:scale-110">
+                <FaLinkedin size={24} />
+              </a>
             </div>
           </div>
-          <div>
-            
-          </div>
         </div>
 
-        <div className="flex items-center w-[70vw] justify-center mt-6 text-sm">
-          <MdOutlineCopyright className=" text-gray-700" />
-          All rights are reserved .
-          <AiOutlineTrademark className=" text-gray-700" />
-          <h1 className=" text-gray-900"> ITINFO</h1>
+        {/* Copyright */}
+        <div className="mt-8 text-center text-sm border-t border-blue-700 pt-4">
+          <p>&copy; 2024 ITINFO Academy. All rights reserved.</p>
         </div>
-      </div> */}
-    </div>
+      </div>
+    </footer>
   );
 };
 

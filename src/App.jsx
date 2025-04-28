@@ -1,9 +1,9 @@
 import { useRef } from 'react';
 import { FaArrowRight, FaArrowLeft, FaArrowRight as FaArrowRightIcon } from 'react-icons/fa';
 import heroImage from '/main3.jpg'; // Replace with your image path
-import courseImage1 from '/langImages/c.jpg'; // Replace with your course image paths
-import courseImage2 from '/langImages/cpp.jpg';
-import courseImage3 from '/langImages/CSS.jpg';
+import courseImage1 from '/langImages/full_web.jpg'; // Replace with your course image paths
+import courseImage2 from '/langImages/dataScience.jpg';
+import courseImage3 from '/langImages/cyber.jpg';
 import Navbar from "./componunts/Navbar"
 import Footer from "./componunts/Footer"
 
@@ -22,8 +22,8 @@ const App = () => {
     <div className="min-h-screen bg-white">
       <Navbar/>
       {/* Hero Section */}
-      <section className="relative bg-blue-900 text-white">
-        <img src={heroImage} alt="ITINFO Academy" className="w-full h-[60vh] object-cover opacity-50" />
+      <section className="relative bg-blue-900 text-white md:h-[80vh]">
+        <img src={heroImage} alt="ITINFO Academy" className="w-full h-[80vh] object-cover opacity-50" />
         <div className="absolute inset-0 flex items-center justify-center text-center">
           <div className="animate-fadeIn">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-yellow-400">Welcome to ITINFO Academy</h1>
@@ -75,7 +75,7 @@ const App = () => {
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-blue-900 mb-2">Web Development</h3>
                 <p className="text-blue-900">Learn to build modern web applications with React and Node.js.</p>
-                <a href="/courses/web-development" className="mt-4 inline-block text-yellow-400 hover:text-yellow-500 transition">
+                <a href="/courses/javaFullStack" className="mt-4 inline-block text-yellow-400 hover:text-yellow-500 transition">
                   Learn More <FaArrowRightIcon className="inline ml-1" />
                 </a>
               </div>
@@ -86,7 +86,7 @@ const App = () => {
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-blue-900 mb-2">Data Science</h3>
                 <p className="text-blue-900">Master data analysis and machine learning with Python.</p>
-                <a href="/courses/data-science" className="mt-4 inline-block text-yellow-400 hover:text-yellow-500 transition">
+                <a href="/courses/dataSci" className="mt-4 inline-block text-yellow-400 hover:text-yellow-500 transition">
                   Learn More <FaArrowRightIcon className="inline ml-1" />
                 </a>
               </div>
@@ -97,7 +97,7 @@ const App = () => {
               <div className="p-4">
                 <h3 className="text-xl font-semibold text-blue-900 mb-2">Cybersecurity</h3>
                 <p className="text-blue-900">Protect systems and networks from cyber threats.</p>
-                <a href="/courses/cybersecurity" className="mt-4 inline-block text-yellow-400 hover:text-yellow-500 transition">
+                <a href="/courses/Cyber Security" className="mt-4 inline-block text-yellow-400 hover:text-yellow-500 transition">
                   Learn More <FaArrowRightIcon className="inline ml-1" />
                 </a>
               </div>

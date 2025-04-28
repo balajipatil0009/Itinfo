@@ -1,91 +1,97 @@
-import  { useRef, useState } from "react";
-import { SlOptionsVertical } from "react-icons/sl";
-import { RxCross2 } from "react-icons/rx";
+import { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
-  const options = useRef();
-  const dots = useRef();
-  const cross = useRef();
+  const [isOpen, setIsOpen] = useState(false);
 
-  const [hide, setHide] = useState(1);
-  const handleclick = () => {
-    if (hide == 1) {
-      options.current.classList.remove("hidden");
-      cross.current.classList.remove("hidden");
-      dots.current.classList.add("hidden");
-      setHide(0);
-    } else {
-      options.current.classList.add("hidden");
-      cross.current.classList.add("hidden");
-      dots.current.classList.remove("hidden");
-      setHide(1);
-    }
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
-    <div className="fixed z-20 top-0 left-0 right-0 grid w-[100vw] md:flex justify-left">
-      <div className="grid w-[95%]">
-        <div className=" flex justify-around md:justify-around mx-[3%] px-1 rounded-xl py-2 text-sm font-semibold shadow-md shadow-gray-200 bg-gradient-to-r from-gray-50 to-gray-300 mt-2 items-center w-full">
-          <div className="w-1/2 md:w-1/3">
-            <a href="/">
-              <img src="/logo.jpg" alt="ITINFO" className="max-h-[5vh]" />
-            </a>
-          </div>
+    <nav className="bg-blue-900 text-white p-4 sticky top-0 z-50 shadow-lg">
+      <div className="container mx-auto flex justify-between items-center">
+        {/* Logo */}
+        <a href="/" className="text-2xl font-bold text-yellow-400 hover:text-yellow-500 transition">
+          ITINFO Academy
+        </a>
 
-          <div className="flex flex-col md:w-1/2">
-            <div className="flex">
-              <div className="md:hidden" ref={dots}>
-                <SlOptionsVertical onClick={handleclick} size={17} />
-              </div>
-              <div className="hidden md:hidden" ref={cross}>
-                <RxCross2 size={20} onClick={handleclick} />
-              </div>
-            </div>
-            <div className=" hidden md:flex justify-evenly w-full">
-              <a href="/">
-                <h1 className="p-2 hover:bg-white rounded-md">Home</h1>
-              </a>
-              <a href="/about">
-                <h1 className="p-2 hover:bg-white rounded-md">About us</h1>
-              </a>
-              <a href="/courses">
-                <h1 className="p-2 hover:bg-white rounded-md">Courses</h1>
-              </a>
-              <a href="/internShips">
-                <h1 className="p-2 hover:bg-white rounded-md">Internship</h1>
-              </a>
-              <a href="/gallery">
-                <h1 className="p-2 hover:bg-white rounded-md">Gallery</h1>
-              </a>
-              <a href="/SearchById">
-                <h1 className="p-2 hover:bg-white rounded-md">Validator</h1>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div
-          className="hidden flex-col md:hidden justify-self-end  w-[50%] sm:w-[20%] pt-3 bg-gray-200 p-2 rounded-md gap-1"
-          ref={options}
-        >
-          <a href="/about">
-            <h1 className="p-1 hover:bg-white rounded-md">About us</h1>
-          </a>
-          <a href="/courses">
-            <h1 className="p-1 hover:bg-white rounded-md">Courses</h1>
-          </a>
-          <a href="/internShips">
-            <h1 className="p-1 hover:bg-white rounded-md">Internship</h1>
-          </a>
-          <a href="/gallery">
-            <h1 className="p-1 hover:bg-white rounded-md">Gallery</h1>
-          </a>
-          <a href="/SearchById">
-            <h1 className="p-2 hover:bg-white rounded-md">Validator</h1>
-          </a>
-          <h1 className="p-1 hover:bg-white rounded-md">Franchise</h1>
-        </div>
+        {/* Desktop Menu */}
+        <ul className="hidden md:flex space-x-6">
+          <li>
+            <a href="/" className="hover:text-yellow-400 transition duration-300">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/about" className="hover:text-yellow-400 transition duration-300">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="/courses" className="hover:text-yellow-400 transition duration-300">
+              Courses
+            </a>
+          </li>
+          <li>
+            <a href="/internShips" className="hover:text-yellow-400 transition duration-300">
+              Internship
+            </a>
+          </li>
+          <li>
+            <a href="/gallery" className="hover:text-yellow-400 transition duration-300">
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a href="/SearchById" className="hover:text-yellow-400 transition duration-300">
+              Validator
+            </a>
+          </li>
+        </ul>
+
+        {/* Mobile Menu Button */}
+        <button className="md:hidden text-2xl focus:outline-none" onClick={toggleMenu}>
+          {isOpen ? <FaTimes className="text-yellow-400" /> : <FaBars className="text-yellow-400" />}
+        </button>
       </div>
-    </div>
+
+      {/* Mobile Menu */}
+      {isOpen && (
+        <ul className="md:hidden bg-blue-900 text-white p-4 space-y-4 animate-slideIn">
+          <li>
+            <a href="/" className="block hover:text-yellow-400 transition duration-300">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/about" className="block hover:text-yellow-400 transition duration-300">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="/courses" className="block hover:text-yellow-400 transition duration-300">
+              Courses
+            </a>
+          </li>
+          <li>
+            <a href="/internShips" className="block hover:text-yellow-400 transition duration-300">
+              Internship
+            </a>
+          </li>
+          <li>
+            <a href="/gallery" className="block hover:text-yellow-400 transition duration-300">
+              Gallery
+            </a>
+          </li>
+          <li>
+            <a href="/validator" className="block hover:text-yellow-400 transition duration-300">
+              Validator
+            </a>
+          </li>
+        </ul>
+      )}
+    </nav>
   );
 };
 
