@@ -23,10 +23,10 @@ const App = () => {
       <Navbar/>
       {/* Hero Section */}
       <section className="relative bg-blue-900 text-white md:h-[80vh]">
-        <img src={heroImage} alt="ITINFO Academy" className="w-full h-[80vh] object-cover opacity-50" />
+        <img src={heroImage} alt="ITINFO ACADEMY" className="w-full h-[80vh] object-cover opacity-50" />
         <div className="absolute inset-0 flex items-center justify-center text-center">
           <div className="animate-fadeIn">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-yellow-400">Welcome to ITINFO Academy</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-yellow-400">Welcome to ITINFO ACADEMY</h1>
             <p className="text-lg md:text-xl mb-6">Empowering Future IT Professionals</p>
             <a
               href="/courses"

@@ -51,7 +51,7 @@ const TimelineItem = ({ year, content }) => (
 const Testimonial = () => {
   const testimonials = [
     {
-      quote: "ITINFO Academy transformed my career with their hands-on training and expert guidance.",
+      quote: "ITINFO ACADEMY transformed my career with their hands-on training and expert guidance.",
       author: "Jane Doe",
       role: "Web Developer",
     },
@@ -88,7 +88,7 @@ const About = () => {
         <div className="relative flex items-center justify-center h-full text-center">
           <div className="animate-fadeIn">
             <h1 className="text-4xl md:text-6xl font-bold text-yellow-400 mb-4">
-              About ITINFO Academy
+              About ITINFO ACADEMY
             </h1>
             <p className="text-lg md:text-2xl max-w-3xl mx-auto">
               Discover our journey to empower individuals with cutting-edge IT education.
@@ -98,7 +98,7 @@ const About = () => {
       </section>
 
       {/* Anchor Links */}
-      <div className="bg-blue-50 py-4 sticky top-0 md:top:10 z-10 shadow-md">
+      <div className="bg-blue-50 py-4 sticky hidden md:block top-0 md:top:10 z-10 shadow-md ">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm md:text-base">
             {[
@@ -131,7 +131,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2">
             <p className="text-blue-900 text-lg leading-relaxed">
-              ITINFO Academy provides comprehensive training and services. Our academy is committed to creating a supportive learning environment that emphasizes quality education. We enable learning professionals to enhance their self-assurance, technical skills, critical thinking abilities, and career development. The academy aims to instill personal values such as self-confidence, accountability, and inspiration.
+              ITINFO ACADEMY provides comprehensive training and services. Our academy is committed to creating a supportive learning environment that emphasizes quality education. We enable learning professionals to enhance their self-assurance, technical skills, critical thinking abilities, and career development. The academy aims to instill personal values such as self-confidence, accountability, and inspiration.
             </p>
           </div>
           <div className="md:w-1/2">
@@ -176,7 +176,7 @@ const About = () => {
 
       <Section id="who-we-are" icon={FaUsers} title="Who We Are">
         <p className="text-blue-900 text-lg max-w-4xl mx-auto text-center">
-          We are an authorized training center for E-more India. We provide information resources, consulting services, and training in innovative and proven software applications. Our expertise lies in computer education and related sector placement services. We offer assistance and support in skill enhancement and career development. We also provide services in malware analysis, software development, data recovery, open-source intelligence services, and college projects. IT INFO Academy is a journey of innovation and excellence.
+          We are an authorized training center for E-more India. We provide information resources, consulting services, and training in innovative and proven software applications. Our expertise lies in computer education and related sector placement services. We offer assistance and support in skill enhancement and career development. We also provide services in malware analysis, software development, data recovery, open-source intelligence services, and college projects. ITINFO ACADEMY is a journey of innovation and excellence.
         </p>
         <Testimonial />
       </Section>
@@ -184,8 +184,8 @@ const About = () => {
       <Section id="history" icon={FaHistory} title="History" bgClass="bg-blue-50">
         <div className="max-w-3xl mx-auto">
           <TimelineItem 
-            year="2012" 
-            content="IT INFO Academy was founded by a group of passionate IT professionals and educators who recognized the increasing demand for high-quality, accessible education in information technology." 
+            year="2022" 
+            content="IT INFO ACADEMY was founded by a group of passionate IT professionals and educators who recognized the increasing demand for high-quality, accessible education in information technology." 
           />
           <TimelineItem 
             year="2022-2023" 
@@ -196,7 +196,7 @@ const About = () => {
 
       <Section id="growth-expansion" icon={FaChartLine} title="Growth & Expansion">
         <p className="text-blue-900 text-lg max-w-4xl mx-auto text-center">
-          In its early years, IT INFO Academy focused on offering a few essential IT courses such as programming, networking, full-stack development, data science, and cybersecurity. Our commitment to quality education quickly gained attention, leading to a smooth increase in enrollment. By 2022-2023, we expanded our curriculum to include advanced courses in data science, artificial intelligence, full-stack web development, and more.
+          In its early years, IT INFO ACADEMY focused on offering a few essential IT courses such as programming, networking, full-stack development, data science, and cybersecurity. Our commitment to quality education quickly gained attention, leading to a smooth increase in enrollment. By 2022-2023, we expanded our curriculum to include advanced courses in data science, artificial intelligence, full-stack web development, and more.
         </p>
       </Section>
 
@@ -219,7 +219,7 @@ const About = () => {
 
       <Section id="innovation" icon={FaLightbulb} title="Innovation in Education">
         <p className="text-blue-900 text-lg max-w-4xl mx-auto text-center">
-          Recognizing the rapid pace of technological advancement, IT INFO Academy has continuously innovated its teaching methods. We were among the first to adopt a blended learning approach, combining online and in-person classes to offer flexible learning options.
+          Recognizing the rapid pace of technological advancement, ITINFO ACADEMY has continuously innovated its teaching methods. We were among the first to adopt a blended learning approach, combining online and in-person classes to offer flexible learning options.
         </p>
       </Section>
 
@@ -231,7 +231,7 @@ const About = () => {
 
       <Section id="looking-ahead" icon={FaBinoculars} title="Looking Ahead">
         <p className="text-blue-900 text-lg max-w-4xl mx-auto text-center">
-          As we look to the future, IT INFO Academy remains committed to its mission of empowering individuals through education. We are excited to explore new frontiers in technology education. Our goal is to continue leading in IT education, helping learners worldwide achieve their full potential in the ever-evolving digital landscape.
+          As we look to the future, ITINFO ACADEMY remains committed to its mission of empowering individuals through education. We are excited to explore new frontiers in technology education. Our goal is to continue leading in IT education, helping learners worldwide achieve their full potential in the ever-evolving digital landscape.
         </p>
       </Section>
 
@@ -242,7 +242,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <p className="text-lg font-semibold">Email</p>
-              <p className="text-sm">Itinfo@gmail.com</p>
+              <p className="text-sm">Itinfoacademy@yahoo.com</p>
             </div>
             <div>
               <p className="text-lg font-semibold">Phone</p>
@@ -250,7 +250,7 @@ const About = () => {
             </div>
             <div>
               <p className="text-lg font-semibold">Address</p>
-              <p className="text-sm">123 Tech Street, Pune, India</p>
+              <p className="text-sm">2nd floor blue sapphire building near KFC vijaynagar Sangli</p>
             </div>
           </div>
           <div className="flex justify-center space-x-6">

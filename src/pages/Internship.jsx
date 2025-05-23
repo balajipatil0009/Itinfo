@@ -75,12 +75,12 @@ const Internship = () => {
       </section>
 
       {/* About Section */}
-      <Section id="about" icon={FaInfoCircle} title="About ITINFO Academy">
+      <Section id="about" icon={FaInfoCircle} title="About ITINFO ACADEMY">
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-full flex justify-center
           ">
             <p className="text-blue-900 text-lg leading-relaxed">
-              ITINFO Academy is a leader in IT training and professional development, committed to nurturing talent and driving innovation in the information technology industry. With a strong commitment to quality education and hands-on experience, we offer a wide range of courses designed to prepare students for the demands of the technology industry.
+              ITINFO ACADEMY is a leader in IT training and professional development, committed to nurturing talent and driving innovation in the information technology industry. With a strong commitment to quality education and hands-on experience, we offer a wide range of courses designed to prepare students for the demands of the technology industry.
             </p>
           </div>
           
@@ -90,7 +90,7 @@ const Internship = () => {
       {/* Internship Program Overview */}
       <Section id="program-overview" icon={FaRocket} title="Internship Program Overview" bgClass="bg-blue-50">
         <p className="text-blueerms of use900 text-lg max-w-4xl mx-auto text-center">
-          ITINFO Academy is pleased to offer a comprehensive internship program aimed at providing students and recent graduates with work experience, industry knowledge, and professional growth opportunities. Our internships are designed to bridge the gap between classroom learning and real-world application, ensuring participants are well prepared for a successful career in the IT field.
+          ITINFO ACADEMY is pleased to offer a comprehensive internship program aimed at providing students and recent graduates with work experience, industry knowledge, and professional growth opportunities. Our internships are designed to bridge the gap between classroom learning and real-world application, ensuring participants are well prepared for a successful career in the IT field.
         </p>
       </Section>
 

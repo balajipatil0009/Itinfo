@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <a href="/" className="text-2xl font-bold text-yellow-400 hover:text-yellow-500 transition">
-          ITINFO Academy
+          ITINFO ACADEMY
         </a>
 
         {/* Desktop Menu */}

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-semibold text-yellow-400 mb-4">About ITINFO Academy</h3>
+            <h3 className="text-xl font-semibold text-yellow-400 mb-4">About ITINFO ACADEMY</h3>
             <p className="text-sm leading-relaxed">
               We are committed to delivering top-tier IT education, equipping students with the skills to thrive in the tech world.
             </p>
@@ -16,9 +16,9 @@ const Footer = () => {
           {/* Contact Section */}
           <div>
             <h3 className="text-xl font-semibold text-yellow-400 mb-4">Contact Us</h3>
-            <p className="text-sm">Email: Itinfo@gmail.com</p>
+            <p className="text-sm">Email: Itinfoacademy@yahoo.com</p>
             <p className="text-sm">Phone: 8830257210 | 8007633732</p>
-            <p className="text-sm">Address: 123 Tech Street, Pune, India</p>
+            <p className="text-sm">Address: 2nd floor blue sapphire building near KFC vijaynagar, Sangli</p>
           </div>
 
           {/* Social Section */}
@@ -43,7 +43,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 text-center text-sm border-t border-blue-700 pt-4">
-          <p>&copy; 2024 ITINFO Academy. All rights reserved.</p>
+          <p>&copy; 2024 ITINFO ACADEMY. All rights reserved.</p>
         </div>
       </div>
     </footer>

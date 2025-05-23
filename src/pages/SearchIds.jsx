@@ -106,7 +106,7 @@ const SearchIds = () => {
                 completed the{" "}
                 <span className="font-semibold">{student[2]}</span> course with
                 ID <span className="font-semibold">{student[4]}</span> from
-                ITINFO Academy.
+                ITINFO ACADEMY.
               </p>
             </div>
           )}
