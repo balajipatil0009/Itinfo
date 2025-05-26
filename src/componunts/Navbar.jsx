@@ -85,7 +85,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/validator" className="block hover:text-yellow-400 transition duration-300">
+            <a href="/SearchById" className="block hover:text-yellow-400 transition duration-300">
               Validator
             </a>
           </li>

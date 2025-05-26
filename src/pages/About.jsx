@@ -22,6 +22,7 @@ import teamImage from '/itinfo/info5.jpeg'; // Replace with your team image path
 import teamImage2 from '/itinfo/info6.jpeg'; // Replace with your team image path
 
 import Navbar from '../componunts/Navbar';
+import Footer from '../componunts/Footer';
 // Reusable Section component
 const Section = ({ id, icon: Icon, title, children, bgClass = 'bg-white', className = '' }) => (
   <section id={id} className={`py-16 px-4 md:px-16 ${bgClass} ${className}`}>
@@ -236,39 +237,9 @@ const About = () => {
       </Section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 px-4 md:px-16 bg-blue-900 text-white">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-yellow-400 mb-8">Get in Touch</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <p className="text-lg font-semibold">Email</p>
-              <p className="text-sm">Itinfoacademy@yahoo.com</p>
-            </div>
-            <div>
-              <p className="text-lg font-semibold">Phone</p>
-              <p className="text-sm">8830257210 | 8007633732</p>
-            </div>
-            <div>
-              <p className="text-lg font-semibold">Address</p>
-              <p className="text-sm">2nd floor blue sapphire building near KFC vijaynagar Sangli</p>
-            </div>
-          </div>
-          <div className="flex justify-center space-x-6">
-            <a href="#" className="text-yellow-400 hover:text-yellow-500 transition transform hover:scale-110">
-              <FaFacebook size={32} />
-            </a>
-            <a href="#" className="text-yellow-400 hover:text-yellow-500 transition transform hover:scale-110">
-              <FaTwitter size={32} />
-            </a>
-            <a href="#" className="text-yellow-400 hover:text-yellow-500 transition transform hover:scale-110">
-              <FaInstagram size={32} />
-            </a>
-            <a href="#" className="text-yellow-400 hover:text-yellow-500 transition transform hover:scale-110">
-              <FaLinkedin size={32} />
-            </a>
-          </div>
-        </div>
-      </section>
+
+         <Footer/>
+    
     </div>
   );
 };
